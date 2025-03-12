@@ -1,0 +1,6 @@
+2025-03-12 03:52:56,756 - INFO - Starting dependency resolution process...
+2025-03-12 03:52:56,758 - INFO - Backing up requirements.txt to dependency_backups\requirements_20250312_035256.txt
+2025-03-12 03:52:56,764 - INFO - Backing up requirements-dev.txt to dependency_backups\requirements-dev_20250312_035256.txt
+2025-03-12 03:52:56,769 - INFO - Removing existing virtual environment...
+2025-03-12 03:53:11,386 - ERROR - Error creating virtual environment: [WinError 5] Access is denied: 'venv\\Scripts\\python.exe'
+2025-03-12 03:53:11,386 - ERROR - Error fixing dependencies: [WinError 5] Access is denied: 'venv\\Scripts\\python.exe'

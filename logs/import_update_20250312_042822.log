@@ -1,0 +1,413 @@
+2025-03-12 04:28:22,576 - INFO - Created directory: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils
+2025-03-12 04:28:22,578 - INFO - Created C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils\__init__.py
+2025-03-12 04:28:22,579 - INFO - Starting import updates...
+2025-03-12 04:28:22,846 - INFO - Found 179 Python files
+2025-03-12 04:28:22,851 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\__init__.py
+2025-03-12 04:28:22,853 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\__init__.py
+2025-03-12 04:28:22,855 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai.py
+2025-03-12 04:28:22,857 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai.py
+2025-03-12 04:28:22,857 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_integration.py
+2025-03-12 04:28:22,859 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_integration.py
+2025-03-12 04:28:22,860 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_module.py
+2025-03-12 04:28:22,861 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_module.py
+2025-03-12 04:28:22,862 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_system.py
+2025-03-12 04:28:22,863 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_system.py
+2025-03-12 04:28:22,864 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_training.py
+2025-03-12 04:28:22,868 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai_training.py
+2025-03-12 04:28:22,873 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\analytics_system.py
+2025-03-12 04:28:22,877 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\analytics_system.py
+2025-03-12 04:28:22,878 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\analyzer.py
+2025-03-12 04:28:22,879 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\analyzer.py
+2025-03-12 04:28:22,880 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\api_key_storing.py
+2025-03-12 04:28:22,882 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\api_key_storing.py
+2025-03-12 04:28:22,883 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\base.py
+2025-03-12 04:28:22,888 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\base.py
+2025-03-12 04:28:22,889 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\base_config.py
+2025-03-12 04:28:22,892 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\base_config.py
+2025-03-12 04:28:22,893 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bug_bounty_analyzer.py
+2025-03-12 04:28:22,894 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bug_bounty_analyzer.py
+2025-03-12 04:28:22,895 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bughunterAI.py
+2025-03-12 04:28:22,899 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bughunterAI.py
+2025-03-12 04:28:22,900 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bughunterAI_gui.py
+2025-03-12 04:28:22,903 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\bughunterAI_gui.py
+2025-03-12 04:28:22,906 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\chat_system.py
+2025-03-12 04:28:22,915 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\chat_system.py
+2025-03-12 04:28:22,915 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\check_config.py
+2025-03-12 04:28:22,917 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\check_config.py
+2025-03-12 04:28:22,918 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\code_converter.py
+2025-03-12 04:28:22,921 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\code_converter.py
+2025-03-12 04:28:22,926 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\codebreaker.py
+2025-03-12 04:28:22,926 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\codebreaker.py
+2025-03-12 04:28:22,926 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\codegpt_client.py
+2025-03-12 04:28:22,926 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\codegpt_client.py
+2025-03-12 04:28:22,934 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration.py
+2025-03-12 04:28:22,942 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration.py
+2025-03-12 04:28:22,944 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration_dialog.py
+2025-03-12 04:28:22,946 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration_dialog.py
+2025-03-12 04:28:22,947 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration_system.py
+2025-03-12 04:28:22,949 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\collaboration_system.py
+2025-03-12 04:28:22,951 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\compatibility.py
+2025-03-12 04:28:22,965 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\compatibility.py.20250312_042822.bak
+2025-03-12 04:28:22,966 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\compatibility.py
+2025-03-12 04:28:22,967 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config\__init__.py
+2025-03-12 04:28:22,976 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config\__init__.py
+2025-03-12 04:28:22,979 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config\config_manager.py
+2025-03-12 04:28:22,979 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config\config_manager.py
+2025-03-12 04:28:22,979 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config.py
+2025-03-12 04:28:22,979 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\config.py
+2025-03-12 04:28:22,990 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\contribution_dialog.py
+2025-03-12 04:28:22,992 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\contribution_dialog.py
+2025-03-12 04:28:22,993 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\contribution_system.py
+2025-03-12 04:28:22,995 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\contribution_system.py
+2025-03-12 04:28:22,997 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\core.py
+2025-03-12 04:28:23,003 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\core.py.20250312_042822.bak
+2025-03-12 04:28:23,006 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\core.py
+2025-03-12 04:28:23,006 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\database_manager.py
+2025-03-12 04:28:23,006 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\database_manager.py
+2025-03-12 04:28:23,006 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db\__init__.py
+2025-03-12 04:28:23,006 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db\__init__.py
+2025-03-12 04:28:23,016 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db\database.py
+2025-03-12 04:28:23,026 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db\database.py
+2025-03-12 04:28:23,027 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db_config.py
+2025-03-12 04:28:23,032 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\db_config.py.20250312_042823.bak
+2025-03-12 04:28:23,034 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\db_config.py
+2025-03-12 04:28:23,037 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\env_checker.py
+2025-03-12 04:28:23,042 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\env_checker.py
+2025-03-12 04:28:23,044 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\fingerprint.py
+2025-03-12 04:28:23,048 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\fingerprint.py.20250312_042823.bak
+2025-03-12 04:28:23,049 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\fingerprint.py
+2025-03-12 04:28:23,052 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\github_manager.py
+2025-03-12 04:28:23,056 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\github_manager.py
+2025-03-12 04:28:23,056 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\__init__.py
+2025-03-12 04:28:23,056 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\__init__.py
+2025-03-12 04:28:23,056 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_chat_tab.py
+2025-03-12 04:28:23,056 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_chat_tab.py
+2025-03-12 04:28:23,056 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_chatbot_tab.py
+2025-03-12 04:28:23,066 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_chatbot_tab.py
+2025-03-12 04:28:23,073 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_tab.py
+2025-03-12 04:28:23,075 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\ai_tab.py
+2025-03-12 04:28:23,080 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\amass_tab.py
+2025-03-12 04:28:23,091 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\amass_tab.py
+2025-03-12 04:28:23,091 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\analytics_tab.py
+2025-03-12 04:28:23,091 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\analytics_tab.py
+2025-03-12 04:28:23,096 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\base_tab.py
+2025-03-12 04:28:23,096 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\base_tab.py
+2025-03-12 04:28:23,096 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\bug_bounty_target_tab.py
+2025-03-12 04:28:23,106 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\bug_bounty_target_tab.py
+2025-03-12 04:28:23,107 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\code_analysis_tab.py
+2025-03-12 04:28:23,109 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\code_analysis_tab.py
+2025-03-12 04:28:23,110 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\collaboration_tab.py
+2025-03-12 04:28:23,111 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\collaboration_tab.py
+2025-03-12 04:28:23,112 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\nuclei_tab.py
+2025-03-12 04:28:23,115 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\nuclei_tab.py.20250312_042823.bak
+2025-03-12 04:28:23,116 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\nuclei_tab.py
+2025-03-12 04:28:23,117 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\report_generator_tab.py
+2025-03-12 04:28:23,120 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\report_generator_tab.py
+2025-03-12 04:28:23,122 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\scanner_tab.py
+2025-03-12 04:28:23,127 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\scanner_tab.py
+2025-03-12 04:28:23,128 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\scope_tab.py
+2025-03-12 04:28:23,131 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\scope_tab.py
+2025-03-12 04:28:23,132 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\settings_tab.py
+2025-03-12 04:28:23,139 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\settings_tab.py
+2025-03-12 04:28:23,143 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\shodan_tab.py
+2025-03-12 04:28:23,147 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\shodan_tab.py
+2025-03-12 04:28:23,149 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\targets_tab.py
+2025-03-12 04:28:23,161 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\targets_tab.py.20250312_042823.bak
+2025-03-12 04:28:23,162 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\targets_tab.py
+2025-03-12 04:28:23,164 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tool_manager_tab.py
+2025-03-12 04:28:23,169 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\tool_manager_tab.py.20250312_042823.bak
+2025-03-12 04:28:23,169 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tool_manager_tab.py
+2025-03-12 04:28:23,176 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tool_tab.py
+2025-03-12 04:28:23,176 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tool_tab.py
+2025-03-12 04:28:23,176 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tools_manager_tab.py
+2025-03-12 04:28:23,176 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tools_manager_tab.py
+2025-03-12 04:28:23,176 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tools_tab.py
+2025-03-12 04:28:23,176 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\tools_tab.py
+2025-03-12 04:28:23,185 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\vulnerability_tab.py
+2025-03-12 04:28:23,189 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\vulnerability_tab.py
+2025-03-12 04:28:23,190 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\wayback_tab.py
+2025-03-12 04:28:23,194 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui\tabs\wayback_tab.py
+2025-03-12 04:28:23,195 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui_tab_generator.py
+2025-03-12 04:28:23,197 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\gui_tab_generator.py
+2025-03-12 04:28:23,197 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\import unittest.py
+2025-03-12 04:28:23,202 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\import unittest.py.20250312_042823.bak
+2025-03-12 04:28:23,206 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\import unittest.py
+2025-03-12 04:28:23,207 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\init_db.py
+2025-03-12 04:28:23,210 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\init_db.py
+2025-03-12 04:28:23,211 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\install.py
+2025-03-12 04:28:23,213 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\install.py
+2025-03-12 04:28:23,214 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\install_app.py
+2025-03-12 04:28:23,215 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\install_app.py
+2025-03-12 04:28:23,216 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\integrated_app.py
+2025-03-12 04:28:23,219 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\integrated_app.py
+2025-03-12 04:28:23,219 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\integration_manager.py
+2025-03-12 04:28:23,219 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\integration_manager.py
+2025-03-12 04:28:23,226 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\knowledge_base.py
+2025-03-12 04:28:23,226 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\knowledge_base.py
+2025-03-12 04:28:23,226 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\logger.py
+2025-03-12 04:28:23,226 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\logger.py
+2025-03-12 04:28:23,226 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\logger_config.py
+2025-03-12 04:28:23,235 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\logger_config.py
+2025-03-12 04:28:23,239 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\login_attempt.py
+2025-03-12 04:28:23,248 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\login_attempt.py.20250312_042823.bak
+2025-03-12 04:28:23,249 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\login_attempt.py
+2025-03-12 04:28:23,249 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\login_dialog.py
+2025-03-12 04:28:23,251 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\login_dialog.py
+2025-03-12 04:28:23,252 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main.py
+2025-03-12 04:28:23,256 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main.py
+2025-03-12 04:28:23,256 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main_gui.py
+2025-03-12 04:28:23,256 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main_gui.py
+2025-03-12 04:28:23,256 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main_window.py
+2025-03-12 04:28:23,266 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\main_window.py.20250312_042823.bak
+2025-03-12 04:28:23,266 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\main_window.py
+2025-03-12 04:28:23,270 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\manager.py
+2025-03-12 04:28:23,273 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\manager.py
+2025-03-12 04:28:23,274 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\middleware.py
+2025-03-12 04:28:23,276 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\middleware.py
+2025-03-12 04:28:23,277 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\models\__init__.py
+2025-03-12 04:28:23,280 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\models\__init__.py
+2025-03-12 04:28:23,281 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\models.py
+2025-03-12 04:28:23,283 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\models.py
+2025-03-12 04:28:23,286 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\module.py
+2025-03-12 04:28:23,293 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\module.py
+2025-03-12 04:28:23,294 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\notification.py
+2025-03-12 04:28:23,296 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\notification.py
+2025-03-12 04:28:23,297 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\notification_system.py
+2025-03-12 04:28:23,299 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\notification_system.py
+2025-03-12 04:28:23,300 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\nuclei_analyzer.py
+2025-03-12 04:28:23,303 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\nuclei_analyzer.py
+2025-03-12 04:28:23,306 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\optimization_framework.py
+2025-03-12 04:28:23,306 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\optimization_framework.py
+2025-03-12 04:28:23,306 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\performance.py
+2025-03-12 04:28:23,306 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\performance.py.20250312_042823.bak
+2025-03-12 04:28:23,306 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\performance.py
+2025-03-12 04:28:23,306 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\project_structure.py
+2025-03-12 04:28:23,316 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\project_structure.py
+2025-03-12 04:28:23,316 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\python-dotenv.py
+2025-03-12 04:28:23,324 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\python-dotenv.py
+2025-03-12 04:28:23,327 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\registration_dialog.py
+2025-03-12 04:28:23,331 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\registration_dialog.py.20250312_042823.bak
+2025-03-12 04:28:23,332 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\registration_dialog.py
+2025-03-12 04:28:23,334 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\regression_tests.py
+2025-03-12 04:28:23,341 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\regression_tests.py.20250312_042823.bak
+2025-03-12 04:28:23,341 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\regression_tests.py
+2025-03-12 04:28:23,346 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\report_generator.py
+2025-03-12 04:28:23,346 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\report_generator.py
+2025-03-12 04:28:23,346 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\reset_password_dialog.py
+2025-03-12 04:28:23,355 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\reset_password_dialog.py
+2025-03-12 04:28:23,360 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\role_manager.py
+2025-03-12 04:28:23,362 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\role_manager.py
+2025-03-12 04:28:23,363 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scan_target.py
+2025-03-12 04:28:23,370 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scan_target.py
+2025-03-12 04:28:23,380 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scanning_profiles.py
+2025-03-12 04:28:23,389 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scanning_profiles.py
+2025-03-12 04:28:23,411 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scope_manager.py
+2025-03-12 04:28:23,413 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\scope_manager.py
+2025-03-12 04:28:23,414 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\security_event.py
+2025-03-12 04:28:23,453 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\security_event.py.20250312_042823.bak
+2025-03-12 04:28:23,473 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\security_event.py
+2025-03-12 04:28:23,474 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\security_system.py
+2025-03-12 04:28:23,475 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\security_system.py
+2025-03-12 04:28:23,476 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\__init__.py
+2025-03-12 04:28:23,476 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\__init__.py
+2025-03-12 04:28:23,476 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\admin_service.py
+2025-03-12 04:28:23,476 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\admin_service.py
+2025-03-12 04:28:23,485 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\ai_service.py
+2025-03-12 04:28:23,489 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\ai_service.py
+2025-03-12 04:28:23,491 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\auth_service.py
+2025-03-12 04:28:23,494 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\auth_service.py
+2025-03-12 04:28:23,495 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\database_service.py
+2025-03-12 04:28:23,511 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\database_service.py.20250312_042823.bak
+2025-03-12 04:28:23,511 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\database_service.py
+2025-03-12 04:28:23,516 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\nuclei_template_service.py
+2025-03-12 04:28:23,518 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\nuclei_template_service.py
+2025-03-12 04:28:23,519 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\report_service.py
+2025-03-12 04:28:23,520 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\report_service.py
+2025-03-12 04:28:23,521 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\scan_service.py
+2025-03-12 04:28:23,524 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\scan_service.py
+2025-03-12 04:28:23,526 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\security_service.py
+2025-03-12 04:28:23,528 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\services\security_service.py
+2025-03-12 04:28:23,529 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\session.py
+2025-03-12 04:28:23,533 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\session.py.20250312_042823.bak
+2025-03-12 04:28:23,534 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\session.py
+2025-03-12 04:28:23,535 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup.py
+2025-03-12 04:28:23,540 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup.py
+2025-03-12 04:28:23,541 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup_db.py
+2025-03-12 04:28:23,542 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup_db.py
+2025-03-12 04:28:23,543 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup_env.py
+2025-03-12 04:28:23,545 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\setup_env.py
+2025-03-12 04:28:23,546 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\shodan_integration.py
+2025-03-12 04:28:23,547 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\shodan_integration.py
+2025-03-12 04:28:23,548 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\shodan_main.py
+2025-03-12 04:28:23,551 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\shodan_main.py
+2025-03-12 04:28:23,552 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\simple_auth.py
+2025-03-12 04:28:23,556 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\simple_auth.py
+2025-03-12 04:28:23,556 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tab_controller.py
+2025-03-12 04:28:23,556 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\tab_controller.py.20250312_042823.bak
+2025-03-12 04:28:23,566 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tab_controller.py
+2025-03-12 04:28:23,568 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tabs.py
+2025-03-12 04:28:23,580 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\tabs.py.20250312_042823.bak
+2025-03-12 04:28:23,581 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tabs.py
+2025-03-12 04:28:23,582 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\theme.py
+2025-03-12 04:28:23,583 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\theme.py
+2025-03-12 04:28:23,588 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tool_manager.py
+2025-03-12 04:28:23,588 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\tool_manager.py
+2025-03-12 04:28:23,588 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\unit_tests.py
+2025-03-12 04:28:23,596 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\unit_tests.py.20250312_042823.bak
+2025-03-12 04:28:23,604 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\unit_tests.py
+2025-03-12 04:28:23,605 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\update_checker.py
+2025-03-12 04:28:23,608 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\update_checker.py
+2025-03-12 04:28:23,611 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\update_tools.py
+2025-03-12 04:28:23,612 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\update_tools.py
+2025-03-12 04:28:23,613 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user.py
+2025-03-12 04:28:23,616 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\user.py.20250312_042823.bak
+2025-03-12 04:28:23,617 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user.py
+2025-03-12 04:28:23,618 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_auth.py
+2025-03-12 04:28:23,626 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_auth.py
+2025-03-12 04:28:23,627 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_data_storage.py
+2025-03-12 04:28:23,629 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_data_storage.py
+2025-03-12 04:28:23,631 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_management_dialog.py
+2025-03-12 04:28:23,634 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\user_management_dialog.py
+2025-03-12 04:28:23,637 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils\__init__.py
+2025-03-12 04:28:23,640 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils\__init__.py
+2025-03-12 04:28:23,641 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils.py
+2025-03-12 04:28:23,641 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\utils.py
+2025-03-12 04:28:23,641 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_database.py
+2025-03-12 04:28:23,646 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_database.py
+2025-03-12 04:28:23,646 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_db.py
+2025-03-12 04:28:23,646 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_db.py
+2025-03-12 04:28:23,652 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_scanner.py
+2025-03-12 04:28:23,662 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\vulnerability_scanner.py
+2025-03-12 04:28:23,663 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\wayback_integration.py
+2025-03-12 04:28:23,665 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\wayback_integration.py
+2025-03-12 04:28:23,667 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\wayback_machine_integration.py
+2025-03-12 04:28:23,669 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\wayback_machine_integration.py
+2025-03-12 04:28:23,669 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\website_scanner.py
+2025-03-12 04:28:23,676 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\website_scanner.py
+2025-03-12 04:28:23,676 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\dependency_fixer.py
+2025-03-12 04:28:23,676 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\dependency_fixer.py
+2025-03-12 04:28:23,676 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\__init__.py
+2025-03-12 04:28:23,681 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\__init__.py
+2025-03-12 04:28:23,681 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\models\__init__.py
+2025-03-12 04:28:23,684 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\models\__init__.py
+2025-03-12 04:28:23,689 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\services\__init__.py
+2025-03-12 04:28:23,692 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\services\__init__.py
+2025-03-12 04:28:23,693 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\utils\__init__.py
+2025-03-12 04:28:23,695 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\app\utils\__init__.py
+2025-03-12 04:28:23,695 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\initialize_db.py
+2025-03-12 04:28:23,696 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\initialize_db.py
+2025-03-12 04:28:23,697 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\tests\__init__.py
+2025-03-12 04:28:23,698 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\tests\__init__.py
+2025-03-12 04:28:23,699 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\update_imports.py
+2025-03-12 04:28:23,704 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\Scripts\update_imports.py
+2025-03-12 04:28:23,710 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\acceptance_test.py
+2025-03-12 04:28:23,714 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\acceptance_test.py.20250312_042823.bak
+2025-03-12 04:28:23,715 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\acceptance_test.py
+2025-03-12 04:28:23,716 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\accessibility_test.py
+2025-03-12 04:28:23,719 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\accessibility_test.py.20250312_042823.bak
+2025-03-12 04:28:23,726 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\accessibility_test.py
+2025-03-12 04:28:23,726 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\API_test.py
+2025-03-12 04:28:23,726 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\API_test.py.20250312_042823.bak
+2025-03-12 04:28:23,726 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\API_test.py
+2025-03-12 04:28:23,734 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\backup_recovery_test.py
+2025-03-12 04:28:23,744 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\backup_recovery_test.py.20250312_042823.bak
+2025-03-12 04:28:23,745 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\backup_recovery_test.py
+2025-03-12 04:28:23,745 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\code_quality_test.py
+2025-03-12 04:28:23,747 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\code_quality_test.py
+2025-03-12 04:28:23,748 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\confguration_test.py
+2025-03-12 04:28:23,755 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\confguration_test.py.20250312_042823.bak
+2025-03-12 04:28:23,756 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\confguration_test.py
+2025-03-12 04:28:23,757 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\data_validation_test.py
+2025-03-12 04:28:23,758 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\data_validation_test.py.20250312_042823.bak
+2025-03-12 04:28:23,758 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\data_validation_test.py
+2025-03-12 04:28:23,766 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\database_test.py
+2025-03-12 04:28:23,775 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\database_test.py.20250312_042823.bak
+2025-03-12 04:28:23,776 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\database_test.py
+2025-03-12 04:28:23,778 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\dynamic_analysis_test.py
+2025-03-12 04:28:23,782 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\dynamic_analysis_test.py
+2025-03-12 04:28:23,786 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\end_to_end_test.py
+2025-03-12 04:28:23,792 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\end_to_end_test.py.20250312_042823.bak
+2025-03-12 04:28:23,793 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\end_to_end_test.py
+2025-03-12 04:28:23,794 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\error_handling_test.py
+2025-03-12 04:28:23,811 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\error_handling_test.py.20250312_042823.bak
+2025-03-12 04:28:23,811 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\error_handling_test.py
+2025-03-12 04:28:23,811 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\integration_test.py
+2025-03-12 04:28:23,816 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\integration_test.py.20250312_042823.bak
+2025-03-12 04:28:23,818 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\integration_test.py
+2025-03-12 04:28:23,821 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\localization_test.py
+2025-03-12 04:28:23,826 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\localization_test.py.20250312_042823.bak
+2025-03-12 04:28:23,827 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\localization_test.py
+2025-03-12 04:28:23,830 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\logging_test.py
+2025-03-12 04:28:23,840 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\logging_test.py.20250312_042823.bak
+2025-03-12 04:28:23,841 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\logging_test.py
+2025-03-12 04:28:23,842 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\security_test.py
+2025-03-12 04:28:23,845 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\security_test.py.20250312_042823.bak
+2025-03-12 04:28:23,845 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\security_test.py
+2025-03-12 04:28:23,846 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\static_analysis_test.py
+2025-03-12 04:28:23,848 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\static_analysis_test.py
+2025-03-12 04:28:23,850 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test___init__.py
+2025-03-12 04:28:23,852 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test___init__.py
+2025-03-12 04:28:23,853 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_clients.py
+2025-03-12 04:28:23,854 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_clients.py
+2025-03-12 04:28:23,856 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_system.py
+2025-03-12 04:28:23,862 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_ai_system.py.20250312_042823.bak
+2025-03-12 04:28:23,863 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_system.py
+2025-03-12 04:28:23,864 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_tab.py
+2025-03-12 04:28:23,866 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_ai_tab.py
+2025-03-12 04:28:23,871 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_bug_bounty_analyzer.py
+2025-03-12 04:28:23,884 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_bug_bounty_analyzer.py.20250312_042823.bak
+2025-03-12 04:28:23,887 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_bug_bounty_analyzer.py
+2025-03-12 04:28:23,889 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_code_converter.py
+2025-03-12 04:28:23,896 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_code_converter.py.20250312_042823.bak
+2025-03-12 04:28:23,896 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_code_converter.py
+2025-03-12 04:28:23,896 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_codebreaker.py
+2025-03-12 04:28:23,901 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_codebreaker.py
+2025-03-12 04:28:23,902 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_config_manager.py
+2025-03-12 04:28:23,906 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_config_manager.py
+2025-03-12 04:28:23,909 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_gui_tab_generator.py
+2025-03-12 04:28:23,914 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_gui_tab_generator.py.20250312_042823.bak
+2025-03-12 04:28:23,915 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_gui_tab_generator.py
+2025-03-12 04:28:23,916 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_hello_world.py
+2025-03-12 04:28:23,918 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_hello_world.py
+2025-03-12 04:28:23,922 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_integration.py
+2025-03-12 04:28:23,926 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_integration.py.20250312_042823.bak
+2025-03-12 04:28:23,927 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_integration.py
+2025-03-12 04:28:23,928 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_load.py
+2025-03-12 04:28:23,933 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_load.py.20250312_042823.bak
+2025-03-12 04:28:23,936 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_load.py
+2025-03-12 04:28:23,937 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_login_dialog.py
+2025-03-12 04:28:23,943 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_login_dialog.py.20250312_042823.bak
+2025-03-12 04:28:23,947 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_login_dialog.py
+2025-03-12 04:28:23,948 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_pyqt.py
+2025-03-12 04:28:23,951 - INFO - No app.* imports found in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_pyqt.py
+2025-03-12 04:28:23,952 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_pytest_integration.py
+2025-03-12 04:28:23,956 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_pytest_integration.py.20250312_042823.bak
+2025-03-12 04:28:23,957 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_pytest_integration.py
+2025-03-12 04:28:23,958 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_sanity.py
+2025-03-12 04:28:23,963 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_sanity.py.20250312_042823.bak
+2025-03-12 04:28:23,972 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_sanity.py
+2025-03-12 04:28:23,974 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_smoke.py
+2025-03-12 04:28:23,987 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_smoke.py.20250312_042823.bak
+2025-03-12 04:28:23,996 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_smoke.py
+2025-03-12 04:28:24,000 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_stress.py
+2025-03-12 04:28:24,039 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_stress.py.20250312_042824.bak
+2025-03-12 04:28:24,041 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_stress.py
+2025-03-12 04:28:24,044 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_manager.py
+2025-03-12 04:28:24,116 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_tool_manager.py.20250312_042824.bak
+2025-03-12 04:28:24,121 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_manager.py
+2025-03-12 04:28:24,122 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_manager_tab.py
+2025-03-12 04:28:24,126 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_tool_manager_tab.py.20250312_042824.bak
+2025-03-12 04:28:24,127 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_manager_tab.py
+2025-03-12 04:28:24,128 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_tab.py
+2025-03-12 04:28:24,140 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_tool_tab.py.20250312_042824.bak
+2025-03-12 04:28:24,141 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_tool_tab.py
+2025-03-12 04:28:24,141 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_vulnerability_scanner.py
+2025-03-12 04:28:24,146 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\test_vulnerability_scanner.py.20250312_042824.bak
+2025-03-12 04:28:24,146 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\test_vulnerability_scanner.py
+2025-03-12 04:28:24,146 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\ultimate_test.py
+2025-03-12 04:28:24,155 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\ultimate_test.py.20250312_042824.bak
+2025-03-12 04:28:24,156 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\ultimate_test.py
+2025-03-12 04:28:24,157 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\usability_test.py
+2025-03-12 04:28:24,163 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\usability_test.py.20250312_042824.bak
+2025-03-12 04:28:24,164 - INFO - No changes needed in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\tests\usability_test.py
+2025-03-12 04:28:24,165 - INFO - Import updates completed!

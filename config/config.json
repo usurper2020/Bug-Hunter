@@ -1,0 +1,14 @@
+# Check and update config/config.json with: {
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "name": "postgres",
+        "user": "SuperClabbers",
+        "password": "your_password"  # Add securely
+    },
+    "api_keys": {
+        "shodan": "your_shodan_key",
+        "codegpt": "${CODEGPT_KEY}",
+        "openai": "${OPENAI_KEY}"
+    }
+}

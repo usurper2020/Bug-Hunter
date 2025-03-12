@@ -1,0 +1,8 @@
+2025-03-11 22:41:30,025 - INFO - Starting import updates...
+2025-03-11 22:41:30,627 - INFO - Found 173 Python files
+2025-03-11 22:41:30,627 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\dependency_fixer.py
+2025-03-11 22:41:30,675 - INFO - Created backup: C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\backups\dependency_fixer.py.20250311_224130.bak
+2025-03-11 22:41:30,680 - INFO - Updated imports in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\dependency_fixer.py
+2025-03-11 22:41:30,680 - INFO - Processing C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai.py
+2025-03-11 22:41:30,685 - ERROR - Error updating imports in C:\Users\clabb\Desktop\BugHunter\BugHunter_remodeled\app\ai.py: 'charmap' codec can't decode byte 0x8d in position 919: character maps to <undefined>
+2025-03-11 22:41:30,685 - ERROR - Import update process failed: 'charmap' codec can't decode byte 0x8d in position 919: character maps to <undefined>

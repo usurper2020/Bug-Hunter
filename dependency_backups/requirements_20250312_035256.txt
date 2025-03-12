@@ -1,0 +1,11 @@
+PyQt6
+sqlalchemy
+psycopg2-binary
+bcrypt
+python-dateutil
+pyyaml
+requests
+aiohttp
+fastapi
+uvicorn
+alembic
