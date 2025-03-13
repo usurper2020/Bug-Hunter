@@ -2,10 +2,10 @@ import json
 import logging
 from typing import Dict, List
 import os
-from tool_manager import ToolManager
-from shodan_integration import ShodanIntegration
-from scanning_profiles import ScanningProfiles
-from config_manager import ConfigManager  # Import ConfigManager
+from app.services.tool_manager import ToolManager
+from app.shodan_integration import ShodanIntegration
+from app.scanning_profiles import ScanningProfiles
+from app.config import config_manager  # Updated import path
 import sys
 from dotenv import load_dotenv
 from shodan import Shodan

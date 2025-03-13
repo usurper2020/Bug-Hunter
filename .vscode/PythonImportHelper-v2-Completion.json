@@ -474,14 +474,6 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -9422,14 +9414,6 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
         "label": "VulnerabilityScanner",
         "importPath": "services.vulnerability_scanner",
         "description": "services.vulnerability_scanner",
@@ -9990,6 +9974,46 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -10087,14 +10111,6 @@
     },
     {
         "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -10888,6 +10904,46 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -11344,35 +11400,75 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "label": "ToolManager",
+        "importPath": "app.services.tool_manager",
+        "description": "app.services.tool_manager",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "app.services.tool_manager",
         "documentation": {}
     },
     {
         "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "app.models.user",
         "documentation": {}
     },
     {
         "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "app.models.user",
         "documentation": {}
     },
     {
         "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -11726,18 +11822,18 @@
     },
     {
         "label": "Session",
-        "importPath": "models.session",
-        "description": "models.session",
+        "importPath": "app.models.session",
+        "description": "app.models.session",
         "isExtraImport": true,
-        "detail": "models.session",
+        "detail": "app.models.session",
         "documentation": {}
     },
     {
         "label": "Session",
-        "importPath": "models.session",
-        "description": "models.session",
+        "importPath": "app.models.session",
+        "description": "app.models.session",
         "isExtraImport": true,
-        "detail": "models.session",
+        "detail": "app.models.session",
         "documentation": {}
     },
     {
@@ -11807,875 +11903,35 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "app.models.user",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "app.models.user",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "app.models.user",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "app.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
-        "isExtraImport": true,
-        "detail": "app.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "SecurityEvent",
-        "importPath": "app.models.security_event",
-        "description": "app.models.security_event",
-        "isExtraImport": true,
-        "detail": "app.models.security_event",
-        "documentation": {}
-    },
-    {
-        "label": "SecurityEvent",
-        "importPath": "app.models.security_event",
-        "description": "app.models.security_event",
-        "isExtraImport": true,
-        "detail": "app.models.security_event",
-        "documentation": {}
-    },
-    {
-        "label": "SecurityEvent",
-        "importPath": "app.models.security_event",
-        "description": "app.models.security_event",
-        "isExtraImport": true,
-        "detail": "app.models.security_event",
-        "documentation": {}
-    },
-    {
-        "label": "ScanTarget",
-        "importPath": "app.models.scan_target",
-        "description": "app.models.scan_target",
-        "isExtraImport": true,
-        "detail": "app.models.scan_target",
-        "documentation": {}
-    },
-    {
-        "label": "ScanTarget",
-        "importPath": "app.models.scan_target",
-        "description": "app.models.scan_target",
-        "isExtraImport": true,
-        "detail": "app.models.scan_target",
-        "documentation": {}
-    },
-    {
-        "label": "ScanTarget",
-        "importPath": "app.models.scan_target",
-        "description": "app.models.scan_target",
-        "isExtraImport": true,
-        "detail": "app.models.scan_target",
-        "documentation": {}
-    },
-    {
-        "label": "LoginAttempt",
-        "importPath": "app.models.login_attempt",
-        "description": "app.models.login_attempt",
-        "isExtraImport": true,
-        "detail": "app.models.login_attempt",
-        "documentation": {}
-    },
-    {
-        "label": "LoginAttempt",
-        "importPath": "app.models.login_attempt",
-        "description": "app.models.login_attempt",
-        "isExtraImport": true,
-        "detail": "app.models.login_attempt",
-        "documentation": {}
-    },
-    {
-        "label": "LoginAttempt",
-        "importPath": "app.models.login_attempt",
-        "description": "app.models.login_attempt",
-        "isExtraImport": true,
-        "detail": "app.models.login_attempt",
-        "documentation": {}
-    },
-    {
-        "label": "Fingerprint",
-        "importPath": "app.models.fingerprint",
-        "description": "app.models.fingerprint",
-        "isExtraImport": true,
-        "detail": "app.models.fingerprint",
-        "documentation": {}
-    },
-    {
-        "label": "Fingerprint",
-        "importPath": "app.models.fingerprint",
-        "description": "app.models.fingerprint",
-        "isExtraImport": true,
-        "detail": "app.models.fingerprint",
-        "documentation": {}
-    },
-    {
-        "label": "Fingerprint",
-        "importPath": "app.models.fingerprint",
-        "description": "app.models.fingerprint",
-        "isExtraImport": true,
-        "detail": "app.models.fingerprint",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASE_URL",
-        "importPath": "app.config.db_config",
-        "description": "app.config.db_config",
-        "isExtraImport": true,
-        "detail": "app.config.db_config",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASE_URL",
-        "importPath": "app.config.db_config",
-        "description": "app.config.db_config",
-        "isExtraImport": true,
-        "detail": "app.config.db_config",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "importPath": "app.config.db_config",
-        "description": "app.config.db_config",
-        "isExtraImport": true,
-        "detail": "app.config.db_config",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASE_URL",
-        "importPath": "app.config.db_config",
-        "description": "app.config.db_config",
-        "isExtraImport": true,
-        "detail": "app.config.db_config",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemyError",
-        "importPath": "sqlalchemy.exc",
-        "description": "sqlalchemy.exc",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.exc",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemyError",
-        "importPath": "sqlalchemy.exc",
-        "description": "sqlalchemy.exc",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.exc",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemyError",
-        "importPath": "sqlalchemy.exc",
-        "description": "sqlalchemy.exc",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.exc",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -13133,14 +12389,6 @@
         "documentation": {}
     },
     {
-        "label": "ToolManager",
-        "importPath": "tool_manager",
-        "description": "tool_manager",
-        "isExtraImport": true,
-        "detail": "tool_manager",
-        "documentation": {}
-    },
-    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
@@ -13503,15 +12751,6 @@
         "documentation": {}
     },
     {
-        "label": "secrets",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "secrets",
-        "description": "secrets",
-        "detail": "secrets",
-        "documentation": {}
-    },
-    {
         "label": "LoggerConfig",
         "importPath": "app.logger",
         "description": "app.logger",
@@ -13541,6 +12780,678 @@
         "description": "app.config.base_config",
         "isExtraImport": true,
         "detail": "app.config.base_config",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -13694,6 +13605,15 @@
         "importPath": "psycopg2",
         "description": "psycopg2",
         "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
         "documentation": {}
     },
     {
@@ -14050,14 +13970,6 @@
         "documentation": {}
     },
     {
-        "label": "ShodanIntegration",
-        "importPath": "shodan_integration",
-        "description": "shodan_integration",
-        "isExtraImport": true,
-        "detail": "shodan_integration",
-        "documentation": {}
-    },
-    {
         "label": "logging.handlers",
         "kind": 6,
         "isExtraImport": true,
@@ -14097,22 +14009,6 @@
         "description": "scanning_profiles",
         "isExtraImport": true,
         "detail": "scanning_profiles",
-        "documentation": {}
-    },
-    {
-        "label": "ScanningProfiles",
-        "importPath": "scanning_profiles",
-        "description": "scanning_profiles",
-        "isExtraImport": true,
-        "detail": "scanning_profiles",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigManager",
-        "importPath": "config_manager",
-        "description": "config_manager",
-        "isExtraImport": true,
-        "detail": "config_manager",
         "documentation": {}
     },
     {
@@ -14494,6 +14390,38 @@
         "description": "analytics_system",
         "isExtraImport": true,
         "detail": "analytics_system",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "app.db.init_db",
+        "description": "app.db.init_db",
+        "isExtraImport": true,
+        "detail": "app.db.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "ShodanIntegration",
+        "importPath": "app.shodan_integration",
+        "description": "app.shodan_integration",
+        "isExtraImport": true,
+        "detail": "app.shodan_integration",
+        "documentation": {}
+    },
+    {
+        "label": "ScanningProfiles",
+        "importPath": "app.scanning_profiles",
+        "description": "app.scanning_profiles",
+        "isExtraImport": true,
+        "detail": "app.scanning_profiles",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "app.config import config_manager  # Updated",
+        "description": "app.config import config_manager  # Updated",
+        "isExtraImport": true,
+        "detail": "app.config import config_manager  # Updated",
         "documentation": {}
     },
     {
@@ -15023,6 +14951,134 @@
         "importPath": "click",
         "description": "click",
         "detail": "click",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "models.session",
+        "description": "models.session",
+        "isExtraImport": true,
+        "detail": "models.session",
+        "documentation": {}
+    },
+    {
+        "label": "SecurityEvent",
+        "importPath": "app.models.security_event",
+        "description": "app.models.security_event",
+        "isExtraImport": true,
+        "detail": "app.models.security_event",
+        "documentation": {}
+    },
+    {
+        "label": "SecurityEvent",
+        "importPath": "app.models.security_event",
+        "description": "app.models.security_event",
+        "isExtraImport": true,
+        "detail": "app.models.security_event",
+        "documentation": {}
+    },
+    {
+        "label": "ScanTarget",
+        "importPath": "app.models.scan_target",
+        "description": "app.models.scan_target",
+        "isExtraImport": true,
+        "detail": "app.models.scan_target",
+        "documentation": {}
+    },
+    {
+        "label": "ScanTarget",
+        "importPath": "app.models.scan_target",
+        "description": "app.models.scan_target",
+        "isExtraImport": true,
+        "detail": "app.models.scan_target",
+        "documentation": {}
+    },
+    {
+        "label": "LoginAttempt",
+        "importPath": "app.models.login_attempt",
+        "description": "app.models.login_attempt",
+        "isExtraImport": true,
+        "detail": "app.models.login_attempt",
+        "documentation": {}
+    },
+    {
+        "label": "LoginAttempt",
+        "importPath": "app.models.login_attempt",
+        "description": "app.models.login_attempt",
+        "isExtraImport": true,
+        "detail": "app.models.login_attempt",
+        "documentation": {}
+    },
+    {
+        "label": "Fingerprint",
+        "importPath": "app.models.fingerprint",
+        "description": "app.models.fingerprint",
+        "isExtraImport": true,
+        "detail": "app.models.fingerprint",
+        "documentation": {}
+    },
+    {
+        "label": "Fingerprint",
+        "importPath": "app.models.fingerprint",
+        "description": "app.models.fingerprint",
+        "isExtraImport": true,
+        "detail": "app.models.fingerprint",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "app.config.db_config",
+        "description": "app.config.db_config",
+        "isExtraImport": true,
+        "detail": "app.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.db_config",
+        "description": "app.config.db_config",
+        "isExtraImport": true,
+        "detail": "app.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "app.config.db_config",
+        "description": "app.config.db_config",
+        "isExtraImport": true,
+        "detail": "app.config.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
         "documentation": {}
     },
     {
@@ -16179,11 +16235,11 @@
         "documentation": {}
     },
     {
-        "label": "quer",
+        "label": "AdminService",
         "kind": 6,
         "importPath": "app.services.admin_service",
         "description": "app.services.admin_service",
-        "peekOfCode": "class query = \"\"\n   AdminService:\n        def __init__(self, db: Session):\n        self.db = db\n        self.security_service = SecurityService(db)\n           def approve_user(self, user_id: int) -> User:\n            \"\"\"Approve a user account\"\"\"\n            user = self.db.query(User).filter(User.id == user_id).first()\n               if not user:\n                raise ValueError(\"User not found\")",
+        "peekOfCode": "class AdminService:\n    def __init__(self, db: Session):\n        self.db = db\n        self.security_service = SecurityService(db)\n    def approve_user(self, user_id: int) -> User:\n        \"\"\"Approve a user account\"\"\"\n        user = self.db.query(User).filter(User.id == user_id).first()\n        if not user:\n            raise ValueError(\"User not found\")\n        user.is_approved = True",
         "detail": "app.services.admin_service",
         "documentation": {}
     },
@@ -16233,38 +16289,11 @@
         "documentation": {}
     },
     {
-        "label": "status",
-        "kind": 5,
+        "label": "AuthService",
+        "kind": 6,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "status = \"active\"\nkey = \"\"\nk = 10\nquery = \"\"\n    class AuthService:\n        def __init__(self, db: Session):\n        self.db = db\n            def register_user(self, username: str, password: str, email: str) -> User:\n            \"\"\"Register a new user\"\"\"\n            # Check if username or email already exists",
-        "detail": "app.services.auth_service",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "kind": 5,
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
-        "peekOfCode": "key = \"\"\nk = 10\nquery = \"\"\n    class AuthService:\n        def __init__(self, db: Session):\n        self.db = db\n            def register_user(self, username: str, password: str, email: str) -> User:\n            \"\"\"Register a new user\"\"\"\n            # Check if username or email already exists\n            existing_user = (",
-        "detail": "app.services.auth_service",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
-        "peekOfCode": "k = 10\nquery = \"\"\n    class AuthService:\n        def __init__(self, db: Session):\n        self.db = db\n            def register_user(self, username: str, password: str, email: str) -> User:\n            \"\"\"Register a new user\"\"\"\n            # Check if username or email already exists\n            existing_user = (\n            self.db.query(User)",
-        "detail": "app.services.auth_service",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
-        "peekOfCode": "query = \"\"\n    class AuthService:\n        def __init__(self, db: Session):\n        self.db = db\n            def register_user(self, username: str, password: str, email: str) -> User:\n            \"\"\"Register a new user\"\"\"\n            # Check if username or email already exists\n            existing_user = (\n            self.db.query(User)\n            .filter((User.username == username) | (User.email == email))",
+        "peekOfCode": "class AuthService:\n    def __init__(self, db: Session):\n        self.db = db\n    def register_user(self, username: str, password: str, email: str) -> User:\n        \"\"\"Register a new user\"\"\"\n        # Check if username or email already exists\n        existing_user = (\n            self.db.query(User)\n            .filter((User.username == username) | (User.email == email))\n            .first()",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -16273,34 +16302,7 @@
         "kind": 6,
         "importPath": "app.services.database_service",
         "description": "app.services.database_service",
-        "peekOfCode": "class DatabaseService:\n    def __init__(self, _config_manager):\n        self.logger = logging.get_logger(\"BugHunter.DatabaseService\")\n        self.config_manager = config_manager\n        self.engine = create_engine(DATABASE_URL)\n        self.SessionLocal = sessionmaker(\n            autocommit=False, autoflush=False, bind=self.engine\n        )\n        self.session: Optional[Session] = None\n        def get_session(self) -> Session:",
-        "detail": "app.services.database_service",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.services.database_service",
-        "description": "app.services.database_service",
-        "peekOfCode": "url = \"\"\nk = 10\nquery = \"\"\n@dataclass\nclass DatabaseService:\n    def __init__(self, _config_manager):\n        self.logger = logging.get_logger(\"BugHunter.DatabaseService\")\n        self.config_manager = config_manager\n        self.engine = create_engine(DATABASE_URL)\n        self.SessionLocal = sessionmaker(",
-        "detail": "app.services.database_service",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.services.database_service",
-        "description": "app.services.database_service",
-        "peekOfCode": "k = 10\nquery = \"\"\n@dataclass\nclass DatabaseService:\n    def __init__(self, _config_manager):\n        self.logger = logging.get_logger(\"BugHunter.DatabaseService\")\n        self.config_manager = config_manager\n        self.engine = create_engine(DATABASE_URL)\n        self.SessionLocal = sessionmaker(\n            autocommit=False, autoflush=False, bind=self.engine",
-        "detail": "app.services.database_service",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.services.database_service",
-        "description": "app.services.database_service",
-        "peekOfCode": "query = \"\"\n@dataclass\nclass DatabaseService:\n    def __init__(self, _config_manager):\n        self.logger = logging.get_logger(\"BugHunter.DatabaseService\")\n        self.config_manager = config_manager\n        self.engine = create_engine(DATABASE_URL)\n        self.SessionLocal = sessionmaker(\n            autocommit=False, autoflush=False, bind=self.engine\n        )",
+        "peekOfCode": "class DatabaseService:\n    def __init__(self, db: Session):\n        self.db = db\n    def add_user(self, username: str, password: str, email: str) -> User:\n        \"\"\"Add a new user to the database.\"\"\"\n        new_user = User(username=username, password_hash=self.hash_password(password), email=email)\n        self.db.add(new_user)\n        self.db.commit()\n        self.db.refresh(new_user)\n        return new_user",
         "detail": "app.services.database_service",
         "documentation": {}
     },
@@ -16318,106 +16320,7 @@
         "kind": 6,
         "importPath": "app.services.report_service",
         "description": "app.services.report_service",
-        "peekOfCode": "class ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")\n        self.retention_days = config.get(\n            \"REPORT_RETENTION_DAYS\", 30)  # Default 30 days\n        self.encrypt_reports = config.get(\"ENCRYPT_REPORTS\", False)\n        # Create necessary directories",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "status = \"active\"\nvalue = None\nkey = \"\"\nlink = \"\"\nurl = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "value",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "value = None\nkey = \"\"\nlink = \"\"\nurl = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "key = \"\"\nlink = \"\"\nurl = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "link",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "link = \"\"\nurl = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "url = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "k = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "query = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "content",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "content = \"\"\nmessage = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "message",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "message = \"\"\nitems = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")\n        self.retention_days = config.get(",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "items",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "items = []\ntemplates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")\n        self.retention_days = config.get(\n            \"REPORT_RETENTION_DAYS\", 30)  # Default 30 days",
-        "detail": "app.services.report_service",
-        "documentation": {}
-    },
-    {
-        "label": "templates",
-        "kind": 5,
-        "importPath": "app.services.report_service",
-        "description": "app.services.report_service",
-        "peekOfCode": "templates = []\nclass ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")\n        self.retention_days = config.get(\n            \"REPORT_RETENTION_DAYS\", 30)  # Default 30 days\n        self.encrypt_reports = config.get(\"ENCRYPT_REPORTS\", False)",
+        "peekOfCode": "class ReportService:\n    \"\"\"Service for generating and managing vulnerability scan reports\"\"\"\n    def __init__(self):\n        \"\"\"Initialize the ReportService with necessary directories and configurations\"\"\"\n        self.reports_dir = Path(\"reports\")\n        self.templates_dir = Path(\"templates/reports\")\n        self.retention_days = config.get(\"REPORT_RETENTION_DAYS\", 30)  # Default 30 days\n        self.encrypt_reports = config.get(\"ENCRYPT_REPORTS\", False)\n        # Create necessary directories\n        self.reports_dir.mkdir(exist_ok=True)",
         "detail": "app.services.report_service",
         "documentation": {}
     },
@@ -17538,38 +17441,11 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "ConfigManager",
         "kind": 6,
         "importPath": "app.config",
         "description": "app.config",
-        "peekOfCode": "class Config:\n    \"\"\"Configuration management\"\"\"\n    def __init__(self):\n        self.config_path = Path(__file__).parent / \"config.json\"\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load configuration from file\"\"\"\n        if not self.config_path.exists():\n            self.create_default_config()\n        with open(self.config_path, encoding=\"utf-8\") as f:",
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "kind": 5,
-        "importPath": "app.config",
-        "description": "app.config",
-        "peekOfCode": "config = Config()\n# Export DATABASE_URL for SQLAlchemy\nDATABASE_URL = f\"postgresql://{config.get('database.DB_USER')}:{config.get('database.DB_PASSWORD')}@{config.get('database.DB_HOST')}:{config.get('database.DB_PORT')}/{config.get('database.DB_NAME')}\"\n# Export ADMIN_CREDENTIALS\nADMIN_CREDENTIALS = {\n    \"username\": config.get(\"database.ADMIN_USER\"),\n    \"password\": config.get(\"database.ADMIN_PASSWORD\"),\n}",
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASE_URL",
-        "kind": 5,
-        "importPath": "app.config",
-        "description": "app.config",
-        "peekOfCode": "DATABASE_URL = f\"postgresql://{config.get('database.DB_USER')}:{config.get('database.DB_PASSWORD')}@{config.get('database.DB_HOST')}:{config.get('database.DB_PORT')}/{config.get('database.DB_NAME')}\"\n# Export ADMIN_CREDENTIALS\nADMIN_CREDENTIALS = {\n    \"username\": config.get(\"database.ADMIN_USER\"),\n    \"password\": config.get(\"database.ADMIN_PASSWORD\"),\n}",
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "ADMIN_CREDENTIALS",
-        "kind": 5,
-        "importPath": "app.config",
-        "description": "app.config",
-        "peekOfCode": "ADMIN_CREDENTIALS = {\n    \"username\": config.get(\"database.ADMIN_USER\"),\n    \"password\": config.get(\"database.ADMIN_PASSWORD\"),\n}",
+        "peekOfCode": "class ConfigManager:\n    \"\"\"Manages the configuration for the BugHunter application.\"\"\"\n    def __init__(self, config_file):\n        self.config_file = config_file\n        self.config = self.load_config()\n    def load_config(self):\n        \"\"\"Loads the configuration from the specified JSON file.\"\"\"\n        if not os.path.exists(self.config_file):\n            raise FileNotFoundError(f\"Configuration file {self.config_file} not found.\")\n        with open(self.config_file, 'r') as f:",
         "detail": "app.config",
         "documentation": {}
     },
@@ -19311,29 +19187,20 @@
         "documentation": {}
     },
     {
-        "label": "default",
-        "kind": 5,
+        "label": "setup_database",
+        "kind": 2,
         "importPath": "app.setup_db",
         "description": "app.setup_db",
-        "peekOfCode": "default = None\nvalue = None\nk = 10\n#!/usr/bin/env python3\n    def setup_database(args):\n    \"\"\"\n    Set up and configure the BugHunter database.\n        This function:\n        1. Loads or creates database configuration\n        2. Updates configuration with provided arguments",
+        "peekOfCode": "def setup_database(args):\n    \"\"\"\n    Set up and configure the BugHunter database.\n    This function:\n    1. Loads or creates database configuration\n    2. Updates configuration with provided arguments\n    3. Initializes the database with required schema\n    Parameters:\n        args (Namespace): Parsed command line arguments containing:\n        - host: Database host address",
         "detail": "app.setup_db",
         "documentation": {}
     },
     {
-        "label": "value",
-        "kind": 5,
+        "label": "main",
+        "kind": 2,
         "importPath": "app.setup_db",
         "description": "app.setup_db",
-        "peekOfCode": "value = None\nk = 10\n#!/usr/bin/env python3\n    def setup_database(args):\n    \"\"\"\n    Set up and configure the BugHunter database.\n        This function:\n        1. Loads or creates database configuration\n        2. Updates configuration with provided arguments\n        3. Initializes the database with required schema",
-        "detail": "app.setup_db",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.setup_db",
-        "description": "app.setup_db",
-        "peekOfCode": "k = 10\n#!/usr/bin/env python3\n    def setup_database(args):\n    \"\"\"\n    Set up and configure the BugHunter database.\n        This function:\n        1. Loads or creates database configuration\n        2. Updates configuration with provided arguments\n        3. Initializes the database with required schema\n            Parameters:",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main entry point for database setup utility.\n    This function:\n    1. Parses command line arguments for database configuration\n    2. Sets up Python path to include project root\n    3. Executes database setup process\n    4. Provides next steps for application deployment\n    Command Line Arguments:\n    --host: Database host address (default: localhost)",
         "detail": "app.setup_db",
         "documentation": {}
     },
