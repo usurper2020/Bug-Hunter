@@ -1,3 +1,4 @@
+from typing import List, Dict, Optional, Any
 from typing import List
 
 """
@@ -12,57 +13,65 @@ from pathlib import Path
 
 
 class NucleiAnalyzer:
-    """
-    Manages Nuclei scanning operations.
-    """
 
-    def __init__(self):
-        # Breakpoint to verify initialization
-        breakpoint()
-        self.templates_dir = Path("nuclei-templates")
-        self.results_dir = Path("data/scan_results")
-        self.results_dir.mkdir(parents=True, exist_ok=True)
+"""
+Manages Nuclei scanning operations.
+"""
 
-    def scan(self, _targets: list) -> str:
-        """
-        Run a Nuclei scan on the specified targets.
+def __init__(self):
+pass
+# Breakpoint to verify initialization
+breakpoint()
+self.templates_dir = Path("nuclei-templates")
+self.results_dir = Path("data/scan_results")
+self.results_dir.mkdir(parents=True, exist_ok=True)
 
-            Args:
-            targets (list): List of target URLs or IP addresses to scan.
+def scan(self, _targets: list) -> str:
+"""
+Run a Nuclei scan on the specified targets.
 
-            Returns:
-            str: Scan results in JSON format.
-            """
-        try:
-            # Breakpoint before running scan
-            breakpoint()
-            # Prepare Nuclei arguments
-            args = ["nuclei", "-target", ",".join(targets), "-json", "-silent"]
+Args:
+targets (list): List of target URLs or IP addresses to scan.
 
-            # Execute Nuclei scan
-            result = subprocess.run(args, capture_output=True, text=True)
+Returns:
+str: Scan results in JSON format. pass
+"""
+try:
+pass
+pass
+# Breakpoint before running scan
+breakpoint()
+# Prepare Nuclei arguments
+args = ["nuclei", "-target", ",".join(targets), "-json", "-silent"]
 
-            if result.returncode != 0:
-                raise Exception(f"Nuclei scan failed: {result.stderr}")
+# Execute Nuclei scan
+result = subprocess.run(args, capture_output=True, text=True)
 
-            # Parse JSON output
-            vulnerabilities = []
-            for line in result.stdout.splitlines():
-                if line.strip():
-                    try:
-                        vuln = json.loads(line)
-                        vulnerabilities.append(vuln)
-                    except json.JSONDecodeError:
-                        continue
+if result.returncode != 0:
+raise Exception(f"Nuclei scan failed: {result.stderr}")
 
-            # Breakpoint after running scan
-            breakpoint()
-            return json.dumps(vulnerabilities, indent=4)
+# Parse JSON output
+vulnerabilities = []
+for line in result.stdout.splitlines():
+if line.strip():
+try:
+pass
+pass
+vuln = json.loads(line)
+vulnerabilities.append(vuln)
+except json.JSONDecodeError:
+continue
 
-        except Exception as e:
-            return f"Error: {str(e)}"
+# Breakpoint after running scan
+breakpoint()
+return json.dumps(vulnerabilities, indent=4)
+
+except Exception as e:
+return f"Error: {str(e)}"
 
 def some_function():
-    # ...existing code...
-    breakpoint()
-    # ...existing code...
+
+pass
+# ...existing code...
+breakpoint()
+# ...existing code...

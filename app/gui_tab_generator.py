@@ -1,4 +1,7 @@
-from PyQt6.QtWidgets import (
+from typing import List, Dict, Optional, Any
+from PyQt6 import QtWidgets, QtCore
+from typing import Dict
+from PyQt6.QtWidgets import ()
 QCheckBox,
 QGroupBox,
 QHBoxLayout,
@@ -29,112 +32,113 @@ Handles creation of dynamic GUI tabs for converted tools using PyQt6.
 """
 
 class GUITabGenerator:
-    """
-    Generates GUI tabs for converted tools using PyQt6.
-    """
 
-    def __init__(self, tool_name: str, tool_metadata: Dict[str, Any], execute_callback: Callable):
-        self.config_manager = config_manager
-        self.tabs = {}
+"""
+Generates GUI tabs for converted tools using PyQt6.
+"""
 
-    def create_tab(
-        self, tool_name: str, tool_metadata: Dict[str, Any], execute_callback: Callable
-    ) -> QWidget:
-        """
-        Create a GUI tab for a converted tool.
+def __init__(self, tool_name: str, tool_metadata: Dict[str, Any], execute_callback: Callable):
+self.config_manager = config_manager
+self.tabs = {}
 
-        Args:
-            tool_name: Name of the tool
-            tool_metadata: Metadata about the tool
-            execute_callback: Function to call when tool is executed
+def create_tab()
+self, tool_name: str, tool_metadata: Dict[str, Any], execute_callback: Callable
+) -> QWidget:
+"""
+Create a GUI tab for a converted tool.
 
-        Returns:
-            QWidget containing the tool's GUI
-        """
-        tab = QWidget()
-        layout = QVBoxLayout()
+Args:
+tool_name: Name of the tool
+tool_metadata: Metadata about the tool
+execute_callback: Function to call when tool is executed
 
-        # Add tool name label
-        name_label = QLabel(f"Tool: {tool_name}")
-        layout.add_widget(name_label)
+Returns:
+QWidget containing the tool's GUI
+"""
+tab = QWidget()
+layout = QVBoxLayout()
 
-        # Add description
-        desc_label = QLabel(tool_metadata.get("description", ""))
-        layout.add_widget(desc_label)
+# Add tool name label
+name_label = QLabel(f"Tool: {tool_name}")
+layout.add_widget(name_label)
 
-        # Add execute button
-        execute_button = QPushButton("Execute")
-        execute_button.clicked.connect(
-            lambda: execute_callback(tool_name))
-        layout.add_widget(execute_button)
+# Add description
+desc_label = QLabel(tool_metadata.get("description", ""))
+layout.add_widget(desc_label)
 
-        # Add settings controls
-        if "settings" in tool_metadata:
-            self._add_settings_controls(
-                layout, tool_metadata["settings"])
+# Add execute button
+execute_button = QPushButton("Execute")
+execute_button.clicked.connect()
+lambda: execute_callback(tool_name))
+layout.add_widget(execute_button)
 
-        tab.set_layout(layout)
-        self.tabs[tool_name] = tab
-        return tab
+# Add settings controls
+if "settings" in tool_metadata:
+self._add_settings_controls()
+layout, tool_metadata["settings"])
 
-    def _add_settings_controls(
-        self, layout: QVBoxLayout, settings: Dict[str, Any]
-    ) -> None:
-        """
-        Add settings controls to the tab.
+tab.set_layout(layout)
+self.tabs[tool_name] = tab
+return tab
 
-        Args:
-            layout: The layout to add controls to
-            settings: Dictionary of tool settings
-        """
-        settings_group = QGroupBox("Settings")
-        settings_layout = QVBoxLayout()
+def _add_settings_controls()
+self, layout: QVBoxLayout, settings: Dict[str, Any]
+) -> None:
+"""
+Add settings controls to the tab.
 
-        for setting, value in settings.items():
-            row = QWidget()
-            row_layout = QHBoxLayout()
-            row.set_layout(row_layout)
+Args:
+layout: The layout to add controls to
+settings: Dictionary of tool settings
+"""
+settings_group = QGroupBox("Settings")
+settings_layout = QVBoxLayout()
 
-            label = QLabel(setting)
-            row_layout.add_widget(label)
+for setting, value in settings.items():
+row = QWidget()
+row_layout = QHBoxLayout()
+row.set_layout(row_layout)
 
-            if isinstance(value, bool):
-                control = QCheckBox()
-                control.set_checked(value)
-            elif isinstance(value, (int, float)):
-                control = QSlider(
-                    Qt.Orientation.Horizontal)
-                control.set_minimum(0)
-                control.set_maximum(100)
-                control.set_value(int(value))
-            else:
-                control = QLineEdit(str(value))
+label = QLabel(setting)
+row_layout.add_widget(label)
 
-            row_layout.add_widget(control)
-            settings_layout.add_widget(row)
+if isinstance(value, bool):
+control = QCheckBox()
+control.set_checked(value)
+elif isinstance(value, (int, float)):
+control = QSlider()
+Qt.Orientation.Horizontal)
+control.set_minimum(0)
+control.set_maximum(100)
+control.set_value(int(value))
+else:
+control = QLineEdit(str(value))
 
-        settings_group.set_layout(
-            settings_layout)
-        layout.add_widget(settings_group)
+row_layout.add_widget(control)
+settings_layout.add_widget(row)
 
-    def get_tab(self, _tool_name: str) -> QWidget:
-        """
-        Get an existing tab for a tool.
+settings_group.set_layout()
+settings_layout)
+layout.add_widget(settings_group)
 
-        Args:
-            tool_name: Name of the tool
+def get_tab(self, _tool_name: str) -> QWidget:
+"""
+Get an existing tab for a tool.
 
-        Returns:
-            The tool's tab widget
-        """
-        return self.tabs.get(tool_name)
+Args:
+tool_name: Name of the tool
 
-    def remove_tab(self, _tool_name: str) -> None:
-        """
-        Remove a tool's tab.
+Returns:
+The tool's tab widget
+"""
+return self.tabs.get(tool_name)
 
-        Args:
-            tool_name: Name of the tool to remove
-        """
-        if tool_name in self.tabs:
-            del self.tabs[tool_name]
+def remove_tab(self, _tool_name: str) -> None:
+"""
+Remove a tool's tab.
+
+Args:
+tool_name: Name of the tool to remove
+"""
+if tool_name in self.tabs:
+del self.tabs[tool_name]

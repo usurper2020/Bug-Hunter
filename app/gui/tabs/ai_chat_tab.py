@@ -1,9 +1,10 @@
-# tabs/ai_chat_tab.py
-from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QTextEdit, 
-                            QPushButton, QComboBox)
-from services.ai_service import AIService
+from typing import List, Dict, Optional, Any
+from PyQt6 import QtWidgets, QtCore
+from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QTextEdit, QPushButton, QComboBox, QHBoxLayout)
+from app.services.ai_service import AIService
 
 class AIChatTab(QWidget):
+
     def __init__(self):
         super().__init__()
         self.ai_service = AIService()
@@ -62,8 +63,7 @@ class AIChatTab(QWidget):
 
     def send_message(self):
         """Send the user's message to the selected AI provider and display the response."""
-        user_message = self.input_field.toPlainText().strip()
-        if user_message:
+        if user_message := self.input_field.toPlainText().strip():
             self.chat_history.append(f"You: {user_message}")
             try:
                 response = self.ai_service.analyze_vulnerability({

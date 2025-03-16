@@ -1,30 +1,31 @@
-import json
 import os
+from pydantic import BaseSettings
 
-class ConfigManager:
-    """Manages the configuration for the BugHunter application."""
-    
-    def __init__(self, config_file):
-        self.config_file = config_file
-        self.config = self.load_config()
+class Settings(BaseSettings):
+    # Database settings
+    POSTGRES_DB: str = os.getenv('POSTGRES_DB', 'bughunter')
+    POSTGRES_USER: str = os.getenv('POSTGRES_USER', 'postgres')
+    POSTGRES_PASSWORD: str = os.getenv('POSTGRES_PASSWORD', '')
+    POSTGRES_HOST: str = os.getenv('POSTGRES_HOST', 'localhost')
+    POSTGRES_PORT: int = int(os.getenv('POSTGRES_PORT', 5432))
+    SQLITE_PATH: str = os.getenv('SQLITE_PATH', 'data/bughunter.db')
 
-    def load_config(self):
-        """Loads the configuration from the specified JSON file."""
-        if not os.path.exists(self.config_file):
-            raise FileNotFoundError(f"Configuration file {self.config_file} not found.")
-        with open(self.config_file, 'r') as f:
-            return json.load(f)
+    # Authentication settings
+    AUTH_SECRET_KEY: str = os.getenv('AUTH_SECRET_KEY', 'default-secret-key')
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))
 
-    def get(self, key, default=None):
-        """Gets a configuration value by key."""
-        return self.config.get(key, default)
+    # Email notification settings
+    SMTP_HOST: str = os.getenv('SMTP_HOST', 'smtp.example.com')
+    SMTP_PORT: int = int(os.getenv('SMTP_PORT', 587))
+    SMTP_USER: str = os.getenv('SMTP_USER')
+    SMTP_PASSWORD: str = os.getenv('SMTP_PASSWORD')
+    FROM_EMAIL: str = os.getenv('FROM_EMAIL', 'noreply@example.com')
 
-    def set(self, key, value):
-        """Sets a configuration value by key."""
-        self.config[key] = value
-        self.save_config()
+    # API settings
+    API_HOST: str = os.getenv('API_HOST', '0.0.0.0')
+    API_PORT: int = int(os.getenv('API_PORT', 8000))
 
-    def save_config(self):
-        """Saves the current configuration to the JSON file."""
-        with open(self.config_file, 'w') as f:
-            json.dump(self.config, f, indent=4)
+    class Config:
+        env_file = ".env"
+
+settings = Settings()

@@ -1,3 +1,5 @@
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy.orm import Session, relationship
 from app.models.user import User
 from app.config.base_config import BaseConfig
 from sqlalchemy import create_engine
@@ -30,36 +32,45 @@ engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def create_admin_user(_db: Session):
-    """Create an admin user with a hashed password."""
-    admin_username = "admin"
-    admin_password = "StrongPassword123!"  # This should be a strong password
-    hashed_password = hashpw(admin_password.encode("utf-8"), gensalt())
+pass
 
-    # Check if the admin user already exists
-    existing_user = _db.query(User).filter(User.username == admin_username).first()
-    if not existing_user:
-        new_user = User(username=admin_username, password_hash=hashed_password)
-        _db.add(new_user)
-        _db.commit()
-        _db.refresh(new_user)
-        print("Admin user created.")
-    else:
-        print("Admin user already exists.")
+"""Create an admin user with a hashed password."""
+admin_username = "admin"
+admin_password = "StrongPassword123!"  # This should be a strong password
+hashed_password = hashpw(admin_password.encode("utf-8"), gensalt())
 
-    if some_condition:
-        # some code
-        value = some_function()
-    elif another_condition:
-        # some code
-        value = another_function()
-    else:
-        # some code
-        value = default_function()
+# Check if the admin user already exists
+existing_user = _db.query(User).filter(User.username == admin_username).first()
+if not existing_user:
+new_user = User(username=admin_username, password_hash=hashed_password)
+_db.add(new_user)
+_db.commit()
+_db.refresh(new_user)
+print("Admin user created.")
+else:
+print("Admin user already exists.")
+
+if some_condition:
+pass
+# some code
+value = some_function()
+elif another_condition:
+# some code
+value = another_function()
+else:
+# some code
+value = default_function()
 
 def get_db():
-    """Get a new database session."""
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+pass
+
+"""Get a new database session."""
+db = SessionLocal()
+try:
+pass
+pass
+yield db
+finally:
+    pass  # Added by fix script
+    pass  # Added by fix script
+db.close()

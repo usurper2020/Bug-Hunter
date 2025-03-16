@@ -5,123 +5,131 @@ import argparse
 from app.db.init_db import init_database  # Updated import
 
 def setup_database(args):
-    """
-    Set up and configure the BugHunter database.
+pass
 
-    This function:
-    1. Loads or creates database configuration
-    2. Updates configuration with provided arguments
-    3. Initializes the database with required schema
+"""
+Set up and configure the BugHunter database.
 
-    Parameters:
-        args (Namespace): Parsed command line arguments containing:
-        - host: Database host address
-        - port: Database port number
-        - name: Database name
-        - user: Database username
-        - password: Database password
+This function:
+1. Loads or creates database configuration
+2. Updates configuration with provided arguments
+3. Initializes the database with required schema
 
-    Returns:
-        bool: True if setup succeeds, False otherwise
+Parameters:
+args (Namespace): Parsed command line arguments containing:
+- host: Database host address
+- port: Database port number
+- name: Database name
+- user: Database username
+- password: Database password
 
-    Note:
-    If configuration values are not provided via arguments,
-    defaults from config.json or config.template.json are used.
-    """
-    try:
-        print("\n_setting up Bug Hunter Database")
-        print("=============================")
+Returns:
+bool: True if setup succeeds, False otherwise
 
-        # Load or create configuration
-        config_file = "config.json"
-        config_template = "config.template.json"
+Note:
+If configuration values are not provided via arguments,
+defaults from config.json or config.template.json are used. pass
+"""
+try:
+pass
+pass
+print("\n_setting up Bug Hunter Database")
+print("=============================")
 
-        if os.path.exists(config_file):
-            with open(config_file, "r") as f:
-                config = json.load(f)
-        elif os.path.exists(config_template):
-            with open(config_template, "r") as f:
-                config = json.load(f)
-        else:
-            print("Error: No configuration file found")
-            return False
+# Load or create configuration
+config_file = "config.json"
+config_template = "config.template.json"
 
-        # Update database configuration
-        config["database"] = {
-            "type": "postgresql",
-            "host": args.host or config.get("database", {}).get("host", "localhost"),
-            "port": args.port or config.get("database", {}).get("port", 5432),
-            "name": args.name or config.get("database", {}).get("name", "bughunter_db"),
-            "user": args.user or config.get("database", {}).get("user", "bughunter_user"),
-            "password": args.password or config.get("database", {}).get("password", "your-secure-password-here"),
-            "pool_size": 5,
-            "max_overflow": 10,
-            "pool_timeout": 30,
-            "pool_recycle": 3600,
-            "ssl_mode": "prefer",
-        }
+if os.path.exists(config_file):
+with open(config_file, "r") as f:
+config = json.load(f)
+elif os.path.exists(config_template):
+with open(config_template, "r") as f:
+config = json.load(f)
+else:
+print("Error: No configuration file found")
+return False
 
-        # Save updated configuration
-        with open(config_file, "w") as f:
-            json.dump(config, f, indent=4)
-            print("\n_configuration updated successfully")
+# Update database configuration
+config["database"] = {
+"type": "postgresql",
+"host": args.host or config.get("database", {}).get("host", "localhost"),
+"port": args.port or config.get("database", {}).get("port", 5432),
+"name": args.name or config.get("database", {}).get("name", "bughunter_db"),
+"user": args.user or config.get("database", {}).get("user", "bughunter_user"),
+"password": args.password or config.get("database", {}).get("password", "your-secure-password-here"),
+"pool_size": 5,
+"max_overflow": 10,
+"pool_timeout": 30,
+"pool_recycle": 3600,
+"ssl_mode": "prefer",
+}
 
-        # Initialize database
-        print("\n_initializing database...")
-        if init_database(config):
-            print("\n_database setup completed successfully!")
-            return True
-        else:
-            print("\n_database setup failed")
-            return False
+# Save updated configuration
+with open(config_file, "w") as f:
+json.dump(config, f, indent=4)
+print("\n_configuration updated successfully")
 
-    except Exception as e:
-        print(f"\n_error setting up database: {str(e)}")
-        return False
+# Initialize database
+print("\n_initializing database...")
+if init_database(config):
+print("\n_database setup completed successfully!")
+return True
+else:
+print("\n_database setup failed")
+return False
+
+except Exception as e:
+print(f"\n_error setting up database: {str(e)}")
+return False
 
 def main():
-    """
-    Main entry point for database setup utility.
+pass
 
-    This function:
-    1. Parses command line arguments for database configuration
-    2. Sets up Python path to include project root
-    3. Executes database setup process
-    4. Provides next steps for application deployment
+"""
+Main entry point for database setup utility.
 
-    Command Line Arguments:
-    --host: Database host address (default: localhost)
-    --port: Database port number (default: 5432)
-    --name: Database name (default: bughunter_db)
-    --user: Database username (default: bughunter_user)
-    --password: Database password
+This function:
+1. Parses command line arguments for database configuration
+2. Sets up Python path to include project root
+3. Executes database setup process
+4. Provides next steps for application deployment
 
-    Exit Codes:
-    0: Setup completed successfully
-    1: Setup failed
-    """
-    parser = argparse.ArgumentParser(description="Set up Bug Hunter database")
+Command Line Arguments:
+--host: Database host address (default: localhost)
+--port: Database port number (default: 5432)
+--name: Database name (default: bughunter_db)
+--user: Database username (default: bughunter_user)
+--password: Database password
 
-    # Database connection options
-    parser.add_argument("--host", help="Database host (default: localhost)")
-    parser.add_argument("--port", type=int, help="Database port (default: 5432)")
-    parser.add_argument("--name", help="Database name (default: bughunter_db)")
-    parser.add_argument("--user", help="Database user (default: bughunter_user)")
-    parser.add_argument("--password", help="Database password")
+Exit Codes:
+0: Setup completed successfully
+1: Setup failed
+"""
+parser = argparse.ArgumentParser(description="Set up Bug Hunter database")
 
-    args = parser.parse_args()
+# Database connection options
+parser.add_argument("--host", help="Database host (default: localhost)")
+parser.add_argument("--port", type=int, help="Database port (default: 5432)")
+parser.add_argument("--name", help="Database name (default: bughunter_db)")
+parser.add_argument("--user", help="Database user (default: bughunter_user)")
+parser.add_argument("--password", help="Database password")
 
-    # Add project root to Python path
-    project_root = os.path.dirname(os.path.abspath(__file__))
-    sys.path.append(project_root)
+args = parser.parse_args()
 
-    if setup_database(args):
-        print("\n_next steps:")
-        print("1. Make sure PostgreSQL is running")
-        print("2. Update config.json with your database credentials if needed")
-        print("3. Run the application with: python run_integrated.py")
-    else:
-        sys.exit(1)
+# Add project root to Python path
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(project_root)
+
+if setup_database(args):
+print("\n_next steps:")
+print("1. Make sure PostgreSQL is running")
+print("2. Update config.json with your database credentials if needed")
+print("3. Run the application with: python run_integrated.py")
+else:
+sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+pass
+
+main()

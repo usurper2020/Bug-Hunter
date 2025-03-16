@@ -1,0 +1,7037 @@
+File: .\admin_service.py
+  SyntaxError: invalid syntax at line 14
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\admin_service.py
+  SyntaxError: invalid syntax at line 14
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 14
+Rating: 4/5
+
+File: .\config.py
+  SyntaxError: expected an indented block after 'with' statement on line 91 at line 92
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\database.py
+  Empty finally block detected at line 34
+  Empty finally block detected at line 69
+  Empty finally block detected at line 78
+  Empty finally block detected at line 91
+  Empty finally block detected at line 110
+  Empty finally block detected at line 136
+  Empty finally block detected at line 159
+  Empty finally block detected at line 181
+Rating: 0/5
+
+File: .\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 58 at line 59
+Rating: 4/5
+
+File: .\db_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  No errors found.
+Rating: 5/5
+
+File: .\init_db.py
+  SyntaxError: expected 'except' or 'finally' block at line 26
+Rating: 4/5
+
+File: .\main.py
+  Empty finally block detected at line 97
+  Empty finally block detected at line 106
+  Empty finally block detected at line 47
+  Empty finally block detected at line 57
+  Empty finally block detected at line 69
+  Empty finally block detected at line 82
+Rating: 0/5
+
+File: .\main_gui.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\main_window.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  Empty finally block detected at line 37
+  Empty finally block detected at line 53
+Rating: 3/5
+
+File: .\nuclei_tab.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 11 at line 12
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: expected an indented block after 'if' statement on line 37 at line 38
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: expected an indented block after 'with' statement on line 76 at line 77
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 39 at line 40
+Rating: 4/5
+
+File: .\setup_db.py
+  Empty finally block detected at line 31
+Rating: 4/5
+
+File: .\tabs.py
+  Empty finally block detected at line 19
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: invalid syntax at line 56
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  SyntaxError: invalid syntax at line 14
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 17
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: expected an indented block after 'with' statement on line 91 at line 92
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\database.py
+  Empty finally block detected at line 34
+  Empty finally block detected at line 69
+  Empty finally block detected at line 78
+  Empty finally block detected at line 91
+  Empty finally block detected at line 110
+  Empty finally block detected at line 136
+  Empty finally block detected at line 159
+  Empty finally block detected at line 181
+Rating: 0/5
+
+File: .\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 58 at line 59
+Rating: 4/5
+
+File: .\db_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  No errors found.
+Rating: 5/5
+
+File: .\init_db.py
+  SyntaxError: expected 'except' or 'finally' block at line 26
+Rating: 4/5
+
+File: .\main.py
+  Empty finally block detected at line 97
+  Empty finally block detected at line 106
+  Empty finally block detected at line 47
+  Empty finally block detected at line 57
+  Empty finally block detected at line 69
+  Empty finally block detected at line 82
+Rating: 0/5
+
+File: .\main_gui.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\main_window.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  Empty finally block detected at line 37
+  Empty finally block detected at line 53
+Rating: 3/5
+
+File: .\nuclei_tab.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 11 at line 12
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: expected an indented block after 'if' statement on line 37 at line 38
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: expected an indented block after 'with' statement on line 76 at line 77
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 39 at line 40
+Rating: 4/5
+
+File: .\setup_db.py
+  Empty finally block detected at line 31
+Rating: 4/5
+
+File: .\tabs.py
+  Empty finally block detected at line 19
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: invalid syntax at line 56
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: expected an indented block after 'for' statement on line 107 at line 108
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 327 at line 328
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  Empty finally block detected at line 72
+  Empty finally block detected at line 110
+  Empty finally block detected at line 161
+  Empty finally block detected at line 436
+  Empty finally block detected at line 444
+  Empty finally block detected at line 461
+  Empty finally block detected at line 478
+Rating: 0/5
+
+File: .\ai\ai_system.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\api_key_storing.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_dialog.py
+  SyntaxError: invalid syntax at line 73
+Rating: 4/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: invalid syntax at line 94
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: invalid syntax at line 54
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\auth\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\auth\user.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\user_auth.py
+  SyntaxError: invalid syntax at line 55
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: invalid syntax at line 206
+Rating: 4/5
+
+File: .\code\analyzer.py
+  SyntaxError: unexpected indent at line 5
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unexpected indent at line 12
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: expected 'except' or 'finally' block at line 30
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: invalid syntax at line 68
+Rating: 4/5
+
+File: .\code\code_converter.py
+  No errors found.
+Rating: 5/5
+
+File: .\collaboration\collaboration.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\base_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\config.py
+  Empty finally block detected at line 64
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: invalid syntax at line 42
+Rating: 4/5
+
+File: .\config\db_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: expected an indented block after function definition on line 41 at line 42
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: invalid syntax at line 38
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: expected 'except' or 'finally' block at line 26
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: expected an indented block after function definition on line 46 at line 47
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: invalid syntax at line 115
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: invalid syntax at line 106
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: invalid syntax at line 192
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: invalid syntax at line 96
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: invalid syntax at line 253
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: expected '(' at line 10
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: invalid syntax at line 120
+Rating: 4/5
+
+File: .\gui\main_window.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: expected an indented block after function definition on line 45 at line 46
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: invalid syntax at line 94
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unexpected indent at line 54
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: invalid syntax at line 132
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: expected an indented block after 'if' statement on line 136 at line 137
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: invalid syntax at line 83
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: invalid syntax at line 101
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: invalid syntax at line 76
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: invalid syntax at line 78
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: expected an indented block after function definition on line 19 at line 20
+Rating: 4/5
+
+File: .\gui\theme.py
+  SyntaxError: unindent does not match any outer indentation level at line 15
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  Empty finally block detected at line 80
+  Empty finally block detected at line 117
+  Empty finally block detected at line 148
+  Empty finally block detected at line 172
+  Empty finally block detected at line 213
+  Empty finally block detected at line 228
+  Empty finally block detected at line 247
+  Empty finally block detected at line 263
+  Empty finally block detected at line 274
+  Empty finally block detected at line 342
+  Empty finally block detected at line 394
+  Empty finally block detected at line 108
+Rating: 0/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: expected an indented block after function definition on line 36 at line 37
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: expected an indented block after function definition on line 31 at line 32
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: invalid syntax at line 105
+Rating: 4/5
+
+File: .\gui\__init__.py
+  SyntaxError: invalid syntax at line 18
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unexpected indent at line 32
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: invalid syntax at line 68
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: invalid syntax at line 132
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: invalid syntax at line 78
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  Empty finally block detected at line 80
+  Empty finally block detected at line 117
+  Empty finally block detected at line 148
+  Empty finally block detected at line 172
+  Empty finally block detected at line 213
+  Empty finally block detected at line 228
+  Empty finally block detected at line 247
+  Empty finally block detected at line 263
+  Empty finally block detected at line 274
+  Empty finally block detected at line 342
+  Empty finally block detected at line 394
+  Empty finally block detected at line 108
+Rating: 0/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: expected an indented block after function definition on line 36 at line 37
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  SyntaxError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: invalid syntax at line 122
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: expected 'except' or 'finally' block at line 57
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: expected 'except' or 'finally' block at line 57
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: invalid syntax at line 109
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  SyntaxError: invalid syntax at line 14
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  Empty finally block detected at line 37
+  Empty finally block detected at line 57
+Rating: 3/5
+
+File: .\integrations\shodan_integration.py
+  Empty finally block detected at line 86
+  Empty finally block detected at line 115
+  Empty finally block detected at line 134
+  Empty finally block detected at line 156
+  Empty finally block detected at line 178
+  Empty finally block detected at line 201
+  Empty finally block detected at line 223
+  Empty finally block detected at line 246
+  Empty finally block detected at line 265
+  Empty finally block detected at line 51
+Rating: 0/5
+
+File: .\integrations\shodan_main.py
+  Empty finally block detected at line 93
+  Empty finally block detected at line 102
+  Empty finally block detected at line 48
+  Empty finally block detected at line 58
+  Empty finally block detected at line 70
+  Empty finally block detected at line 83
+Rating: 0/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  No errors found.
+Rating: 5/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: expected 'except' or 'finally' block at line 32
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\logging\logger_config.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\management\manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\middleware\middleware.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\models.py
+  SyntaxError: unexpected indent at line 34
+Rating: 4/5
+
+File: .\models\scan_target.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\user.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  SyntaxError: unindent does not match any outer indentation level at line 4
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\cyclical.py
+  SyntaxError: expected an indented block after function definition on line 19 at line 20
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: invalid syntax at line 10
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: expected an indented block after function definition on line 49 at line 50
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_defaults.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_schema.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_cython_templating.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: expected an indented block after function definition on line 43 at line 44
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: invalid syntax at line 9
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: invalid syntax at line 74
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\bug_bounty_target_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: invalid syntax at line 27
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: invalid syntax at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\security\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\security_system.py
+  SyntaxError: invalid syntax at line 15
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: invalid syntax at line 122
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\admin_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\ai_integration.py
+  Empty finally block detected at line 86
+  Empty finally block detected at line 158
+Rating: 3/5
+
+File: .\services\ai_service.py
+  Empty finally block detected at line 71
+  Empty finally block detected at line 109
+  Empty finally block detected at line 160
+  Empty finally block detected at line 435
+  Empty finally block detected at line 443
+  Empty finally block detected at line 460
+  Empty finally block detected at line 477
+Rating: 0/5
+
+File: .\services\auth_service.py
+  Empty finally block detected at line 59
+Rating: 4/5
+
+File: .\services\database_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\notification_system.py
+  SyntaxError: unexpected indent at line 34
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 11 at line 12
+Rating: 4/5
+
+File: .\services\report_service.py
+  Empty finally block detected at line 46
+Rating: 4/5
+
+File: .\services\scan_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 44 at line 45
+Rating: 4/5
+
+File: .\services\security_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 39 at line 40
+Rating: 4/5
+
+File: .\services\service_manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  No errors found.
+Rating: 5/5
+
+File: .\setup\setup.py
+  No errors found.
+Rating: 5/5
+
+File: .\setup\setup_env.py
+  SyntaxError: expected an indented block after function definition on line 19 at line 20
+Rating: 4/5
+
+File: .\styles\theme.py
+  SyntaxError: unindent does not match any outer indentation level at line 15
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: invalid syntax at line 7
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\test___init__.py
+  SyntaxError: invalid syntax at line 68
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: unexpected indent at line 32
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  Empty finally block detected at line 49
+  Empty finally block detected at line 104
+  Empty finally block detected at line 148
+  Empty finally block detected at line 185
+  Empty finally block detected at line 234
+  Empty finally block detected at line 256
+  Empty finally block detected at line 277
+  Empty finally block detected at line 295
+  Empty finally block detected at line 306
+  Empty finally block detected at line 239
+  Empty finally block detected at line 84
+Rating: 0/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: invalid syntax at line 48
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\utils\check_config.py
+  SyntaxError: invalid syntax at line 31
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\env_checker.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\utils\performance.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  SyntaxError: unexpected indent at line 58
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 17
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 34 at line 51
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\database.py
+  SyntaxError: expected an indented block after 'try' statement on line 35 at line 36
+Rating: 4/5
+
+File: .\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: unexpected indent at line 30
+Rating: 4/5
+
+File: .\db_config.py
+  SyntaxError: expected an indented block after 'if' statement on line 53 at line 54
+Rating: 4/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\fix_code_errors.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\main.py
+  SyntaxError: expected an indented block after 'try' statement on line 48 at line 49
+Rating: 4/5
+
+File: .\main_gui.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\main_window.py
+  SyntaxError: unmatched ')' at line 7
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 12 at line 13
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: unexpected indent at line 44
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\setup_db.py
+  SyntaxError: expected an indented block after 'try' statement on line 33 at line 34
+Rating: 4/5
+
+File: .\tabs.py
+  SyntaxError: expected an indented block after 'try' statement on line 20 at line 21
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: expected an indented block after 'try' statement on line 22 at line 23
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: unmatched ')' at line 112
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  SyntaxError: expected an indented block after 'try' statement on line 76 at line 77
+Rating: 4/5
+
+File: .\ai\ai_system.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\auth\api_key_storing.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\auth\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_dialog.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\auth\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\auth\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\auth\user_auth.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\code\analyzer.py
+  SyntaxError: unexpected indent at line 5
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unexpected indent at line 12
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 55
+Rating: 4/5
+
+File: .\code\code_converter.py
+  SyntaxError: expected an indented block after function definition on line 25 at line 26
+Rating: 4/5
+
+File: .\collaboration\collaboration.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\config\base_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\config.py
+  SyntaxError: expected an indented block after 'try' statement on line 65 at line 66
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: unmatched ')' at line 44
+Rating: 4/5
+
+File: .\config\db_config.py
+  SyntaxError: expected an indented block after 'if' statement on line 53 at line 54
+Rating: 4/5
+
+File: .\config\python-dotenv.py
+  SyntaxError: expected an indented block after function definition on line 16 at line 17
+Rating: 4/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: unmatched ')' at line 60
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 19 at line 20
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: unmatched ')' at line 8
+Rating: 4/5
+
+File: .\gui\main_window.py
+  SyntaxError: unmatched ')' at line 7
+Rating: 4/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: unmatched ')' at line 28
+Rating: 4/5
+
+File: .\gui\theme.py
+  SyntaxError: expected an indented block after 'try' statement on line 15 at line 16
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\__init__.py
+  SyntaxError: invalid syntax at line 20
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 55
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  SyntaxError: invalid syntax at line 16
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 38 at line 39
+Rating: 4/5
+
+File: .\integrations\shodan_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 52 at line 53
+Rating: 4/5
+
+File: .\integrations\shodan_main.py
+  SyntaxError: expected an indented block after 'try' statement on line 49 at line 50
+Rating: 4/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  SyntaxError: unexpected indent at line 88
+Rating: 4/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 25 at line 26
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\logging\logger_config.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\management\manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\middleware\middleware.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\models.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\models\scan_target.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\models\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  SyntaxError: unindent does not match any outer indentation level at line 5
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\cyclical.py
+  SyntaxError: expected an indented block after function definition on line 20 at line 21
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: invalid syntax at line 10
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_defaults.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_schema.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_cython_templating.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: unexpected indent at line 31
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: unmatched ')' at line 59
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: unmatched ')' at line 50
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: unmatched ')' at line 73
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: unmatched ')' at line 117
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: unmatched ')' at line 73
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: unmatched ')' at line 25
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: unmatched ')' at line 80
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  SyntaxError: unexpected indent at line 51
+Rating: 4/5
+
+File: .\security\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: invalid syntax at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\security\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\security_system.py
+  SyntaxError: invalid syntax at line 17
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  SyntaxError: expected an indented block after function definition on line 10 at line 11
+Rating: 4/5
+
+File: .\services\admin_service.py
+  SyntaxError: unexpected indent at line 53
+Rating: 4/5
+
+File: .\services\ai_integration.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\services\ai_service.py
+  SyntaxError: expected an indented block after 'try' statement on line 75 at line 76
+Rating: 4/5
+
+File: .\services\auth_service.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\services\database_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\notification_system.py
+  SyntaxError: unexpected indent at line 35
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 12 at line 13
+Rating: 4/5
+
+File: .\services\report_service.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\services\scan_service.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\services\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\services\service_manager.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\setup\setup.py
+  SyntaxError: unexpected indent at line 23
+Rating: 4/5
+
+File: .\setup\setup_env.py
+  SyntaxError: unmatched ')' at line 100
+Rating: 4/5
+
+File: .\styles\theme.py
+  SyntaxError: expected an indented block after 'try' statement on line 15 at line 16
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: invalid syntax at line 7
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\tests\test___init__.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: invalid syntax at line 8
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  SyntaxError: unmatched ')' at line 60
+Rating: 4/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: unexpected indent at line 21
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\utils\check_config.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\env_checker.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\utils\performance.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\python-dotenv.py
+  SyntaxError: expected an indented block after function definition on line 16 at line 17
+Rating: 4/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  SyntaxError: unexpected indent at line 58
+Rating: 4/5
+
+File: .\attempt_2_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_3_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_4_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_5_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_6_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_7_fix.py
+  Empty finally block detected at line 53
+Rating: 4/5
+
+File: .\attempt_8_fix.py
+  Empty finally block detected at line 86
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 17
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 34 at line 51
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 23
+Rating: 4/5
+
+File: .\database.py
+  SyntaxError: invalid syntax at line 34
+Rating: 4/5
+
+File: .\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: unexpected indent at line 30
+Rating: 4/5
+
+File: .\db_config.py
+  SyntaxError: expected an indented block after 'if' statement on line 53 at line 54
+Rating: 4/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\fix_code_errors.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\main.py
+  SyntaxError: expected an indented block after 'try' statement on line 48 at line 49
+Rating: 4/5
+
+File: .\main_gui.py
+  SyntaxError: unmatched ')' at line 26
+Rating: 4/5
+
+File: .\main_window.py
+  SyntaxError: unmatched ')' at line 7
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after 'try' statement on line 14 at line 15
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: unexpected indent at line 44
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\setup_db.py
+  SyntaxError: expected an indented block after 'try' statement on line 33 at line 34
+Rating: 4/5
+
+File: .\tabs.py
+  SyntaxError: invalid syntax at line 19
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: expected an indented block after 'try' statement on line 22 at line 23
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: unexpected indent at line 110
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  SyntaxError: invalid syntax at line 72
+Rating: 4/5
+
+File: .\ai\ai_system.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\auth\api_key_storing.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\auth\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_dialog.py
+  SyntaxError: unmatched ')' at line 68
+Rating: 4/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: unmatched ')' at line 33
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\auth\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\auth\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\auth\user_auth.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 58
+Rating: 4/5
+
+File: .\code\analyzer.py
+  SyntaxError: unexpected indent at line 5
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unexpected indent at line 12
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 56
+Rating: 4/5
+
+File: .\code\code_converter.py
+  SyntaxError: expected an indented block after function definition on line 177 at line 178
+Rating: 4/5
+
+File: .\collaboration\collaboration.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\base_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\config.py
+  SyntaxError: expected an indented block after 'try' statement on line 65 at line 66
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 38 at line 39
+Rating: 4/5
+
+File: .\config\db_config.py
+  SyntaxError: expected an indented block after 'try' statement on line 69 at line 70
+Rating: 4/5
+
+File: .\config\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: unexpected indent at line 51
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: expected an indented block after 'try' statement on line 36 at line 37
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: unmatched ')' at line 114
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 19 at line 21
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\main_window.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unmatched ')' at line 71
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: unmatched ')' at line 28
+Rating: 4/5
+
+File: .\gui\theme.py
+  SyntaxError: expected an indented block after 'try' statement on line 15 at line 16
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\__init__.py
+  SyntaxError: invalid syntax at line 20
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 55
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  SyntaxError: invalid syntax at line 16
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  SyntaxError: invalid syntax at line 37
+Rating: 4/5
+
+File: .\integrations\shodan_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 52 at line 53
+Rating: 4/5
+
+File: .\integrations\shodan_main.py
+  SyntaxError: expected an indented block after 'try' statement on line 49 at line 50
+Rating: 4/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  SyntaxError: unexpected indent at line 88
+Rating: 4/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 25 at line 26
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger.py
+  SyntaxError: unexpected indent at line 80
+Rating: 4/5
+
+File: .\logging\logger_config.py
+  SyntaxError: unexpected indent at line 29
+Rating: 4/5
+
+File: .\management\manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\middleware\middleware.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\models.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\models\scan_target.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\models\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  SyntaxError: expected an indented block after function definition on line 7 at line 8
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\cyclical.py
+  SyntaxError: expected an indented block after function definition on line 25 at line 26
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_defaults.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_schema.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_cython_templating.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: unexpected unindent at line 31
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: unexpected indent at line 4
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: unmatched ')' at line 61
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 52) at line 49
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: unmatched ')' at line 57
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: expected an indented block after 'with' statement on line 46 at line 47
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  SyntaxError: unmatched ')' at line 59
+Rating: 4/5
+
+File: .\security\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: unmatched ')' at line 46
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\security\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\security_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 62
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\admin_service.py
+  SyntaxError: unexpected indent at line 54
+Rating: 4/5
+
+File: .\services\ai_integration.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\services\ai_service.py
+  SyntaxError: expected 'except' or 'finally' block at line 77
+Rating: 4/5
+
+File: .\services\auth_service.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\services\database_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\notification_system.py
+  SyntaxError: unexpected indent at line 35
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 12 at line 13
+Rating: 4/5
+
+File: .\services\report_service.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\services\scan_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 45 at line 46
+Rating: 4/5
+
+File: .\services\security_service.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\services\service_manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\setup\setup.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\setup\setup_env.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\styles\theme.py
+  SyntaxError: expected 'except' or 'finally' block at line 17
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\tests\test___init__.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\utils\check_config.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\env_checker.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\utils\performance.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  SyntaxError: unexpected indent at line 58
+Rating: 4/5
+
+File: .\attempt_2_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_3_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_4_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_5_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_6_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_7_fix.py
+  Empty finally block detected at line 53
+Rating: 4/5
+
+File: .\attempt_8_fix.py
+  Empty finally block detected at line 86
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 17
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 34 at line 51
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 23
+Rating: 4/5
+
+File: .\database.py
+  SyntaxError: invalid syntax at line 34
+Rating: 4/5
+
+File: .\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: unexpected indent at line 30
+Rating: 4/5
+
+File: .\db_config.py
+  SyntaxError: expected an indented block after 'if' statement on line 53 at line 54
+Rating: 4/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\fix_code_errors.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\main.py
+  SyntaxError: expected an indented block after 'try' statement on line 48 at line 49
+Rating: 4/5
+
+File: .\main_gui.py
+  SyntaxError: unmatched ')' at line 26
+Rating: 4/5
+
+File: .\main_window.py
+  SyntaxError: unmatched ')' at line 7
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after 'try' statement on line 14 at line 15
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: unexpected indent at line 44
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\setup_db.py
+  SyntaxError: expected an indented block after 'try' statement on line 33 at line 34
+Rating: 4/5
+
+File: .\tabs.py
+  SyntaxError: invalid syntax at line 19
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: expected an indented block after 'try' statement on line 22 at line 23
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: unexpected indent at line 110
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  SyntaxError: invalid syntax at line 72
+Rating: 4/5
+
+File: .\ai\ai_system.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\auth\api_key_storing.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\auth\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_dialog.py
+  SyntaxError: unmatched ')' at line 68
+Rating: 4/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: unmatched ')' at line 33
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\auth\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\auth\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\auth\user_auth.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 58
+Rating: 4/5
+
+File: .\code\analyzer.py
+  SyntaxError: unexpected indent at line 5
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unexpected indent at line 12
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 56
+Rating: 4/5
+
+File: .\code\code_converter.py
+  SyntaxError: expected an indented block after function definition on line 177 at line 178
+Rating: 4/5
+
+File: .\collaboration\collaboration.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\base_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\config.py
+  SyntaxError: expected an indented block after 'try' statement on line 65 at line 66
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 38 at line 39
+Rating: 4/5
+
+File: .\config\db_config.py
+  SyntaxError: expected an indented block after 'try' statement on line 69 at line 70
+Rating: 4/5
+
+File: .\config\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: unexpected indent at line 51
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: expected an indented block after 'try' statement on line 36 at line 37
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: unmatched ')' at line 114
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 19 at line 21
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\main_window.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unmatched ')' at line 71
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: unmatched ')' at line 28
+Rating: 4/5
+
+File: .\gui\theme.py
+  SyntaxError: expected an indented block after 'try' statement on line 15 at line 16
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\__init__.py
+  SyntaxError: invalid syntax at line 20
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 55
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  SyntaxError: unmatched ')' at line 18
+Rating: 4/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  SyntaxError: invalid syntax at line 16
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  SyntaxError: invalid syntax at line 37
+Rating: 4/5
+
+File: .\integrations\shodan_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 52 at line 53
+Rating: 4/5
+
+File: .\integrations\shodan_main.py
+  SyntaxError: expected an indented block after 'try' statement on line 49 at line 50
+Rating: 4/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  SyntaxError: unexpected indent at line 88
+Rating: 4/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 25 at line 26
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger.py
+  SyntaxError: unexpected indent at line 80
+Rating: 4/5
+
+File: .\logging\logger_config.py
+  SyntaxError: unexpected indent at line 29
+Rating: 4/5
+
+File: .\management\manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\middleware\middleware.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\models.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\models\scan_target.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\models\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  SyntaxError: expected an indented block after function definition on line 7 at line 8
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\cyclical.py
+  SyntaxError: expected an indented block after function definition on line 25 at line 26
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_defaults.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_schema.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_cython_templating.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: unexpected unindent at line 31
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: unexpected indent at line 4
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: unmatched ')' at line 61
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 52) at line 49
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: unmatched ')' at line 57
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: expected an indented block after 'with' statement on line 46 at line 47
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  SyntaxError: unmatched ')' at line 59
+Rating: 4/5
+
+File: .\security\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: unmatched ')' at line 46
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\security\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\security_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 62
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\admin_service.py
+  SyntaxError: unexpected indent at line 54
+Rating: 4/5
+
+File: .\services\ai_integration.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\services\ai_service.py
+  SyntaxError: expected 'except' or 'finally' block at line 77
+Rating: 4/5
+
+File: .\services\auth_service.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\services\database_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\notification_system.py
+  SyntaxError: unexpected indent at line 35
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 12 at line 13
+Rating: 4/5
+
+File: .\services\report_service.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\services\scan_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 45 at line 46
+Rating: 4/5
+
+File: .\services\security_service.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\services\service_manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\setup\setup.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\setup\setup_env.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\styles\theme.py
+  SyntaxError: expected 'except' or 'finally' block at line 17
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\tests\test___init__.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\utils\check_config.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\env_checker.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\utils\performance.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_2_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_3_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_4_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_5_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_6_fix.py
+  No errors found.
+Rating: 5/5
+
+File: .\attempt_7_fix.py
+  Empty finally block detected at line 53
+Rating: 4/5
+
+File: .\attempt_8_fix.py
+  Empty finally block detected at line 86
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\chat_system.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 17
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 34 at line 51
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unexpected indent at line 23
+Rating: 4/5
+
+File: .\database.py
+  SyntaxError: invalid syntax at line 34
+Rating: 4/5
+
+File: .\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: unexpected indent at line 30
+Rating: 4/5
+
+File: .\db_config.py
+  SyntaxError: expected an indented block after 'if' statement on line 53 at line 54
+Rating: 4/5
+
+File: .\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\fix_code_errors.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui_tab_generator.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\main.py
+  Empty finally block detected at line 78
+  Empty finally block detected at line 88
+  Empty finally block detected at line 26
+  Empty finally block detected at line 37
+  Empty finally block detected at line 61
+Rating: 0/5
+
+File: .\main_gui.py
+  Empty finally block detected at line 32
+  Empty finally block detected at line 71
+  Empty finally block detected at line 119
+  Empty finally block detected at line 159
+  Empty finally block detected at line 174
+  Empty finally block detected at line 189
+  Empty finally block detected at line 199
+  Empty finally block detected at line 217
+  Empty finally block detected at line 237
+Rating: 0/5
+
+File: .\main_window.py
+  Empty finally block detected at line 43
+  Empty finally block detected at line 78
+Rating: 3/5
+
+File: .\nuclei_analyzer.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: expected an indented block after 'try' statement on line 14 at line 15
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: unexpected indent at line 44
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\setup_db.py
+  SyntaxError: expected an indented block after 'try' statement on line 33 at line 34
+Rating: 4/5
+
+File: .\tabs.py
+  SyntaxError: invalid syntax at line 19
+Rating: 4/5
+
+File: .\tab_controller.py
+  SyntaxError: expected an indented block after 'try' statement on line 22 at line 23
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: unexpected indent at line 110
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  SyntaxError: invalid syntax at line 72
+Rating: 4/5
+
+File: .\ai\ai_system.py
+  SyntaxError: unexpected indent at line 39
+Rating: 4/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unexpected indent at line 22
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\auth\api_key_storing.py
+  SyntaxError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\auth\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\login_dialog.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: unmatched ')' at line 33
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\auth\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unexpected indent at line 20
+Rating: 4/5
+
+File: .\auth\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\auth\user_auth.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 58
+Rating: 4/5
+
+File: .\code\analyzer.py
+  SyntaxError: unexpected indent at line 5
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unexpected indent at line 12
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 56
+Rating: 4/5
+
+File: .\code\code_converter.py
+  SyntaxError: expected an indented block after function definition on line 177 at line 178
+Rating: 4/5
+
+File: .\collaboration\collaboration.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\base_config.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\config.py
+  SyntaxError: expected an indented block after 'try' statement on line 65 at line 66
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 38 at line 39
+Rating: 4/5
+
+File: .\config\db_config.py
+  SyntaxError: expected an indented block after 'try' statement on line 69 at line 70
+Rating: 4/5
+
+File: .\config\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: unexpected indent at line 51
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: expected an indented block after 'try' statement on line 36 at line 37
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: unexpected indent at line 11
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: unmatched ')' at line 114
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 19 at line 21
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\main_window.py
+  Empty finally block detected at line 49
+  Empty finally block detected at line 88
+  Empty finally block detected at line 134
+  Empty finally block detected at line 158
+  Empty finally block detected at line 170
+  Empty finally block detected at line 185
+  Empty finally block detected at line 194
+Rating: 0/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unmatched ')' at line 71
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: unmatched ')' at line 28
+Rating: 4/5
+
+File: .\gui\theme.py
+  SyntaxError: expected an indented block after 'try' statement on line 15 at line 16
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\__init__.py
+  SyntaxError: invalid syntax at line 20
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unexpected indent at line 36
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  SyntaxError: expected an indented block after 'try' statement on line 74 at line 75
+Rating: 4/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: unexpected indent at line 55
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: unexpected indent at line 37
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  Empty finally block detected at line 91
+  Empty finally block detected at line 137
+  Empty finally block detected at line 155
+  Empty finally block detected at line 204
+Rating: 1/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  SyntaxError: invalid syntax at line 16
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  SyntaxError: invalid syntax at line 37
+Rating: 4/5
+
+File: .\integrations\shodan_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 52 at line 53
+Rating: 4/5
+
+File: .\integrations\shodan_main.py
+  SyntaxError: expected an indented block after 'try' statement on line 49 at line 50
+Rating: 4/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: invalid syntax at line 24
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  SyntaxError: unexpected indent at line 88
+Rating: 4/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: expected an indented block after 'try' statement on line 25 at line 26
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: invalid syntax at line 26
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger.py
+  SyntaxError: unexpected indent at line 80
+Rating: 4/5
+
+File: .\logging\logger_config.py
+  SyntaxError: unexpected indent at line 29
+Rating: 4/5
+
+File: .\management\manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\middleware\middleware.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\login_attempt.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\models.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\models\scan_target.py
+  SyntaxError: unexpected indent at line 40
+Rating: 4/5
+
+File: .\models\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\session.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\user.py
+  SyntaxError: unexpected indent at line 33
+Rating: 4/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  SyntaxError: expected an indented block after function definition on line 7 at line 8
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\cyclical.py
+  SyntaxError: expected an indented block after function definition on line 25 at line 26
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: unexpected indent at line 10
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\templates.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_defaults.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\template_schema.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\test_cython_templating.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: unexpected unindent at line 31
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: unexpected indent at line 4
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  SyntaxError: unexpected indent at line 28
+Rating: 4/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: unmatched ')' at line 61
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 52) at line 49
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: invalid syntax at line 12
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: unmatched ')' at line 57
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: expected an indented block after 'with' statement on line 46 at line 47
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  SyntaxError: unmatched ')' at line 59
+Rating: 4/5
+
+File: .\security\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: unmatched ')' at line 46
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unexpected indent at line 14
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\security\security_event.py
+  No errors found.
+Rating: 5/5
+
+File: .\security\security_system.py
+  SyntaxError: unexpected indent at line 17
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unexpected indent at line 16
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unexpected indent at line 19
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 62
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\admin_service.py
+  SyntaxError: unexpected indent at line 54
+Rating: 4/5
+
+File: .\services\ai_integration.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\services\ai_service.py
+  SyntaxError: expected 'except' or 'finally' block at line 77
+Rating: 4/5
+
+File: .\services\auth_service.py
+  SyntaxError: unexpected indent at line 27
+Rating: 4/5
+
+File: .\services\database_service.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\notification_system.py
+  SyntaxError: unexpected indent at line 35
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: expected an indented block after function definition on line 12 at line 13
+Rating: 4/5
+
+File: .\services\report_service.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\services\scan_service.py
+  SyntaxError: expected an indented block after 'if' statement on line 45 at line 46
+Rating: 4/5
+
+File: .\services\security_service.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\services\service_manager.py
+  No errors found.
+Rating: 5/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\setup\setup.py
+  SyntaxError: unexpected indent at line 24
+Rating: 4/5
+
+File: .\setup\setup_env.py
+  SyntaxError: expected an indented block after function definition on line 21 at line 22
+Rating: 4/5
+
+File: .\styles\theme.py
+  SyntaxError: expected 'except' or 'finally' block at line 17
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  No errors found.
+Rating: 5/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: unexpected indent at line 7
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  SyntaxError: expected an indented block after function definition on line 29 at line 30
+Rating: 4/5
+
+File: .\tests\test___init__.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  SyntaxError: expected an indented block after 'try' statement on line 50 at line 51
+Rating: 4/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: invalid syntax at line 4
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unexpected indent at line 26
+Rating: 4/5
+
+File: .\utils\check_config.py
+  SyntaxError: unexpected indent at line 15
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\env_checker.py
+  SyntaxError: unexpected indent at line 8
+Rating: 4/5
+
+File: .\utils\performance.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\python-dotenv.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\admin_service.py
+  IndentationError: expected an indented block after class definition on line 7 at line 8
+Rating: 4/5
+
+File: .\attempt_2_fix.py
+  IndentationError: expected an indented block after function definition on line 4 at line 5
+Rating: 4/5
+
+File: .\attempt_3_fix.py
+  IndentationError: expected an indented block after function definition on line 119 at line 120
+Rating: 4/5
+
+File: .\attempt_4_fix.py
+  IndentationError: expected an indented block after function definition on line 141 at line 142
+Rating: 4/5
+
+File: .\attempt_5_fix.py
+  IndentationError: expected an indented block after function definition on line 136 at line 137
+Rating: 4/5
+
+File: .\attempt_6_fix.py
+  IndentationError: expected an indented block after function definition on line 130 at line 131
+Rating: 4/5
+
+File: .\attempt_7_fix.py
+  IndentationError: expected an indented block after function definition on line 52 at line 53
+Rating: 4/5
+
+File: .\attempt_8_fix.py
+  IndentationError: expected an indented block after function definition on line 85 at line 86
+Rating: 4/5
+
+File: .\auth_service.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\chat_system.py
+  IndentationError: expected an indented block after class definition on line 8 at line 9
+Rating: 4/5
+
+File: .\code_analyzer.py
+  Empty finally block detected at line 9
+  Empty finally block detected at line 16
+Rating: 3/5
+
+File: .\config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 34 at line 51
+Rating: 4/5
+
+File: .\config_manager.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\database.py
+  SyntaxError: unmatched ')' at line 81
+Rating: 4/5
+
+File: .\database_manager.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\database_service.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\db_config.py
+  IndentationError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\fingerprint.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\fix_code_errors.py
+  IndentationError: expected an indented block after class definition on line 6 at line 7
+Rating: 4/5
+
+File: .\gui_tab_generator.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\init_db.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\main.py
+  IndentationError: expected an indented block after class definition on line 13 at line 14
+Rating: 4/5
+
+File: .\main_gui.py
+  IndentationError: expected an indented block after class definition on line 21 at line 22
+Rating: 4/5
+
+File: .\main_window.py
+  IndentationError: expected an indented block after class definition on line 21 at line 22
+Rating: 4/5
+
+File: .\nuclei_analyzer.py
+  IndentationError: expected an indented block after class definition on line 15 at line 17
+Rating: 4/5
+
+File: .\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\nuclei_template_service.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\report_generator.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\report_service.py
+  SyntaxError: unmatched ')' at line 44
+Rating: 4/5
+
+File: .\security_service.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\setup_db.py
+  IndentationError: expected an indented block after function definition on line 7 at line 8
+Rating: 4/5
+
+File: .\tabs.py
+  IndentationError: expected an indented block after class definition on line 13 at line 15
+Rating: 4/5
+
+File: .\tab_controller.py
+  IndentationError: expected an indented block after class definition on line 15 at line 17
+Rating: 4/5
+
+File: .\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai.py
+  SyntaxError: unmatched ')' at line 112
+Rating: 4/5
+
+File: .\ai\ai_chatbot_tab.py
+  SyntaxError: unmatched ')' at line 76
+Rating: 4/5
+
+File: .\ai\ai_chat_tab.py
+  IndentationError: expected an indented block after class definition on line 11 at line 13
+Rating: 4/5
+
+File: .\ai\ai_integration.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\ai\ai_module.py
+  No errors found.
+Rating: 5/5
+
+File: .\ai\ai_service.py
+  SyntaxError: unmatched ')' at line 130
+Rating: 4/5
+
+File: .\ai\ai_system.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\ai\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\ai\ai_training.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\analytics\analytics_system.py
+  SyntaxError: unmatched ')' at line 72
+Rating: 4/5
+
+File: .\analytics\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\auth\api_key_storing.py
+  IndentationError: expected an indented block after class definition on line 6 at line 8
+Rating: 4/5
+
+File: .\auth\login_attempt.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\auth\login_dialog.py
+  IndentationError: expected an indented block after class definition on line 15 at line 17
+Rating: 4/5
+
+File: .\auth\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\auth\reset_password_dialog.py
+  SyntaxError: unmatched ')' at line 33
+Rating: 4/5
+
+File: .\auth\role_manager.py
+  SyntaxError: unmatched ')' at line 115
+Rating: 4/5
+
+File: .\auth\session.py
+  IndentationError: expected an indented block after class definition on line 14 at line 15
+Rating: 4/5
+
+File: .\auth\simple_auth.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\auth\user.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\auth\user_auth.py
+  SyntaxError: unmatched ')' at line 60
+Rating: 4/5
+
+File: .\auth\user_data_storage.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\auth\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 58
+Rating: 4/5
+
+File: .\code\analyzer.py
+  IndentationError: expected an indented block after function definition on line 6 at line 7
+Rating: 4/5
+
+File: .\code\codebreaker.py
+  SyntaxError: unmatched ')' at line 78
+Rating: 4/5
+
+File: .\code\codegpt_client.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\code\code_analysis_tab.py
+  SyntaxError: unmatched ')' at line 69
+Rating: 4/5
+
+File: .\code\code_converter.py
+  IndentationError: expected an indented block after class definition on line 19 at line 21
+Rating: 4/5
+
+File: .\collaboration\collaboration.py
+  IndentationError: expected an indented block after function definition on line 14 at line 15
+Rating: 4/5
+
+File: .\collaboration\collaboration_system.py
+  SyntaxError: unmatched ')' at line 51
+Rating: 4/5
+
+File: .\collaboration\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\collaboration\contribution_system.py
+  SyntaxError: unmatched ')' at line 33
+Rating: 4/5
+
+File: .\config\api_key_storing.py
+  IndentationError: expected an indented block after class definition on line 6 at line 8
+Rating: 4/5
+
+File: .\config\base_config.py
+  IndentationError: expected an indented block after class definition on line 10 at line 11
+Rating: 4/5
+
+File: .\config\config.py
+  IndentationError: expected an indented block after class definition on line 13 at line 15
+Rating: 4/5
+
+File: .\config\config_manager.py
+  SyntaxError: unmatched ')' at line 48
+Rating: 4/5
+
+File: .\config\db_config.py
+  IndentationError: expected an indented block after function definition on line 34 at line 35
+Rating: 4/5
+
+File: .\config\python-dotenv.py
+  IndentationError: expected an indented block after class definition on line 7 at line 9
+Rating: 4/5
+
+File: .\config\scanning_profiles.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\config\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\core\bughunterAI.py
+  SyntaxError: unmatched ')' at line 71
+Rating: 4/5
+
+File: .\core\core.py
+  No errors found.
+Rating: 5/5
+
+File: .\db\database.py
+  SyntaxError: unmatched ')' at line 69
+Rating: 4/5
+
+File: .\db\database_manager.py
+  SyntaxError: unmatched ')' at line 44
+Rating: 4/5
+
+File: .\db\init_db.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\db\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\gui\ai_chat_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\amass_tab.py
+  SyntaxError: unmatched ')' at line 65
+Rating: 4/5
+
+File: .\gui\analytics_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\gui\base_tab.py
+  SyntaxError: invalid syntax at line 14
+Rating: 4/5
+
+File: .\gui\bughunterAI_gui.py
+  SyntaxError: unmatched ')' at line 42
+Rating: 4/5
+
+File: .\gui\collaboration_dialog.py
+  SyntaxError: unmatched ')' at line 114
+Rating: 4/5
+
+File: .\gui\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\gui\contribution_dialog.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\logger_config.py
+  SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 19 at line 21
+Rating: 4/5
+
+File: .\gui\login_dialog.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\main_window.py
+  IndentationError: expected an indented block after class definition on line 16 at line 17
+Rating: 4/5
+
+File: .\gui\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 32
+Rating: 4/5
+
+File: .\gui\registration_dialog.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\gui\report_generator.py
+  SyntaxError: unmatched ')' at line 71
+Rating: 4/5
+
+File: .\gui\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 66
+Rating: 4/5
+
+File: .\gui\scanner_tab.py
+  SyntaxError: unmatched ')' at line 15
+Rating: 4/5
+
+File: .\gui\scope_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\settings_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\shodan_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\test_login_dialog.py
+  SyntaxError: unmatched ')' at line 28
+Rating: 4/5
+
+File: .\gui\theme.py
+  IndentationError: expected an indented block after function definition on line 10 at line 11
+Rating: 4/5
+
+File: .\gui\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 9
+Rating: 4/5
+
+File: .\gui\user_management_dialog.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\wayback_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\__init__.py
+  IndentationError: expected an indented block after 'if' statement on line 16 at line 17
+Rating: 4/5
+
+File: .\gui\tabs\ai_chatbot_tab.py
+  SyntaxError: unmatched ')' at line 76
+Rating: 4/5
+
+File: .\gui\tabs\ai_chat_tab.py
+  IndentationError: expected an indented block after class definition on line 11 at line 13
+Rating: 4/5
+
+File: .\gui\tabs\ai_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\amass_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\analytics_tab.py
+  SyntaxError: unmatched ')' at line 17
+Rating: 4/5
+
+File: .\gui\tabs\base_tab.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\gui\tabs\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\code_analysis_tab.py
+  SyntaxError: unmatched ')' at line 55
+Rating: 4/5
+
+File: .\gui\tabs\collaboration_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\nuclei_tab.py
+  SyntaxError: unmatched ')' at line 37
+Rating: 4/5
+
+File: .\gui\tabs\report_generator_tab.py
+  SyntaxError: unmatched ')' at line 12
+Rating: 4/5
+
+File: .\gui\tabs\scanner_tab.py
+  SyntaxError: unmatched ')' at line 11
+Rating: 4/5
+
+File: .\gui\tabs\scope_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\settings_tab.py
+  SyntaxError: unmatched ')' at line 10
+Rating: 4/5
+
+File: .\gui\tabs\shodan_tab.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\gui\tabs\targets_tab.py
+  SyntaxError: unmatched ')' at line 13
+Rating: 4/5
+
+File: .\gui\tabs\tools_manager_tab.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\gui\tabs\tools_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 16
+Rating: 4/5
+
+File: .\gui\tabs\tool_tab.py
+  IndentationError: expected an indented block after class definition on line 19 at line 20
+Rating: 4/5
+
+File: .\gui\tabs\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 14
+Rating: 4/5
+
+File: .\gui\tabs\wayback_tab.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\gui\tabs\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\install\install.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\install_app.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\install\integrated_app.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\install\integration_manager.py
+  IndentationError: expected an indented block after 'if' statement on line 11 at line 12
+Rating: 4/5
+
+File: .\integrations\github_manager.py
+  IndentationError: expected an indented block after class definition on line 17 at line 19
+Rating: 4/5
+
+File: .\integrations\shodan_integration.py
+  IndentationError: expected an indented block after class definition on line 22 at line 24
+Rating: 4/5
+
+File: .\integrations\shodan_main.py
+  IndentationError: expected an indented block after class definition on line 14 at line 16
+Rating: 4/5
+
+File: .\integrations\shodan_tab.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\integrations\wayback_integration.py
+  SyntaxError: unmatched ')' at line 89
+Rating: 4/5
+
+File: .\integrations\wayback_machine_integration.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\integrations\wayback_tab.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\knowledge\knowledge_base.py
+  IndentationError: expected an indented block after class definition on line 1 at line 3
+Rating: 4/5
+
+File: .\logging\logger.py
+  No errors found.
+Rating: 5/5
+
+File: .\logging\logger_config.py
+  IndentationError: expected an indented block after class definition on line 5 at line 6
+Rating: 4/5
+
+File: .\management\manager.py
+  IndentationError: expected an indented block after class definition on line 11 at line 12
+Rating: 4/5
+
+File: .\middleware\middleware.py
+  IndentationError: expected an indented block after class definition on line 7 at line 8
+Rating: 4/5
+
+File: .\models\base.py
+  No errors found.
+Rating: 5/5
+
+File: .\models\fingerprint.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\models\login_attempt.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\models\models.py
+  SyntaxError: unmatched ')' at line 20
+Rating: 4/5
+
+File: .\models\scan_target.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\models\security_event.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\models\session.py
+  IndentationError: expected an indented block after class definition on line 14 at line 15
+Rating: 4/5
+
+File: .\models\user.py
+  SyntaxError: unmatched ')' at line 34
+Rating: 4/5
+
+File: .\models\vulnerability_db.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 87) at line 81
+Rating: 4/5
+
+File: .\models\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\modules\module.py
+  IndentationError: expected an indented block after class definition on line 2 at line 4
+Rating: 4/5
+
+File: .\notifications\notification.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 135) at line 129
+Rating: 4/5
+
+File: .\Nuclei\add_nuclei_templates.py
+  IndentationError: expected an indented block after class definition on line 1 at line 2
+Rating: 4/5
+
+File: .\Nuclei\cyclical.py
+  IndentationError: expected an indented block after class definition on line 5 at line 7
+Rating: 4/5
+
+File: .\Nuclei\nuclei_analyzer.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\Nuclei\qtpng.py
+  SyntaxError: invalid syntax at line 13
+Rating: 4/5
+
+File: .\Nuclei\qualitative.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\Nuclei\signals.py
+  IndentationError: expected an indented block after class definition on line 7 at line 8
+Rating: 4/5
+
+File: .\Nuclei\templates.py
+  IndentationError: expected an indented block after class definition on line 7 at line 8
+Rating: 4/5
+
+File: .\Nuclei\template_defaults.py
+  IndentationError: expected an indented block after class definition on line 6 at line 7
+Rating: 4/5
+
+File: .\Nuclei\template_schema.py
+  IndentationError: expected an indented block after class definition on line 4 at line 5
+Rating: 4/5
+
+File: .\Nuclei\test_cython_templating.py
+  IndentationError: expected an indented block after class definition on line 10 at line 12
+Rating: 4/5
+
+File: .\Nuclei\test_doc.py
+  SyntaxError: unmatched ')' at line 40
+Rating: 4/5
+
+File: .\Nuclei\validators.py
+  SyntaxError: invalid syntax at line 6
+Rating: 4/5
+
+File: .\Nuclei\viewstate.py
+  SyntaxError: unmatched ')' at line 31
+Rating: 4/5
+
+File: .\Nuclei\_animation_data.py
+  No errors found.
+Rating: 5/5
+
+File: .\Nuclei\_bar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_barpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_candlestick.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choropleth.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_choroplethmapbox.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_completion_classes.py
+  SyntaxError: unmatched ')' at line 99
+Rating: 4/5
+
+File: .\Nuclei\_cone.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_contourcarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_densitymapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_dimensions.py
+  SyntaxError: unmatched ')' at line 61
+Rating: 4/5
+
+File: .\Nuclei\_funnel.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_funnelarea.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_gauge.py
+  SyntaxError: unterminated triple-quoted string literal (detected at line 52) at line 49
+Rating: 4/5
+
+File: .\Nuclei\_heatmap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_heatmapgl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_histogram.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_histogram2d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_histogram2dcontour.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_hovertemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_icicle.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_image.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_indicator.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_isosurface.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_layout.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_mesh3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_ohlc.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcats.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_parcoords.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pie.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_pointcloud.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_rangebreaks.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_sankey.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\Nuclei\_scatter.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatter3d.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattercarpet.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergeo.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattergl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattermapbox.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolar.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterpolargl.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scattersmith.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_scatterternary.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sliders.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\Nuclei\_splom.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_steps.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\Nuclei\_streamtube.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_sunburst.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_table.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_template.py
+  SyntaxError: unmatched ')' at line 27
+Rating: 4/5
+
+File: .\Nuclei\_templateitemname.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_texttemplate.py
+  SyntaxError: invalid syntax at line 5
+Rating: 4/5
+
+File: .\Nuclei\_texttemplatesrc.py
+  SyntaxError: unmatched ')' at line 19
+Rating: 4/5
+
+File: .\Nuclei\_tickformatstops.py
+  SyntaxError: unmatched ')' at line 57
+Rating: 4/5
+
+File: .\Nuclei\_treemap.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_violin.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_volume.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\_waterfall.py
+  SyntaxError: unmatched ')' at line 21
+Rating: 4/5
+
+File: .\Nuclei\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\nuclei-templates\__init__.py
+  IndentationError: expected an indented block after function definition on line 11 at line 12
+Rating: 4/5
+
+File: .\optimization\optimization_framework.py
+  SyntaxError: unmatched ')' at line 96
+Rating: 4/5
+
+File: .\project\project_structure.py
+  SyntaxError: unmatched ')' at line 57
+Rating: 4/5
+
+File: .\security\bug_bounty_analyzer.py
+  SyntaxError: unmatched ')' at line 59
+Rating: 4/5
+
+File: .\security\bug_bounty_target_tab.py
+  SyntaxError: unmatched ')' at line 52
+Rating: 4/5
+
+File: .\security\scanner_tab.py
+  SyntaxError: unmatched ')' at line 46
+Rating: 4/5
+
+File: .\security\scan_target.py
+  SyntaxError: invalid syntax at line 7
+Rating: 4/5
+
+File: .\security\scope_manager.py
+  SyntaxError: unmatched ')' at line 43
+Rating: 4/5
+
+File: .\security\scope_tab.py
+  SyntaxError: unmatched ')' at line 69
+Rating: 4/5
+
+File: .\security\security_event.py
+  IndentationError: expected an indented block after class definition on line 12 at line 13
+Rating: 4/5
+
+File: .\security\security_system.py
+  IndentationError: expected an indented block after 'if' statement on line 12 at line 13
+Rating: 4/5
+
+File: .\security\vulnerability_database.py
+  SyntaxError: unmatched ')' at line 38
+Rating: 4/5
+
+File: .\security\vulnerability_db.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\security\vulnerability_scanner.py
+  SyntaxError: unmatched ')' at line 53
+Rating: 4/5
+
+File: .\security\vulnerability_tab.py
+  SyntaxError: unmatched ')' at line 62
+Rating: 4/5
+
+File: .\security\website_scanner.py
+  IndentationError: expected an indented block after class definition on line 3 at line 5
+Rating: 4/5
+
+File: .\services\admin_service.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\services\ai_integration.py
+  SyntaxError: unmatched ')' at line 119
+Rating: 4/5
+
+File: .\services\ai_service.py
+  SyntaxError: unmatched ')' at line 129
+Rating: 4/5
+
+File: .\services\auth_service.py
+  SyntaxError: unmatched ')' at line 29
+Rating: 4/5
+
+File: .\services\database_service.py
+  IndentationError: expected an indented block after class definition on line 13 at line 15
+Rating: 4/5
+
+File: .\services\notification_system.py
+  SyntaxError: unmatched ')' at line 75
+Rating: 4/5
+
+File: .\services\nuclei_template_service.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\services\report_service.py
+  SyntaxError: unmatched ')' at line 41
+Rating: 4/5
+
+File: .\services\scan_service.py
+  Empty finally block detected at line 44
+  Empty finally block detected at line 189
+  Empty finally block detected at line 256
+  Empty finally block detected at line 161
+Rating: 1/5
+
+File: .\services\security_service.py
+  SyntaxError: unmatched ')' at line 24
+Rating: 4/5
+
+File: .\services\service_manager.py
+  IndentationError: expected an indented block after class definition on line 5 at line 7
+Rating: 4/5
+
+File: .\services\__init__.py
+  No errors found.
+Rating: 5/5
+
+File: .\settings\settings_tab.py
+  SyntaxError: unmatched ')' at line 56
+Rating: 4/5
+
+File: .\setup\setup.py
+  SyntaxError: unmatched ')' at line 87
+Rating: 4/5
+
+File: .\setup\setup_env.py
+  IndentationError: expected an indented block after function definition on line 9 at line 10
+Rating: 4/5
+
+File: .\styles\theme.py
+  IndentationError: expected an indented block after function definition on line 10 at line 11
+Rating: 4/5
+
+File: .\tests\import unittest.py
+  IndentationError: expected an indented block after class definition on line 4 at line 6
+Rating: 4/5
+
+File: .\tests\regression_tests.py
+  SyntaxError: invalid syntax at line 10
+Rating: 4/5
+
+File: .\tests\test_scan_service.py
+  IndentationError: expected an indented block after class definition on line 11 at line 13
+Rating: 4/5
+
+File: .\tests\test___init__.py
+  SyntaxError: unmatched ')' at line 35
+Rating: 4/5
+
+File: .\tests\unit_tests.py
+  SyntaxError: invalid syntax at line 11
+Rating: 4/5
+
+File: .\tools\amass_tab.py
+  SyntaxError: unmatched ')' at line 117
+Rating: 4/5
+
+File: .\tools\tool_manager.py
+  SyntaxError: unmatched ')' at line 67
+Rating: 4/5
+
+File: .\tools\tool_manager_tab.py
+  SyntaxError: unmatched ')' at line 83
+Rating: 4/5
+
+File: .\tools\tool_tab.py
+  SyntaxError: unmatched ')' at line 54
+Rating: 4/5
+
+File: .\updates\update_checker.py
+  SyntaxError: unmatched ')' at line 22
+Rating: 4/5
+
+File: .\updates\update_tools.py
+  SyntaxError: unmatched ')' at line 68
+Rating: 4/5
+
+File: .\utils\check_config.py
+  IndentationError: expected an indented block after 'if' statement on line 16 at line 17
+Rating: 4/5
+
+File: .\utils\compatibility.py
+  IndentationError: expected an indented block after class definition on line 4 at line 6
+Rating: 4/5
+
+File: .\utils\env_checker.py
+  IndentationError: expected an indented block after 'if' statement on line 12 at line 13
+Rating: 4/5
+
+File: .\utils\performance.py
+  IndentationError: expected an indented block after class definition on line 5 at line 7
+Rating: 4/5
+
+File: .\utils\python-dotenv.py
+  IndentationError: expected an indented block after class definition on line 7 at line 9
+Rating: 4/5
+
+File: .\utils\utils.py
+  No errors found.
+Rating: 5/5
+
+File: .\utils\__init__.py
+  No errors found.
+Rating: 5/5
+

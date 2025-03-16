@@ -1,0 +1,9 @@
+2025-03-13 03:39:50,807 - INFO - Starting database initialization...
+2025-03-13 03:39:50,813 - INFO - Created necessary directories
+2025-03-13 03:39:50,836 - INFO - Executed schema: projects.sql
+2025-03-13 03:39:50,836 - INFO - Executed schema: scans.sql
+2025-03-13 03:39:50,836 - INFO - Executed schema: users.sql
+2025-03-13 03:39:50,836 - INFO - Executed schema: vulnerabilities.sql
+2025-03-13 03:39:50,844 - INFO - Database initialized successfully
+2025-03-13 03:39:50,854 - INFO - Test data created successfully
+2025-03-13 03:39:50,854 - INFO - Database initialization completed successfully!

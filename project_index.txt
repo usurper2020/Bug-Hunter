@@ -1,0 +1,389 @@
+# Project Index for @BugHunter
+
+## Root Directory
+- dependency_fixer.py
+- update_imports.py
+- project_index.txt
+
+## app/
+### Root Files
+- __init__.py
+- admin_service.py
+- auth_service.py
+- chat_system.py
+- config_manager.py
+- config.json
+- config.py
+- database_manager.py
+- database_service.py
+- database.py
+- db_config.py
+- fingerprint.py
+- gui_tab_generator.py
+- init_db.py
+- main_gui.py
+- main_window.py
+- main.py
+- nuclei_analyzer.py
+- nuclei_tab.py
+- nuclei_template_service.py
+- report_generator.py
+- report_service.py
+- security_service.py
+- setup_db.py
+- tab_controller.py
+- tabs.py
+
+### Subdirectories
+#### ai/
+- ai_chat_tab.py
+- ai_chatbot_tab.py
+- ai_integration.py
+- ai_module.py
+- ai_service.py
+- ai_system.py
+- ai_tab.py
+- ai_training.py
+- ai.py
+
+#### analytics/
+- analytics_system.py
+- analytics_tab.py
+
+#### auth/
+- api_key_storing.py
+- login_attempt.py
+- login_dialog.py
+- registration_dialog.py
+- reset_password_dialog.py
+- role_manager.py
+- session.py
+- simple_auth.py
+- user.py
+
+#### backups/
+- analytics_tab.py.bak
+- scanning_profiles.py.bak
+
+#### code/
+- analyzer.py
+- code_analysis_tab.py
+- code_converter.py
+- codebreaker.py
+- codegpt_client.py
+
+#### collaboration/
+- collaboration_system.py
+- collaboration_tab.py
+- collaboration.py
+- contribution_system.py
+
+#### config/
+- __ai_config.json
+- __init__.py
+- ai_config.json
+- ai_models.json
+- amass.ini
+- api_key_storing.py
+- base_config.py
+- config_manager.py
+- config_manager.py.bak
+- config.development.json
+- config.json
+- config.py
+- config.template.json
+- db_config.py
+- ffuf.yaml
+- gobuster.yaml
+- nuclei.yaml
+- python-dotenv.py
+- scanning_profiles.json
+- scanning_profiles.py
+- system_config.json
+- tools.yml
+
+#### core/
+- base.py
+- bughunterAI.py
+- core.py
+
+#### db/
+- __init__.py
+- database_manager.py
+- database.py
+- init_db.py
+- schema.sql
+
+#### gui/
+- __init__.py
+- ai_chat_tab.py
+- amass_tab.py
+- analytics_tab.py
+- base_tab.py
+- bughunterAI_gui.py
+- collaboration_dialog.py
+- collaboration_tab.py
+- contribution_dialog.py
+- logger_config.py
+- login_dialog.py
+- main_window.py
+- nuclei_tab.py
+- registration_dialog.py
+- report_generator_tab.py
+- report_generator.py
+- requirements.txt
+- scanner_tab.py
+- scope_tab.py
+- settings_tab.py
+- shodan_tab.py
+- targets_tab.py
+- test_login_dialog.py
+- theme.py
+- tool_manager_tab.py
+- tools_manager_tab.py
+- tools_tab.py
+- user_management_dialog.py
+- wayback_tab.py
+- tabs/
+
+#### install/
+- install_app.py
+- install.py
+- integrated_app.py
+- integration_manager.py
+
+#### integrations/
+- github_manager.py
+- shodan_integration.py
+- shodan_main.py
+- shodan_tab.py
+- wayback_integration.py
+- wayback_machine_integration.py
+- wayback_tab.py
+
+#### knowledge/
+- knowledge_base.py
+
+#### logging/
+- logger_config.py
+- logger.py
+
+#### management/
+- manager.py
+
+#### middleware/
+- middleware.py
+
+#### models/
+- __init__.py
+- base.py
+- fingerprint.py
+- login_attempt.py
+- models.py
+- scan_target.py
+- security_event.py
+- session.py
+- user.py
+- vulnerability_db.py
+
+#### modules/
+- module.py
+
+#### notifications/
+- notification.py
+
+#### Nuclei/
+- (Nuclei-related files)
+
+#### nuclei-templates/
+- (Nuclei templates)
+
+#### optimization/
+- optimization_framework.py
+
+#### project/
+- project_structure.py
+
+#### security/
+- security_event.py
+- security_system.py
+- vulnerability_database.py
+- vulnerability_db.py
+- vulnerability_scanner.py
+- vulnerability_tab.py
+- bug_bounty_analyzer.py
+- bug_bounty_target_tab.py
+- website_scanner.py
+- scan_target.py
+- scanner_tab.py
+- scope_manager.py
+- scope_tab.py
+
+#### services/
+- auth_service.py
+- scan_service.py
+- security_service.py
+- notification_system.py
+- report_service.py
+
+#### settings/
+- settings_tab.py
+
+#### setup/
+- setup_env.py
+- setup.py
+
+#### styles/
+- dark_theme.qss
+- theme.py
+
+#### tests/
+- unit_tests.py
+- regression_tests.py
+- test___init__.py
+
+#### tools/
+- tool_manager_tab.py
+- tool_manager.py
+- tool_tab.py
+
+#### updates/
+- update_checker.py
+- update_tools.py
+
+#### utils/
+- utils.py
+- dependency_fixer.py
+- env_checker.py
+- compatibility.py
+- performance.py
+
+## backups/
+- acceptance_test.py.20250312_042823.bak
+- accessibility_test.py.20250312_042823.bak
+- API_test.py.20250312_042823.bak
+- backup_recovery_test.py.20250312_042823.bak
+- compatibility.py.20250312_042822.bak
+- confguration_test.py.20250312_042823.bak
+- core.py.20250312_042822.bak
+- data_validation_test.py.20250312_042823.bak
+- database_service.py.20250312_042823.bak
+- database_test.py.20250312_042823.bak
+- db_config.py.20250312_042823.bak
+- dependency_fixer.py.20250311_224130.bak
+- end_to_end_test.py.20250312_042823.bak
+- error_handling_test.py.20250312_042823.bak
+- fingerprint.py.20250312_042823.bak
+- import unittest.py.20250312_042823.bak
+- integration_test.py.20250312_042823.bak
+- localization_test.py.20250312_042823.bak
+- logging_test.py.20250312_042823.bak
+- login_attempt.py.20250312_042823.bak
+- main_window.py.20250312_042823.bak
+- nuclei_tab.py.20250312_042823.bak
+- performance.py.20250312_042823.bak
+- registration_dialog.py.20250312_042823.bak
+- regression_tests.py.20250312_042823.bak
+- security_event.py.20250312_042823.bak
+- security_test.py.20250312_042823.bak
+- session.py.20250312_042823.bak
+- tab_controller.py.20250312_042823.bak
+- tabs.py.20250312_042823.bak
+- targets_tab.py.20250312_042823.bak
+- test_ai_system.py.20250312_042823.bak
+- test_bug_bounty_analyzer.py.20250312_042823.bak
+- test_code_converter.py.20250312_042823.bak
+- test_gui_tab_generator.py.20250312_042823.bak
+- test_integration.py.20250312_042823.bak
+- test_load.py.20250312_042823.bak
+- test_login_dialog.py.20250312_042823.bak
+- test_pytest_integration.py.20250312_042823.bak
+- test_sanity.py.20250312_042823.bak
+- test_smoke.py.20250312_042823.bak
+- test_stress.py.20250312_042824.bak
+- test_tool_manager_tab.py.20250312_042824.bak
+- test_tool_manager.py.20250312_042824.bak
+- test_tool_tab.py.20250312_042824.bak
+- test_vulnerability_scanner.py.20250312_042824.bak
+- tool_manager_tab.py.20250312_042823.bak
+- ultimate_test.py.20250312_042824.bak
+- unit_tests.py.20250312_042823.bak
+- usability_test.py.20250312_042824.bak
+- user.py.20250312_042823.bak
+
+## data/
+### scan_results/
+- (scan result files)
+
+## database/
+- bughunter.db
+### schemas/
+- (database schema files)
+
+## dependency_backups/
+- requirements_20250312_035256.txt
+- requirements-dev_20250312_035256.txt
+
+## logs/
+- db_init_20250311_223433.log
+- dependency_manager_20250312_035256.log
+- import_update_20250311_224130.log
+- import_update_20250312_042822.log
+
+## Scripts/
+- initialize_db.py
+- requirements.txt
+- setup.bat
+- update_imports.py
+### Subdirectories
+#### app/
+#### database/
+#### docs/
+#### logs/
+#### scripts/
+#### tests/
+
+## templates/
+- chat.html
+
+## tests/
+- acceptance_test.py
+- accessibility_test.py
+- API_test.py
+- backup_recovery_test.py
+- code_quality_test.py
+- confguration_test.py
+- data_validation_test.py
+- database_test.py
+- dynamic_analysis_test.py
+- end_to_end_test.py
+- error_handling_test.py
+- integration_test.py
+- localization_test.py
+- logging_test.py
+- security_test.py
+- static_analysis_test.py
+- test___init__.py
+- test_ai_clients.py
+- test_ai_system.py
+- test_ai_tab.py
+- test_bug_bounty_analyzer.py
+- test_code_converter.py
+- test_codebreaker.py
+- test_config_manager.py
+- test_gui_tab_generator.py
+- test_hello_world.py
+- test_integration.py
+- test_load.py
+- test_login_dialog.py
+- test_pyqt.py
+- test_pytest_integration.py
+- test_sanity.py
+- test_smoke.py
+- test_stress.py
+- test_tool_manager_tab.py
+- test_tool_manager.py
+- test_tool_tab.py
+- test_vulnerability_scanner.py
+- ultimate_test.py
+- usability_test.py

@@ -1,0 +1,41 @@
+2025-03-14 12:34:26,870 - INFO - Backup created at backups\fix_all_errors_20250314_123426.zip
+2025-03-14 12:34:26,870 - INFO - Processing file: test_errors.py
+2025-03-14 12:34:26,870 - INFO - Fixing parentheses
+2025-03-14 12:34:26,870 - INFO - Fixing finally blocks
+2025-03-14 12:34:26,870 - INFO - Changes made to test_errors.py
+2025-03-14 12:52:00,543 - INFO - Backup created at backups\fix_all_errors_20250314_125200.zip
+2025-03-14 12:52:00,544 - INFO - Processing file: test_errors.py
+2025-03-14 12:52:00,545 - INFO - Fixing indentation
+2025-03-14 12:52:00,547 - INFO - Fixing parentheses
+2025-03-14 12:52:00,547 - INFO - Fixing finally blocks
+2025-03-14 12:52:00,547 - INFO - Changes made to test_errors.py
+2025-03-14 13:19:00,721 - INFO - Backup created at backups\fix_all_errors_20250314_131900.zip
+2025-03-14 13:19:00,721 - INFO - Processing file: test_errors.py
+2025-03-14 13:19:00,722 - INFO - Fixing indentation
+2025-03-14 13:19:00,723 - INFO - Fixing parentheses
+2025-03-14 13:19:00,724 - INFO - Fixing finally blocks
+2025-03-14 13:19:00,725 - INFO - Changes made to test_errors.py
+2025-03-14 14:40:10,999 - INFO - Backup created at backups\fix_all_errors_20250314_144010.zip
+2025-03-14 14:40:10,999 - INFO - Processing file: test_errors.py
+2025-03-14 14:40:10,999 - INFO - Fixing indentation
+2025-03-14 14:40:10,999 - INFO - Fixing parentheses
+2025-03-14 14:40:10,999 - INFO - Fixing finally blocks
+2025-03-14 14:40:10,999 - INFO - Changes made to test_errors.py
+2025-03-14 15:58:50,997 - INFO - Backup created at backups\fix_all_errors_20250314_155850.zip
+2025-03-14 15:58:50,997 - INFO - Processing file: test_errors.py
+2025-03-14 15:58:50,997 - INFO - Fixing indentation
+2025-03-14 15:58:50,997 - INFO - Fixing parentheses
+2025-03-14 15:58:50,997 - INFO - Fixing finally blocks
+2025-03-14 15:58:50,997 - INFO - Changes made to test_errors.py
+2025-03-14 16:00:43,562 - INFO - Backup created at backups\fix_all_errors_20250314_160043.zip
+2025-03-14 16:00:43,562 - INFO - Processing file: test_errors.py
+2025-03-14 16:00:43,562 - INFO - Fixing indentation
+2025-03-14 16:00:43,562 - INFO - Fixing parentheses
+2025-03-14 16:00:43,562 - INFO - Fixing finally blocks
+2025-03-14 16:00:43,562 - INFO - Changes made to test_errors.py
+2025-03-14 17:00:23,577 - INFO - Backup created at backups\fix_all_errors_20250314_170023.zip
+2025-03-14 17:00:23,578 - INFO - Processing file: test_errors.py
+2025-03-14 17:00:23,580 - INFO - Fixing indentation
+2025-03-14 17:00:23,580 - INFO - Fixing parentheses
+2025-03-14 17:00:23,583 - INFO - Fixing finally blocks
+2025-03-14 17:00:23,584 - INFO - Changes made to test_errors.py

@@ -1,11 +1,15 @@
+from typing import List, Dict, Optional, Any
+import re
+from PyQt6 import QtWidgets, QtCore
 from app.services.scope_manager import ScopeManager
-from PyQt6.QtWidgets import (
-    QInputDialog,
-    QListWidget,
-    QMessageBox,
-    QPushButton,
-    QVBoxLayout,
-    QWidget,
+from PyQt6.QtWidgets import ()
+
+QInputDialog,
+QListWidget,
+QMessageBox,
+QPushButton,
+QVBoxLayout,
+QWidget,
 )
 from PyQt6.QtWidgets import QMessageBox, QPushButton, QVBoxLayout, QWidget
 from typing import List
@@ -24,70 +28,67 @@ Provides interface for managing scanning targets.
 
 
 class TargetsTab(QWidget):
-    """Tab for managing scanning targets"""
 
-    def __init__(self, _scope_manager: ScopeManager, _parent=None):
-        super().__init__(parent)
-        self.scope_manager = scope_manager
-        self._setup_ui()
+"""Tab for managing scanning targets"""
 
-        def _setup_ui(self):
-            """Setup the tab UI"""
-            layout = QVBoxLayout()
-            self.set_layout(layout)
+def __init__(self, _scope_manager: ScopeManager, _parent=None):
+super().__init__(parent)
+self.scope_manager = scope_manager
+self._setup_ui()
 
-            # Targets list
-            self.targets_list = QListWidget()
-            layout.add_widget(self.targets_list)
+def _setup_ui(self):
+"""Setup the tab UI"""
+layout = QVBoxLayout()
+self.set_layout(layout)
 
-            # Add target button
-            self.add_button = QPushButton("Add Target")
-            self.add_button.clicked.connect(self._add_target)
-            layout.add_widget(self.add_button)
+# Targets list
+self.targets_list = QListWidget()
+layout.add_widget(self.targets_list)
 
-            # Remove target button
-            self.remove_button = QPushButton("Remove Selected Target")
-            self.remove_button.clicked.connect(self._remove_target)
-            layout.add_widget(self.remove_button)
+# Add target button
+self.add_button = QPushButton("Add Target")
+self.add_button.clicked.connect(self._add_target)
+layout.add_widget(self.add_button)
 
-            # Refresh button
-            self.refresh_button = QPushButton("Refresh Targets")
-            self.refresh_button.clicked.connect(self._refresh_targets_list)
-            layout.add_widget(self.refresh_button)
+# Remove target button
+self.remove_button = QPushButton("Remove Selected Target")
+self.remove_button.clicked.connect(self._remove_target)
+layout.add_widget(self.remove_button)
 
-            # Initialize targets list
-            self._refresh_targets_list()
+# Refresh button
+self.refresh_button = QPushButton("Refresh Targets")
+self.refresh_button.clicked.connect(self._refresh_targets_list)
+layout.add_widget(self.refresh_button)
 
-            def _refresh_targets_list(self):
-                """Refresh the list of targets"""
-                targets = self.scope_manager.get_targets("default_scope")
-                self.targets_list.clear()
-                self.targets_list.add_items(targets)
+# Initialize targets list
+self._refresh_targets_list()
 
-                def _add_target(self):
-                    """Add a new target"""
-                    target, ok = QInputDialog.get_text(
-                        self, "Add Target", "Enter target (domain or IP):"
-                    )
-                    if ok and target:
-                        if self.scope_manager.add_target(target):
-                            self._refresh_targets_list()
-                            else:
-                                QMessageBox.warning(
-                                    self, "Add Target Failed", "Failed to add target")
+def _refresh_targets_list(self):
+"""Refresh the list of targets"""
+targets = self.scope_manager.get_targets("default_scope")
+self.targets_list.clear()
+self.targets_list.add_items(targets)
 
-                                def _remove_target(self):
-                                    """Remove the selected target"""
-                                    selected_target = self.targets_list.current_item()
-                                    if not selected_target:
-                                        QMessageBox.warning(
-                                            self, "No Target Selected", "Please select a target to remove"
-                                        )
-                                    return
+def _add_target(self):
+	"""Add a new target"""
+	target, ok = QInputDialog.getText(self, "Add Target", "Enter target (domain or IP):")
+	if ok and target:
+		if self.scope_manager.add_target(target):
+			self._refresh_targets_list()
+		else:
+			QMessageBox.warning(self, "Add Target Failed", "Failed to add target")
 
-                                    target = selected_target.text()
-                                    if self.scope_manager.remove_target(target):
-                                        self._refresh_targets_list()
-                                        else:
-                                            QMessageBox.warning(
-                                                self, "Remove Target Failed", "Failed to remove target")
+def _remove_target(self):
+"""Remove the selected target"""
+selected_target = self.targets_list.current_item()
+if not selected_target:
+QMessageBox.warning()
+self, "No Target Selected", "Please select a target to remove"
+return
+
+target = selected_target.text()
+if self.scope_manager.remove_target(target):
+self._refresh_targets_list()
+else:
+QMessageBox.warning()
+self, "Remove Target Failed", "Failed to remove target"

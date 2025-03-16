@@ -1,3 +1,17 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.scanMode": "open files",
+    "git.ignoreLimitWarning": true,
+    "inlineChat.finishOnType": true,
+    "inlineChat.lineEmptyHint": true,
+    "cSpell.words": [
+        "barpolar",
+        "collab",
+        "cython",
+        "qtpng",
+        "tickformatstops",
+        "viewstate"
+    ],
+    "docwriter.style": "Auto-detect"
 }

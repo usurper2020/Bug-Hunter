@@ -1,4 +1,9 @@
+from typing import List, Dict, Optional, Any
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy.orm import Session, relationship
+from typing import Any
 from sqlalchemy.orm import Session
+from app.services.database_service import DatabaseService
 from app.models.user import User
 from app.models.session import Session as UserSession
 import bcrypt
@@ -10,259 +15,263 @@ from datetime import datetime, timedelta
 from typing import Dict, Any
 
 class AuthService:
-    def __init__(self, db: Session):
-        self.db = db
 
-    def register_user(self, username: str, password: str, email: str) -> User:
-        """Register a new user"""
-        # Check if username or email already exists
-        existing_user = (
-            self.db.query(User)
-            .filter((User.username == username) | (User.email == email))
-            .first()
-        )
+def __init__(self, db: Session):
+self.db = db
 
-        if existing_user:
-            if existing_user.username == username:
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Username already registered",
-                )
-            else:
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Email already registered",
-                )
+def register_user(self, username: str, password: str, email: str, db_service: DatabaseService) -> User:
+"""Register a new user"""
+# Check if username or email already exists
+existing_user = ()
+pass
+.filter((User.username == username) | (User.email == email))
+.first()
+)
 
-        # Validate password complexity
-        if len(password) < 8:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Password must be at least 8 characters",
-            )
+if existing_user:
+if existing_user.username == username:
+raise HTTPException()
+status_code=status.HTTP_400_BAD_REQUEST,
+detail="Username already registered",
+)
+else:
+raise HTTPException()
+status_code=status.HTTP_400_BAD_REQUEST,
+detail="Email already registered",
+)
 
-        hashed_password = self.hash_password(password)
-        user = User(
-            username=username,
-            password_hash=hashed_password,
-            email=email,
-            created_at=datetime.utcnow(),
-            is_active=True,
-            role="user",
-        )
+# Validate password complexity
+if len(password) < 8:
+raise HTTPException()
+status_code=status.HTTP_400_BAD_REQUEST,
+detail="Password must be at least 8 characters",
+)
 
-        try:
-            self.db.add(user)
-            self.db.commit()
-            self.db.refresh(user)
+hashed_password = self.hash_password(password)
+user = User()
+username=username,
+password_hash=hashed_password,
+email=email,
+created_at=datetime.utcnow(),
+is_active=True,
+role="user",
+)
 
-            # Create initial session record
-            session = UserSession(
-                user_id=user.id, created_at=datetime.utcnow(), is_active=True
-            )
-            self.db.add(session)
-            self.db.commit()
+try:
+pass
+pass
+db_service.add_user(username, password, email)
+self.db.commit()
+self.db.refresh(user)
 
-            return user
-        except Exception as e:
-            self.db.rollback()
-            raise HTTPException(
-                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                detail=f"Error during registration: {str(e)}",
-            )
+# Create initial session record
+session = UserSession()
+user_id=user.id, created_at=datetime.utcnow(), is_active=True
+)
+self.db.add(session)
+self.db.commit()
 
-    def login(self, username: str, password: str, device_info: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Authenticate user and create session with device fingerprint
+return user
+except Exception as e:
+self.db.rollback()
+raise HTTPException()
+status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+detail=f"Error during registration: {str(e)}",
+)
 
-        Args:
-            username: User's username
-            password: User's password
-            device_info: Dictionary containing device information
+def login(self, username: str, password: str, device_info: Dict[str, Any]) -> Dict[str, Any]:
+"""
+Authenticate user and create session with device fingerprint
 
-        Returns:
-            Dict containing session token and user info
-        """
-        user = self.db.query(User).filter(User.username == username).first()
+Args:
+username: User's username
+password: User's password
+device_info: Dictionary containing device information
 
-        # Record login attempt before validation
-        fingerprint_hash = self.generate_fingerprint(device_info)
-        login_attempt = self.record_login_attempt(
-            user_id=user.id if user else None,
-            success=False,
-            fingerprint_hash=fingerprint_hash,
-            device_info=device_info,
-        )
+Returns:
+Dict containing session token and user info
+"""
+user = self.db.query(User).filter(User.username == username).first()
 
-        if not user:
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Incorrect username or password",
-            )
+# Record login attempt before validation
+fingerprint_hash = self.generate_fingerprint(device_info)
+login_attempt = self.record_login_attempt()
+user_id=user.id if user else None,
+success=False,
+fingerprint_hash=fingerprint_hash,
+device_info=device_info,
+)
 
-        if not self.verify_password(password, user.password_hash):
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Incorrect username or password",
-            )
+if not user:
+raise HTTPException()
+status_code=status.HTTP_401_UNAUTHORIZED,
+detail="Incorrect username or password",
+)
 
-        if not user.is_active:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN, detail="Account is inactive"
-            )
+if not self.verify_password(password, user.password_hash):
+raise HTTPException()
+status_code=status.HTTP_401_UNAUTHORIZED,
+detail="Incorrect username or password",
+)
 
-        # Update login attempt to successful
-        login_attempt.success = True
-        self.db.commit()
+if not user.is_active:
+raise HTTPException()
+status_code=status.HTTP_403_FORBIDDEN, detail="Account is inactive"
+)
 
-        # Create session
-        session_token = self.create_session(
-            user_id=user.id, fingerprint_hash=fingerprint_hash, device_info=device_info
-        )
+# Update login attempt to successful
+login_attempt.success = True
+self.db.commit()
 
-        # Update user's last login
-        user.last_login = datetime.utcnow()
-        self.db.commit()
+# Create session
+session_token = self.create_session()
+user_id=user.id, fingerprint_hash=fingerprint_hash, device_info=device_info
+)
 
-        return {
-            "status": "success",
-            "token": session_token,
-            "user_id": user.id,
-            "username": user.username,
-            "role": user.role,
-        }
+# Update user's last login
+user.last_login = datetime.utcnow()
+self.db.commit()
 
-    def create_session(self, user_id: int, fingerprint_hash: str, device_info: Dict[str, Any]) -> str:
-        """Create a new session for the user"""
-        session_token = str(uuid.uuid4())
-        expires_at = datetime.utcnow() + timedelta(days=7)
+return {
+"status": "success",
+"token": session_token,
+"user_id": user.id,
+"username": user.username,
+"role": user.role,
+}
 
-        session = {
-            "user_id": user_id,
-            "session_token": session_token,
-            "fingerprint_hash": fingerprint_hash,
-            "created_at": datetime.utcnow(),
-            "expires_at": expires_at,
-            "last_activity": datetime.utcnow(),
-            "is_active": True,
-            "device_info": json.dumps(device_info),
-        }
+def create_session(self, user_id: int, fingerprint_hash: str, device_info: Dict[str, Any]) -> str:
+"""Create a new session for the user"""
+session_token = str(uuid.uuid4())
+expires_at = datetime.utcnow() + timedelta(days=7)
 
-        self.db.execute(
-            """
-            INSERT INTO sessions
-            (user_id, session_token, fingerprint_hash, created_at, expires_at,
-            last_activity, is_active, device_info)
-            VALUES
-            (:user_id, :session_token, :fingerprint_hash, :created_at, :expires_at,
-            :last_activity, :is_active, :device_info)
-            """,
-            session,
-        )
-        self.db.commit()
+session = {
+"user_id": user_id,
+"session_token": session_token,
+"fingerprint_hash": fingerprint_hash,
+"created_at": datetime.utcnow(),
+"expires_at": expires_at,
+"last_activity": datetime.utcnow(),
+"is_active": True,
+"device_info": json.dumps(device_info),
+}
 
-        return session_token
+self.db.execute()
+"""
+INSERT INTO sessions
+(user_id, session_token, fingerprint_hash, created_at, expires_at,
+last_activity, is_active, device_info)
+VALUES
+(:user_id, :session_token, :fingerprint_hash, :created_at, :expires_at,
+:last_activity, :is_active, :device_info)
+""",
+session,
+)
+self.db.commit()
 
-    def record_login_attempt(self, user_id: int, success: bool, fingerprint_hash: str, device_info: Dict[str, Any]) -> None:
-        """Record a login attempt"""
-        attempt = {
-            "user_id": user_id,
-            "success": success,
-            "attempt_time": datetime.utcnow(),
-            "fingerprint_hash": fingerprint_hash,
-            "device_info": json.dumps(device_info),
-            "ip_address": self.get_client_ip(),
-        }
+return session_token
 
-        self.db.execute(
-            """
-            INSERT INTO login_attempts
-            (user_id, success, attempt_time, fingerprint_hash, device_info, ip_address)
-            VALUES
-            (:user_id, :success, :attempt_time, :fingerprint_hash, :device_info, :ip_address)
-            """,
-            attempt,
-        )
-        self.db.commit()
+def record_login_attempt(self, user_id: int, success: bool, fingerprint_hash: str, device_info: Dict[str, Any]) -> None:
+"""Record a login attempt"""
+attempt = {
+"user_id": user_id,
+"success": success,
+"attempt_time": datetime.utcnow(),
+"fingerprint_hash": fingerprint_hash,
+"device_info": json.dumps(device_info),
+"ip_address": self.get_client_ip(),
+}
 
-    def generate_fingerprint(self, device_info: Dict[str, Any]) -> str:
-        """Generate a unique fingerprint hash from device information"""
-        # Sort the device info to ensure consistent ordering
-        sorted_info = json.dumps(device_info, sort_keys=True)
-        return hashlib.sha256(sorted_info.encode()).hexdigest()
+self.db.execute()
+"""
+INSERT INTO login_attempts
+(user_id, success, attempt_time, fingerprint_hash, device_info, ip_address)
+VALUES
+(:user_id, :success, :attempt_time, :fingerprint_hash, :device_info, :ip_address)
+""",
+attempt,
+)
+self.db.commit()
 
-    def get_client_ip(self) -> str:
-        """Get client IP address - implement based on your setup"""
-        return "127.0.0.1"  # Placeholder - implement actual IP detection
+def generate_fingerprint(self, device_info: Dict[str, Any]) -> str:
+"""Generate a unique fingerprint hash from device information"""
+# Sort the device info to ensure consistent ordering
+sorted_info = json.dumps(device_info, sort_keys=True)
+return hashlib.sha256(sorted_info.encode()).hexdigest()
 
-    def verify_session(self, session_token: str, device_info: Dict[str, Any]) -> Dict[str, Any]:
-        """Verify a session token and device fingerprint"""
-        session = self.db.execute(
-            """
-            SELECT s.*, u.username, u.role
-            FROM sessions s
-            JOIN users u ON s.user_id = u.id
-            WHERE s.session_token = :token
-            AND s.is_active = true
-            AND s.expires_at > :now
-            """,
-            {"token": session_token, "now": datetime.utcnow()},
-        ).fetchone()
+def get_client_ip(self) -> str:
+"""Get client IP address - implement based on your setup"""
+return "127.0.0.1"  # Placeholder - implement actual IP detection
 
-        if not session:
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid or expired session",
-            )
+def verify_session(self, session_token: str, device_info: Dict[str, Any]) -> Dict[str, Any]:
+"""Verify a session token and device fingerprint"""
+session = self.db.execute()
+"""
+SELECT s.*, u.username, u.role
+FROM sessions s
+JOIN users u ON s.user_id = u.id
+WHERE s.session_token = :token
+AND s.is_active = true
+AND s.expires_at > :now
+""",
+{"token": session_token, "now": datetime.utcnow()},
+).fetchone()
 
-        # Verify fingerprint
-        current_fingerprint = self.generate_fingerprint(device_info)
-        if current_fingerprint != session.fingerprint_hash:
-            # Record suspicious activity
-            self.record_login_attempt(
-                user_id=session.user_id,
-                success=False,
-                fingerprint_hash=current_fingerprint,
-                device_info=device_info,
-            )
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid device fingerprint",
-            )
+if not session:
+raise HTTPException()
+status_code=status.HTTP_401_UNAUTHORIZED,
+detail="Invalid or expired session",
+)
 
-        # Update last activity
-        self.db.execute(
-            """
-            UPDATE sessions
-            SET last_activity = :now
-            WHERE session_token = :token
-            """,
-            {"now": datetime.utcnow(), "token": session_token},
-        )
-        self.db.commit()
+# Verify fingerprint
+current_fingerprint = self.generate_fingerprint(device_info)
+if current_fingerprint != session.fingerprint_hash:
+pass
+# Record suspicious activity
+self.record_login_attempt()
+user_id=session.user_id,
+success=False,
+fingerprint_hash=current_fingerprint,
+device_info=device_info,
+)
+raise HTTPException()
+status_code=status.HTTP_401_UNAUTHORIZED,
+detail="Invalid device fingerprint",
+)
 
-        return {
-            "user_id": session.user_id,
-            "username": session.username,
-            "role": session.role,
-        }
+# Update last activity
+self.db.execute()
+"""
+UPDATE sessions
+SET last_activity = :now
+WHERE session_token = :token
+""",
+{"now": datetime.utcnow(), "token": session_token},
+)
+self.db.commit()
 
-    def hash_password(self, password: str) -> str:
-        """Hash password using bcrypt"""
-        return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+return {
+"user_id": session.user_id,
+"username": session.username,
+"role": session.role,
+}
 
-    def verify_password(self, plain_password: str, hashed_password: str) -> bool:
-        """Verify password against hash"""
-        return bcrypt.checkpw(plain_password.encode("utf-8"), hashed_password.encode("utf-8"))
+def hash_password(self, password: str) -> str:
+"""Hash password using bcrypt"""
+return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
 
-    def logout(self, session_token: str) -> None:
-        """Log out user by deactivating their session"""
-        self.db.execute(
-            """
-            UPDATE sessions
-            SET is_active = false
-            WHERE session_token = :token
-            """,
-            {"token": session_token},
-        )
-        self.db.commit()
+def verify_password(self, plain_password: str, hashed_password: str) -> bool:
+"""Verify password against hash"""
+return bcrypt.checkpw(plain_password.encode("utf-8"), hashed_password.encode("utf-8"))
+
+def logout(self, session_token: str) -> None:
+"""Log out user by deactivating their session"""
+self.db.execute()
+"""
+UPDATE sessions
+SET is_active = false
+WHERE session_token = :token
+""",
+{"token": session_token},
+)
+self.db.commit()
