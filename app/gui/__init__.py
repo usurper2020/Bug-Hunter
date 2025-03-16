@@ -1,31 +1,25 @@
-import re
-from PyQt6 import QtWidgets, QtCore
-from app.gui.main_window import MainWindow  # Changed from relative import
-from app.gui.login_dialog import LoginDialog  # Changed from relative import
-from PyQt6.QtWidgets import QApplication
-import sys
-k = 10
 """
-GUI package for the BugHunter application.
-Contains all graphical user interface components.
-Ensures QApplication is initialized before any widgets.
+GUI module initialization file
 """
 
+from .tabs.ai_chat_tab import AIChatTab
+from .tabs.analytics_tab import AnalyticsTab
+from .tabs.collaboration_tab import CollaborationTab
+from .tabs.code_analysis_tab import CodeAnalysisTab
+from .tabs.nuclei_tab import NucleiTab
+from .tabs.report_tab import ReportTab
+from .tabs.security_tab import SecurityTab
+from .tabs.settings_tab import SettingsTab
+from .tabs.tool_manager_tab import ToolManagerTab
 
-# Initialize QApplication at import time
-if not QApplication.instance():
-pass
-# TODO: Fix syntax error
-app = QApplication(sys.argv)
-else:
-app = QApplication.instance()
-
-# Make QApplication instance available
-
-def get_application():
-"""Get the QApplication instance"""
-return app
-
-# Import GUI components after QApplication is initialized
-
-__all__ = ["MainWindow", "LoginDialog", "get_application"]
+__all__ = [
+    'AIChatTab',
+    'AnalyticsTab',
+    'CollaborationTab',
+    'CodeAnalysisTab',
+    'NucleiTab',
+    'ReportTab',
+    'SecurityTab',
+    'SettingsTab',
+    'ToolManagerTab'
+]

@@ -16,6 +16,10 @@ sudo apt-get install -y \
     libpq-dev \
     sqlite3
 
+# Create data directory
+echo "Creating data directory..."
+mkdir -p data
+
 # Create virtual environment
 echo "Creating virtual environment..."
 python3 -m venv venv

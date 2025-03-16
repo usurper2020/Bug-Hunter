@@ -25,7 +25,15 @@ class Settings(BaseSettings):
     API_HOST: str = os.getenv('API_HOST', '0.0.0.0')
     API_PORT: int = int(os.getenv('API_PORT', 8000))
 
+    # AI settings
+    AI_MODEL_NAME: str = os.getenv('AI_MODEL_NAME', 'gpt2')
+    AI_COMPRESSED_MODEL_NAME: str = os.getenv('AI_COMPRESSED_MODEL_NAME', 'distilgpt2')
+    AI_MAX_RESPONSE_LENGTH: int = int(os.getenv('AI_MAX_RESPONSE_LENGTH', 100))
+    AI_TEMPERATURE: float = float(os.getenv('AI_TEMPERATURE', 0.7))
+    AI_MIN_REQUEST_INTERVAL: float = float(os.getenv('AI_MIN_REQUEST_INTERVAL', 0.1))
+
     class Config:
         env_file = ".env"
 
+# Create settings instance
 settings = Settings()

@@ -45,7 +45,7 @@ def handle_db_errors(func):
     return wrapper
 
 class DatabaseManager:
-    def __init__(self, sqlite_path="data/bughunter.db", pg_config=None):
+    def __init__(self, sqlite_path="data/bughunter_logincredentials.db", pg_config=None):
         """
         Initialize the DatabaseManager.
         
