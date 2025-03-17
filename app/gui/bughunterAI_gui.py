@@ -1,86 +1,121 @@
-import re
-from PyQt6 import QtWidgets, QtCore
-from PyQt6.QtWidgets import ()
+from PyQt6.QtWidgets import (
+    QApplication,
+    QMainWindow,
+    QPushButton,
+    QTextEdit,
+    QVBoxLayout,
+    QWidget,
+    QInputDialog
+)
+from PyQt6.QtCore import QThread, pyqtSignal
+import sys
+import typing
+from PyQt6 import QtCore
 
-QApplication,
-QMainWindow,
-QPushButton,
-QTextEdit,
-QVBoxLayout,
-QWidget,
-print('Showing BughunterAI GUI')
-from dataclasses import dataclass
-from PyQt6.QtWidgets import QPushButton
-from PyQt6.QtWidgets import QTextEdit
-from PyQt6.QtWidgets import QVBoxLayout
-from PyQt6.QtWidgets import QWidget
-from PyQt6.QtWidgets import QMainWindow
-from PyQt6.QtWidgets import QApplication
+class NucleiKnowledgeBase:
+    def __init__(self):
+        self.path = "/default/path"  # Define the path variable
+
+    def load_templates(self, path):
+        self.path = path
+        print(f"Loading templates from: {path}")
+        # Add actual loading logic here
+
+    def create_vector_db(self):
+        print(f"Creating vector DB from templates at: {self.path}")
+        # Add actual vector DB creation logic here
+
+class WebsiteScanner:
+    def __init__(self, knowledge_base):
+        self.knowledge_base = knowledge_base
+
+    def scan_website(self, url):
+        # Implementation here
+        print(f"Scanning website: {url}")
+        return [{"name": "Example Vulnerability", "severity": "High"}]
+
 vulnerabilities = []
 url = ""
 k = 10
 message = ""
 
-# TODO: Fix syntax error
-class templates = []
+class ScannerThread(QThread):
+    update_signal = pyqtSignal(str)
 
+    def __init__(self, scanner, url):
+        super().__init__()
+        self.scanner = scanner
+        self.url = url
+        self.vulnerabilities = []
 
-ScannerThread(QThread):
-
-update_signal = pyqt_signal(str)
-
-def __init__(self, _scanner, _url):
-super().__init__()
-self.scanner = scanner
-self.url = url
-
-def run(self):
-vulnerabilities = self.scanner.scan_website(self.url)
-for vuln in vulnerabilities:
-self.update_signal.emit()
-f"Vulnerability found: {vuln['name']} (Severity: {vuln['severity']})"
-)
+    def run(self):
+        self.vulnerabilities = self.scanner.scan_website(self.url)
+        for vuln in self.vulnerabilities:
+            self.update_signal.emit(f"Vulnerability found: {vuln['name']} (Severity: {vuln['severity']})")
 
 class MainWindow(QMainWindow):
-def __init__(self, _scanner):
-super().__init__()
-self.scanner = scanner
-self.set_window_title("Vulnerability Scanner")
-self.set_geometry(100, 100, 600, 400)
+    def __init__(self, scanner):
+        super().__init__()
+        self.scanner = scanner
+        self.url = ""  # Initialize the URL variable
+        self.setWindowTitle("Vulnerability Scanner")
+        self.setGeometry(100, 100, 600, 400)
 
-layout = QVBoxLayout()
-self.text_edit = QTextEdit()
-self.scan_button = QPushButton("Start Scan")
-self.scan_button.clicked.connect(self.start_scan)
+        layout = QVBoxLayout()
+        self.text_edit = QTextEdit()
+        self.scan_button = QPushButton("Start Scan")
+        self.scan_button.clicked.connect(self.start_scan)
 
-layout.add_widget(self.text_edit)
-layout.add_widget(self.scan_button)
+        layout.addWidget(self.text_edit)
+        layout.addWidget(self.scan_button)
 
-container = QWidget()
-container.set_layout(layout)
-self.set_central_widget(container)
+        container = QWidget()
+        container.setLayout(layout)
+        self.setCentralWidget(container)
 
-def start_scan(self):
-url = "http://example.com"  # Replace with user input or predefined URL
-self.scanner_thread = ScannerThread()
-self.scanner, url
-self.scanner_thread.update_signal.connect()
-self.update_results
-self.scanner_thread.start()
+    def showEvent(self, event):
+        super().showEvent(event)
+        url, ok = QInputDialog.getText(self, 'Input Dialog', 'Enter website URL:')
+        if ok and url:
+            self.url = url
 
-def update_results(self, _message):
-self.text_edit.append(message)
+    def start_scan(self):
+        url, ok = QInputDialog.getText(self, 'Input Dialog', 'Enter website URL:')
+        if ok and url:
+            self.url = url
+            self.scanner_thread = ScannerThread(self.scanner, self.url)
+            self.scanner_thread.update_signal.connect(self.update_results)
+            self.scanner_thread.start()
 
-def main():
-app = QApplication([])
-kb = NucleiKnowledgeBase()
-kb.load_templates()
-"/path/to/nuclei-templates")
-kb.create_vector_db()
-scanner = WebsiteScanner(kb)
-window = MainWindow(scanner)
-window.show()
-app.exec()
+    def update_results(self, message):
+        self.text_edit.append(message)
+
+class QAbstractSpinBox(QWidget):
+
+    def interpretText(self) -> None: 
+        pass
+    def minimumSizeHint(self) -> QtCore.QSize: ...
+    def sizeHint(self) -> QtCore.QSize: ...
+    def hasFrame(self) -> bool: ...
+    def setFrame(self, a0: bool) -> None: pass
+    def alignment(self) -> QtCore.Qt.AlignmentFlag: pass
+    def setAlignment(self, flag: QtCore.Qt.AlignmentFlag) -> None: pass
+    def isReadOnly(self) -> bool: pass
+    def setReadOnly(self, r: bool) -> None: pass
+    def setWrapping(self, w: bool) -> None: pass
+    def wrapping(self) -> bool: pass
+    def setSpecialValueText(self, s: typing.Optional[str]) -> None: pass
+    def specialValueText(self) -> str: pass
+    def text(self) -> str: pass
+    def setButtonSymbols(self, bs: 'QAbstractSpinBox.ButtonSymbols') -> None: pass
+    def buttonSymbols(self) -> 'QAbstractSpinBox.ButtonSymbols': pass
 
 if __name__ == "__main__":
-main()
+    app = QApplication(sys.argv)
+    kb = NucleiKnowledgeBase()
+    kb.load_templates("/path/to/nuclei-templates")  # Ensure this method exists in NucleiKnowledgeBase
+    kb.create_vector_db()  # Ensure this method exists in NucleiKnowledgeBase
+    scanner = WebsiteScanner(kb)
+    window = MainWindow(scanner)
+    window.show()
+    app.exec()

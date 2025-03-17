@@ -1,161 +1,121 @@
 import re
 import sys
 from PyQt6 import QtWidgets, QtCore
-from PyQt6.QtWidgets import ()
-
-QLabel,
-QLineEdit,
-QMessageBox,
-QProgressBar,
-QPushButton,
-QTextEdit,
-QVBoxLayout,
-QWidget,
+from PyQt6.QtWidgets import (
+    QApplication,
+    QMainWindow,
+    QLabel,
+    QLineEdit,
+    QMessageBox,
+    QProgressBar,
+    QPushButton,
+    QTextEdit,
+    QVBoxLayout,
+    QWidget,
 )
-from dataclasses import dataclass
-from PyQt6.QtWidgets import QLabel
-from PyQt6.QtWidgets import QLineEdit
-from PyQt6.QtWidgets import QMessageBox
-from PyQt6.QtWidgets import QProgressBar
-from PyQt6.QtWidgets import QPushButton
-from PyQt6.QtWidgets import QTextEdit
-from PyQt6.QtWidgets import QVBoxLayout
-from PyQt6.QtWidgets import QWidget
-status = "active"
-k = 10
-prompt = ""
-is_loading = False
-ai_system = None
-message = ""
+import asyncio
+from qasync import QEventLoop, asyncSlot
 
-
-# src/ai_tab.py
+class AI_System:
+    async def get_response(self, prompt, user_id):
+        # Placeholder method, replace with actual implementation
+        if not prompt or not user_id:
+            return "Invalid prompt or user ID."
+        return f"Response for prompt: '{prompt}' from user: '{user_id}'"
 
 class AITab(QWidget):
-pass
-def __init__(self, _ai_system):
-super().__init__()
-self.ai_system = ai_system
-self.init_ui()
+    """Represents the AI tab in the application."""
 
-def init_ui(self):
-layout = QVBoxLayout()
+    def __init__(self, ai_system):
+        super().__init__()
+        self.ai_system = ai_system
+        self.init_ui()
 
-self.prompt_input = QLineEdit(self)
-self.prompt_input.set_placeholder_text("Enter your prompt here")
-layout.add_widget(self.prompt_input)
+    def init_ui(self):
+        layout = QVBoxLayout()
 
-self.response_output = QTextEdit(self)
-self.response_output.set_read_only(True)
-layout.add_widget(self.response_output)
+        self.chat_display = QTextEdit(self)
+        self.chat_display.setReadOnly(True)
+        layout.addWidget(self.chat_display)
 
-self.submit_button = QPushButton("Get Response", self)
-self.submit_button.clicked.connect(self.get_response)
-layout.add_widget(self.submit_button)
+        self.prompt_input = QLineEdit(self)
+        self.prompt_input.setPlaceholderText("Enter your prompt here")
+        layout.addWidget(self.prompt_input)
 
-self.loading_indicator = QProgressBar(self)
-self.loading_indicator.set_range(0, 0)
-self.loading_indicator.set_visible(False)
-layout.add_widget(self.loading_indicator)
+        self.submit_button = QPushButton("Get Response", self)
+        self.submit_button.clicked.connect(self.on_submit_clicked)
+        layout.addWidget(self.submit_button)
 
-self.status_label = QLabel(self)
-layout.add_widget(self.status_label)
+        self.loading_indicator = QProgressBar(self)
+        self.loading_indicator.setRange(0, 0)
+        layout.addWidget(self.loading_indicator)
 
-self.set_layout(layout)
+        self.status_label = QLabel(self)
+        layout.addWidget(self.status_label)
 
-async def get_response(self):
-prompt = self.prompt_input.text()
-if not prompt:
-self.status_label.set_text("Prompt cannot be empty.")
-return
+        self.setLayout(layout)
 
-self.loading_indicator.set_visible(True)
-self.status_label.set_text("")
+    @asyncSlot()
+    async def on_submit_clicked(self):
+        await self.get_response()
 
-try:
-pass
-pass
-response = await self.ai_system.get_response(prompt, user_id="user123")
-if response:
-self.response_output.set_text(response)
-self.status_label.set_text()
-"Response received successfully.")
-else:
-self.status_label.set_text()
-"Failed to get a response.")
-except Exception as e:
-self.status_label.set_text(f"Error: {str(e)}")
-finally:
-    pass  # Added by fix script
-self.loading_indicator.set_visible(False)
+    async def get_response(self):
+        prompt = self.prompt_input.text()
+        if not self.validate_input(prompt):
+            self.status_label.setText("Prompt cannot be empty.")
+            return
 
-def show_error_message(self, _message):
-error_dialog = QMessageBox(self)
-error_dialog.set_icon()
-QMessageBox.Icon.Critical)
-error_dialog.set_text(message)
-error_dialog.set_window_title("Error")
-error_dialog.exec()
+        self.loading_indicator.setVisible(True)
+        self.status_label.setText("")
 
-def show_success_message(self, _message):
-success_dialog = QMessageBox(self)
-success_dialog.set_icon()
-QMessageBox.Icon.Information)
-success_dialog.set_text(message)
-success_dialog.set_window_title()
-"Success")
-success_dialog.exec()
+        try:
+            response = await self.ai_system.get_response(prompt, user_id="user123")
+            if response:
+                self.chat_display.append(f"AI: {response}")
+                self.status_label.setText("Response received successfully.")
+            else:
+                self.status_label.setText("Failed to get a response.")
+        except Exception as e:
+            self.status_label.setText(f"Error: {str(e)}")
+        finally:
+            self.loading_indicator.setVisible(False)
 
-def clear_input(self):
-self.prompt_input.clear()
-self.response_output.clear()
-self.status_label.set_text("")
+    def show_error_message(self, message):
+        error_dialog = QMessageBox(self)
+        error_dialog.setIcon(QMessageBox.Icon.Critical)
+        error_dialog.setText(message)
+        error_dialog.setWindowTitle("Error")
+        error_dialog.exec()
 
-def set_loading_state(self, _is_loading):
-self.loading_indicator.set_visible()
-is_loading)
-self.submit_button.set_enabled()
-not is_loading)
+    def show_success_message(self, message):
+        success_dialog = QMessageBox(self)
+        success_dialog.setIcon(QMessageBox.Icon.Information)
+        success_dialog.setText(message)
+        success_dialog.setWindowTitle("Success")
+        success_dialog.exec()
 
-def validate_input(self, _prompt):
-if not prompt.strip():
-self.show_error_message()
-"Prompt cannot be empty.")
-return False
-return True
+    def clear_input(self):
+        self.prompt_input.clear()
+        self.status_label.setText("")
 
-async def get_response(self):
-prompt = self.prompt_input.text()
-if not self.validate_input(prompt):
-return
+    def set_loading_state(self, is_loading):
+        self.loading_indicator.setVisible(is_loading)
+        self.submit_button.setEnabled(not is_loading)
 
-self.set_loading_state()
-True)
-self.status_label.set_text()
-"")
+    def validate_input(self, prompt):
+        return bool(prompt.strip())
 
-try:
-pass
-pass
-response = await self.ai_system.get_response(prompt, user_id="user123")
-if response:
-self.response_output.set_text()
-response)
-self.status_label.set_text()
-"Response received successfully.")
-self.show_success_message()
-"Response received successfully.")
-else:
-self.status_label.set_text()
-"Failed to get a response.")
-self.show_error_message()
-"Failed to get a response.")
-except Exception as e:
-self.status_label.set_text()
-f"Error: {str(e)}")
-self.show_error_message()
-f"Error: {str(e)}")
-finally:
-    pass  # Added by fix script
-self.set_loading_state()
-False)
+def main():
+    app = QApplication(sys.argv)
+    main_window = QMainWindow()
+    ai_system = AI_System()  # Replace with actual AI system instance
+    ai_tab = AITab(ai_system)
+    main_window.setCentralWidget(ai_tab)
+    main_window.show()
+    loop = QEventLoop(app)
+    asyncio.set_event_loop(loop)
+    with loop:
+        app.exec()
+
+if __name__ == "__main__":
+    main()

@@ -20,7 +20,7 @@ import psutil
 import json
 import hashlib
 from langdetect import detect
-from sentiment_analysis import SentimentAnalyzer
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 class AIModel:
     """
@@ -35,7 +35,7 @@ class AIModel:
         self.active_model = None
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.context_memory = {}  # For maintaining conversation context
-        self.sentiment_analyzer = SentimentAnalyzer()
+        self.sentiment_analyzer = SentimentIntensityAnalyzer()
         self._initialize_models()
         self._warm_up_model()
         

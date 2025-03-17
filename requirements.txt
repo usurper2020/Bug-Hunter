@@ -29,7 +29,7 @@ tensorflow==2.12.0
 keras==2.12.0
 nltk==3.8.1
 spacy==3.5.3
-# sentiment_analysis==0.1.5  # Removed sentiment_analysis package
+sentiment_analysis==0.1.5  # Uncommented sentiment_analysis package
 
 # Networking
 websockets==11.0.3
