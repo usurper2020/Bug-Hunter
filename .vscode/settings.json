@@ -52,8 +52,9 @@
         "viewstate",
         "waybackpy"
     ],
-    "docwriter.style": "Auto-detect",
+    "docwriter.style": "NumPy",
     "docwriter.progress.trackMethods": true,
     "docwriter.progress.trackClasses": true,
-    "docwriter.progress.trackTypes": true
+    "docwriter.progress.trackTypes": true,
+    "docwriter.progress.trackFunctions": true
 }

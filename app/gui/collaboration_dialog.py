@@ -12,6 +12,7 @@ from PyQt6.QtWidgets import (
     QVBoxLayout,
     QWidget
 )
+from app.services.collaboration_system import CollaborationSystem
 
 
 class CollaborationDialog(QDialog):
@@ -58,10 +59,14 @@ class CollaborationDialog(QDialog):
         self.projects_list.installEventFilter(self)
 
         self.project_name_input = QLineEdit()
+        projects_layout.addWidget(self.project_name_input)
+        
         self.project_desc_input = QTextEdit()
-        self.create_project_btn = QPushButton("Create Project")
+        projects_layout.addWidget(self.project_desc_input)
+        
         self.create_project_btn = QPushButton("Create Project")
         self.create_project_btn.clicked.connect(self.create_project)
+        projects_layout.addWidget(self.create_project_btn)
         
         self.delete_project_btn = QPushButton("Delete Project")
         self.delete_project_btn.clicked.connect(self.delete_project)
@@ -125,11 +130,7 @@ class CollaborationDialog(QDialog):
             QMessageBox.warning(self, "Error", "Failed to delete project.")
 
     def create_project(self):
-        """
-        Create a new project with the provided name and description.
-
-        :return: None
-        """
+        """Create a new project with the provided name and description."""
         name = self.project_name_input.text().strip()
         if not name:
             QMessageBox.warning(self, "Input Error", "Please enter a project name.")
@@ -173,14 +174,17 @@ class CollaborationDialog(QDialog):
         else:
             QMessageBox.warning(self, "Error", "Failed to send message.")
 
-    def project_selected(self, item):
+    def project_selected(self):
         """
         Handle the event when a project is selected from the projects list.
 
-        :param item: The selected project item.
         :return: None
         """
-        project_name = item.text()
+        selected_item = self.projects_list.currentItem()
+        if not selected_item:
+            return
+
+        project_name = selected_item.text()
         self.current_project = self.collaboration_system.get_project_by_name(project_name)
         if self.current_project:
             self.chat_header.setText(f"Project: {self.current_project['name']}")
@@ -202,9 +206,5 @@ class CollaborationDialog(QDialog):
                     timestamp = datetime.fromisoformat(message["timestamp"])
                     formatted_time = timestamp.strftime("%Y-%m-%d %H:%M:%S")
                     self.messages_display.append(f'[{formatted_time}] {message["sender"]}: {message["content"]}')
-            else:
-                QMessageBox.warning(self, "Error", "Failed to load messages.")
         except Exception as e:
             QMessageBox.critical(self, "Error", f"An error occurred while loading messages: {str(e)}")
-        else:
-            QMessageBox.warning(self, "Error", "Failed to load messages.")

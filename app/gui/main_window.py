@@ -11,6 +11,9 @@ from app.config.config_manager import ConfigManager
 from app.db.database_manager import DatabaseManager
 from app.security.security_service import SecurityService
 from app.logging.log_manager import LogManager
+from app.gui.theme import Theme
+from app.ai.ai_service import AIService
+from app.services.vulnerability_scanner import VulnerabilityScanner
 
 class MainWindow(QMainWindow):
     def __init__(self, config_manager: ConfigManager, db_manager: DatabaseManager, security_service: SecurityService, ai_service: AIService):
@@ -23,6 +26,9 @@ class MainWindow(QMainWindow):
         self.db_manager = db_manager
         self.security_service = security_service
         self.ai_service = ai_service
+        
+        # Initialize vulnerability scanner
+        self.vulnerability_scanner = VulnerabilityScanner(self.config_manager)
         
         # Setup window
         self.setWindowTitle("BugHunter")
@@ -54,7 +60,7 @@ class MainWindow(QMainWindow):
             self.ai_chat_tab = AIChatTab(self.config_manager)
             self.ai_chatbot_tab = AIChatbotTab(self.config_manager)
             self.ai_tab = AITab(self.config_manager)
-            self.amass_tab = AmassTab(self.config_manager)
+            self.amass_tab = AmassTab(self.vulnerability_scanner)
             self.analytics_tab = AnalyticsTab(self.config_manager)
             self.base_tab = BaseTab(self.config_manager)
             self.bug_bounty_target_tab = BugBountyTargetTab(self.config_manager)
@@ -209,3 +215,12 @@ class MainWindow(QMainWindow):
 
     def show_error_message(self, title, message):
         QMessageBox.critical(self, title, message)
+        
+    def handle_import_error(self, error):
+        """
+        Handle import errors by showing an error message.
+        
+        Args:
+            error (ImportError): The import error to handle.
+        """
+        self.show_error_message("Import Error", f"Failed to import module: {str(error)}")

@@ -54,6 +54,14 @@ class BugBountyTargetTab(QWidget):
 
     def add_target(self):
         """Add a new target to the list."""
+        # The line `target = self.target_input.text().strip()` is retrieving the text entered in the
+        # QLineEdit widget named `target_input` and removing any leading or trailing whitespace
+        # characters using the `strip()` method. This ensures that any extra spaces or newlines are
+        # removed from the input before further processing or validation.
+        # The line `target = self.target_input.text().strip()` is retrieving the text entered in the
+        # QLineEdit widget named `target_input` and removing any leading or trailing whitespace
+        # characters using the `strip()` method. This ensures that any extra spaces or newlines are
+        # removed from the input before further processing or validation.
         target = self.target_input.text().strip()
         if target and not self.is_target_in_list(target):
             self.target_list.addItem(target)
