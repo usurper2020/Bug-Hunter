@@ -1,6 +1,7 @@
+
 import importlib
 import os
-from database_manager import DatabaseManager
+from app.db.database_manager import DatabaseManager  # Corrected import statement
 from pathlib import Path
 
 class MigrationManager:

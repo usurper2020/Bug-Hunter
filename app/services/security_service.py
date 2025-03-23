@@ -14,7 +14,7 @@ self.db = db
 
 def generate_fingerprint()
 self, user_agent: str, ip_address: str, screen_res: str, plugins: str
-pass
+) -> str:
 """Generate device fingerprint hash"""
 fingerprint_data = f"{user_agent}{ip_address}{screen_res}{plugins}"
 return hashlib.sha256(fingerprint_data.encode("utf-8")).hexdigest()
@@ -37,7 +37,7 @@ Fingerprint.fingerprint_hash == fingerprint_hash,
 .first()
 )
 
-if existing:
+if existing: pass
 return existing
 
 # Check fingerprint limit

@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="backups">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_indentation_errors_20250314_071053.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_parentheses_errors_20250314_071706.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_123426.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_125200.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_indentation_errors_20250314_045619.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_122356.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_155850.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_indentation_errors_20250314_044711.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_finally_blocks_20250314_071739.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_144010.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_170023.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_finally_blocks_20250314_072540.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_160043.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_parentheses_errors_20250314_071215.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tests/useless/backups/fix_all_errors_20250314_131900.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

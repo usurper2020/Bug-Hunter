@@ -9,8 +9,8 @@ class NucleiTemplateService:
 def __init__(self):
 self.logger = logging.getLogger("BugHunter.NucleiTemplateService")
 
-def add_template(self, _template_name: str, _template_content: str) -> bool:
-pass
+def add_template(self, _template_name: str, _template_content: str) -> bool: pass
+"""Add a new template to the Nuclei framework"""
 try:
 pass
 pass

@@ -51,7 +51,7 @@ else:
 print("Admin user already exists.")
 
 if some_condition:
-return self.config.get(key, None)
+pass
 # some code
 value = some_function()
 elif another_condition:
@@ -71,5 +71,6 @@ pass
 pass
 yield db
 finally:
+    pass  # Added by fix script
     pass  # Added by fix script
 db.close()
