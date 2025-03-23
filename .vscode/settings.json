@@ -62,13 +62,17 @@
     "docwriter.progress.trackAttributes": true,
     "docwriter.progress.trackVariables": true,
     "docwriter.progress.trackConstants": true,
-    "python.pythonPath": "C:\\Users\\clabb\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python.pythonPath": "C:/path/to/your/python.exe",
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
+    "files.autoSave": "onFocusChange",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.flake8Enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111" // Disable missing docstring warning
+    ],
     "python.formatting.provider": "black",
     "terminal.integrated.cwd": "${workspaceFolder}",
     "files.exclude": {
@@ -77,6 +81,17 @@
     },
     "search.exclude": {
         "**/__pycache__": true,
-        "**/*.pyc" t:rue
-    }
+        "**/*.pyc": true
+    },
+    "gitlab.instanceUrl": "https://gitlab.com",
+    "gitlab.token": "your_personal_access_token",
+    "markdownlint.config": {
+        "MD013": false
+    },
+    "pgsql.applyLocalization": true,
+    "pgsql.copyIncludeHeaders": true,
+    "pgsql.format.alignColumnDefinitionsInColumns": true,
+    "pgsql.enableStartupDebugging": true,
+    "pgsql.format.placeSelectStatementReferencesOnNewLine": true,
+    "docwriter.language": "English"
 }

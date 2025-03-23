@@ -1,58 +1,55 @@
-import re
-"""
-Nuclei tab for the BugHunter application.
+# app/gui/tabs/nuclei_tab.py
 
-This tab provides an interface for running Nuclei scans
-and managing Nuclei templates.
-"""
-
-
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QTextEdit, QPushButton, QLabel
 from app.services.nuclei_analyzer import NucleiAnalyzer
+from app.logging.logger_config import LoggerConfig  # Updated import
 
 
 class NucleiTab(QWidget):
+    """
+    Tab widget for Nuclei scanning functionality.
 
-"""
-Tab widget for Nuclei scanning functionality.
+    This widget provides:
+    - Input field for target URLs
+    - Button to run Nuclei scans
+    - Output display for scan results
+    - Template management
+    """
 
-This widget provides:
-- Input field for target URLs
-- Button to run Nuclei scans
-- Output display for scan results
-- Template management
-"""
+    def __init__(self):
+        super().__init__()
+        self.analyzer = NucleiAnalyzer()
+        self.logger = LoggerConfig.get_logger(__name__)
+        self.init_ui()
 
-def __init__(self):
-super().__init__()
-self.init_ui()
-self.analyzer = NucleiAnalyzer()
+    def init_ui(self):
+        """Initialize the UI components."""
+        layout = QVBoxLayout()
 
-def init_ui(self): pass
-"""Initialize the UI components."""
-layout = QVBoxLayout()
+        # Target input
+        self.target_input = QTextEdit()
+        self.target_input.setPlaceholderText("Enter target URLs (one per line)")
+        layout.addWidget(self.target_input)
 
-# Target input
-self.target_input = QTextEdit()
-self.target_input.setPlaceholderText()
-"Enter target URLs (one per line)")
-layout.addWidget(self.target_input)
+        # Scan button
+        scan_button = QPushButton("Run Nuclei Scan")
+        scan_button.clicked.connect(self.run_scan)
+        layout.addWidget(scan_button)
 
-# Scan button
-scan_button = QPushButton("Run Nuclei Scan")
-scan_button.clicked.connect(self.run_scan)
-layout.addWidget(scan_button)
+        # Results display
+        self.results_display = QTextEdit()
+        self.results_display.setReadOnly(True)
+        layout.addWidget(QLabel("Scan Results:"))
+        layout.addWidget(self.results_display)
 
-# Results display
-self.results_display = QTextEdit()
-self.results_display.setReadOnly(True)
-layout.addWidget(QLabel("Scan Results:"))
-layout.addWidget(self.results_display)
+        self.setLayout(layout)
 
-self.setLayout(layout)
-
-def run_scan(self):
-"""Run a Nuclei scan on the specified targets."""
-targets = self.target_input.toPlainText().strip().split("\n")
-if targets:
-results = self.analyzer.scan(targets)
-self.results_display.setPlainText(results)
+    def run_scan(self):
+        """Run a Nuclei scan on the specified targets."""
+        targets = self.target_input.toPlainText().strip().split("\n")
+        if targets:
+            try:
+                results = self.analyzer.scan(targets)
+                self.results_display.setPlainText("\n".join(results))
+            except Exception as e:
+                self.results_display.setPlainText(f"An error occurred: {str(e)}")

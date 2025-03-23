@@ -1,102 +1,179 @@
-"""Main module for the BugHunter application.
+import re
+import os
+from PyQt6 import QtWidgets, QtCore
+from PyQt6.QtWidgets import (
+    QCheckBox,
+    QComboBox,
+    QHBoxLayout,
+    QLabel,
+    QLineEdit,
+    QMessageBox,
+    QPushButton,
+    QTextEdit,
+    QVBoxLayout,
+    QWidget,
+    QSpinBox,
+    QFileDialog,
+)
+from app.services.shodan_integration import ShodanIntegration
+
+"""
+Shodan Integration Tab Module.
+
+This module provides the Shodan integration interface for BugHunter,
+allowing users to perform security reconnaissance directly from the GUI.
+
+Classes:
+ShodanTab: Shodan integration tab class.
 """
 
-import logging
-import sys
-from PyQt5.QtWidgets import QApplication
-from app.config import settings
-from app.db.database_manager import DatabaseManager
-from app.db.migration_manager import MigrationManager
-from app.auth.auth_manager import AuthManager
-from app.auth.role_manager import RoleManager
-from app.notifications.notification_manager import NotificationManager
-from app.api.api_manager import APIManager
-from app.security.security_manager import SecurityManager
-from app.ai.ai_manager import AIManager
-from app.tools.tool_manager import ToolManager
-from app.config.config_manager import ConfigManager
-from app.login_gui import LoginGUI  # Changed to absolute import
-from app.main_gui import MainGUI  # Changed to absolute import
-from app.auth.auth_service import AuthService  # Changed to absolute import
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+class ShodanTab(QWidget):
+    """
+    Shodan integration tab for BugHunter.
 
-class ApplicationManagers:
-    """Container for all application managers"""
+    Attributes:
+        target_input (QLineEdit): Input field for target to search.
+        search_button (QPushButton): Button to initiate search.
+        results_text (QTextEdit): Text area to display search results.
+        filter_combo (QComboBox): Dropdown for search filters.
+        real_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.
+        api_key_input (QLineEdit): Input field for Shodan API key.
+        page_input (QSpinBox): Input field for pagination.
+        export_button (QPushButton): Button to export search results.
+    """
+
     def __init__(self):
-        # Initialize configuration first
-        self.config = ConfigManager()
-        
-        # Initialize database components
-        self.db = DatabaseManager(
-            sqlite_path=settings.SQLITE_PATH,
-            pg_config={
-                'dbname': settings.POSTGRES_DB,
-                'user': settings.POSTGRES_USER,
-                'password': settings.POSTGRES_PASSWORD,
-                'host': settings.POSTGRES_HOST,
-                'port': settings.POSTGRES_PORT
-            }
+        """Initialize the Shodan tab."""
+        super().__init__()
+        self.shodan_client = ShodanIntegration()
+        self.init_ui()
+        self.connect_signals()
+
+    def init_ui(self):
+        """Initialize the user interface components."""
+        layout = QVBoxLayout()
+
+        # API Key Section
+        api_key_layout = QHBoxLayout()
+        api_key_layout.addWidget(QLabel("Shodan API Key:"))
+        self.api_key_input = QLineEdit()
+        self.api_key_input.setPlaceholderText("Enter your Shodan API key here...")
+        api_key_layout.addWidget(self.api_key_input)
+        layout.addLayout(api_key_layout)
+
+        # Search controls
+        search_layout = QHBoxLayout()
+        search_layout.addWidget(QLabel("Target:"))
+
+        self.target_input = QLineEdit()
+        self.target_input.setPlaceholderText(
+            "Enter target to search (IP, domain, etc.)"
         )
-        self.migrations = MigrationManager(self.db)
-        
-        # Initialize authentication components
-        self.auth = AuthManager()
-        self.roles = RoleManager()
-        
-        # Initialize other managers
-        self.notifications = NotificationManager(self.db)
-        self.api = APIManager()
-        self.security = SecurityManager()
-        self.ai = AIManager()
-        self.tools = ToolManager()
+        search_layout.addWidget(self.target_input)
 
-def initialize_managers(db_session):
-    """Initialize all application managers"""
-    try:
-        managers = ApplicationManagers()
-        
-        # Run database migrations
-        managers.migrations.apply_migrations()
-        
-        logger.info("All managers initialized successfully")
-        return managers
-        
-    except Exception as e:
-        logger.error("Failed to initialize managers: %s", str(e))
-        raise
+        self.filter_combo = QComboBox()
+        self.filter_combo.addItems(["All", "Open Ports", "Services", "Organizations"])
+        search_layout.addWidget(self.filter_combo)
 
-def initialize_and_start_app(app, db_session):
-    """Initialize managers and start the main GUI after successful login"""
-    managers = initialize_managers(db_session)
-    window = MainGUI(managers)
-    window.show()
+        self.search_button = QPushButton("Search")
+        search_layout.addWidget(self.search_button)
 
-def main():
-    try:
-        app = QApplication(sys.argv)
+        layout.addLayout(search_layout)
 
-        def on_login_success():
-            initialize_and_start_app(app, db_session)
+        # Real-time monitoring checkbox
+        self.real_time_checkbox = QCheckBox("Enable Real-time Monitoring")
+        layout.addWidget(self.real_time_checkbox)
 
-        # Create a database engine for PostgreSQL
-        engine = create_engine(f'postgresql://{settings.POSTGRES_USER}:{settings.POSTGRES_PASSWORD}@{settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}')
-        Session = sessionmaker(bind=engine)
-        db_session = Session()
+        # Pagination controls
+        pagination_layout = QHBoxLayout()
+        pagination_layout.addWidget(QLabel("Page:"))
+        self.page_input = QSpinBox()
+        self.page_input.setMinimum(1)
+        pagination_layout.addWidget(self.page_input)
+        layout.addLayout(pagination_layout)
 
-        auth_service = AuthService(db_session)  # Pass the database session
-        login_window = LoginGUI(on_login_success=on_login_success, auth_service=auth_service)
-        login_window.show()
+        # Results display
+        self.results_text = QTextEdit()
+        self.results_text.setReadOnly(True)
+        layout.addWidget(self.results_text)
 
-        sys.exit(app.exec_())
-        
-    except Exception as e:
-        logger.error("Application startup failed: %s", str(e))
-        sys.exit(1)
+        # Export button
+        self.export_button = QPushButton("Export Results")
+        layout.addWidget(self.export_button)
 
-if __name__ == "__main__":
-    main()
+        self.setLayout(layout)
+
+    def connect_signals(self):
+        """Connect UI signals to appropriate slots."""
+        self.search_button.clicked.connect(self.perform_search)
+        self.export_button.clicked.connect(self.export_results)
+
+    def perform_search(self):
+        """Perform Shodan search and display results."""
+        target = self.target_input.text().strip()
+        api_key = self.api_key_input.text().strip()
+        page = self.page_input.value()
+
+        if not target:
+            QMessageBox.warning(self, "Invalid Input", "Please enter a target")
+            return
+
+        if not api_key:
+            QMessageBox.warning(
+                self, "Invalid Input", "Please enter your Shodan API key"
+            )
+            return
+
+        try:
+            filter_option = self.filter_combo.currentText()
+            self.shodan_client.set_api_key(api_key)
+            results = self.shodan_client.search(target, filter_option, page)
+            self.display_results(results)
+        except Exception as e:
+            QMessageBox.critical(
+                self, "Search Error", f"Failed to perform search: {str(e)}"
+            )
+
+    def display_results(self, results):
+        """Display search results in the text area.
+
+        Args:
+            results (dict): Dictionary of search results to display.
+        """
+        self.results_text.clear()
+        if not results.get("results"):
+            self.results_text.setText("No results found")
+            return
+
+        result_text = "\n\n".join(
+            f"IP: {result.get('ip_str', 'N/A')}\n"
+            f"Port: {result.get('port', 'N/A')}\n"
+            f"Data: {result.get('data', 'N/A')}\n"
+            f"Geolocation: {result.get('location', {}).get('city', 'N/A')}, {result.get('location', {}).get('country_name', 'N/A')}\n"
+            f"Vulnerabilities: {', '.join(result.get('vulns', []))}"
+            for result in results["results"]
+        )
+        self.results_text.setText(result_text)
+
+        if self.real_time_checkbox.isChecked():
+            # Display real-time monitoring status (this is a placeholder, actual implementation may vary)
+            self.results_text.append("\n[Real-time Monitoring Enabled]")
+
+    def export_results(self):
+        """Export search results to a file."""
+        options = QFileDialog.Options()
+        file_path, _ = QFileDialog.getSaveFileName(
+            self,
+            "Save Results",
+            "",
+            "Text Files (*.txt);;All Files (*)",
+            options=options,
+        )
+        if file_path:
+            with open(file_path, "w") as file:
+                file.write(self.results_text.toPlainText())
+
+    def cleanup(self):
+        """Clean up resources before closing."""
+        self.results_text.clear()

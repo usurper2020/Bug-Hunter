@@ -4,12 +4,19 @@
 import sys
 from pathlib import Path
 import shodan  # Ensure you have the shodan library installed
+
 try:
     import waybackpy  # Ensure you have the waybackpy library installed
 except ImportError:
-    print("waybackpy library is not installed. Please install it using 'pip install waybackpy'")
+    print(
+        "waybackpy library is not installed. Please install it using 'pip install waybackpy'"
+    )
     sys.exit(1)
-project_root = str(Path(__file__).resolve().parent.parent.parent) if '__file__' in globals() else str(Path().resolve().parent.parent.parent)
+project_root = (
+    str(Path(__file__).resolve().parent.parent.parent)
+    if "__file__" in globals()
+    else str(Path().resolve().parent.parent.parent)
+)
 # The `sys` module in Python provides access to some variables used or
 # maintained by the interpreter and to functions that interact with the
 # interpreter. In this specific code snippet, `sys` is being used to manipulate
@@ -19,6 +26,7 @@ project_root = str(Path(__file__).resolve().parent.parent.parent) if '__file__' 
 if project_root not in sys.path:
     sys.path.append(project_root)
 
+
 class WaybackMachineIntegration:
     def get_status(self):
         return "active"
@@ -26,12 +34,14 @@ class WaybackMachineIntegration:
     def get_snapshots(self, target):
         return f"Snapshots for {target}"
 
+
 class ShodanIntegration:
     def get_status(self):
         return "active"
 
     def search(self, target):
         return f"Search results for {target}"
+
 
 class IntegrationManager:
     def __init__(self, config=None):
@@ -64,8 +74,12 @@ class IntegrationManager:
         return {
             "initialized": self.initialized,
             "status": "running" if self.initialized else "not initialized",
-            "shodan": self.shodan.get_status() if hasattr(self.shodan, "get_status") else "unknown",
-            "wayback": self.wayback.get_status() if hasattr(self.wayback, "get_status") else "unknown",
+            "shodan": self.shodan.get_status()
+            if hasattr(self.shodan, "get_status")
+            else "unknown",
+            "wayback": self.wayback.get_status()
+            if hasattr(self.wayback, "get_status")
+            else "unknown",
         }
 
     def perform_integrated_scan(self, target):
@@ -77,9 +91,14 @@ class IntegrationManager:
 
         return {
             "target": target,
-            "shodan_results": self.shodan.search(target) if hasattr(self.shodan, "search") else None,
-            "wayback_results": self.wayback.get_snapshots(target) if hasattr(self.wayback, "get_snapshots") else None,
+            "shodan_results": self.shodan.search(target)
+            if hasattr(self.shodan, "search")
+            else None,
+            "wayback_results": self.wayback.get_snapshots(target)
+            if hasattr(self.wayback, "get_snapshots")
+            else None,
         }
+
 
 if __name__ == "__main__":
     manager = IntegrationManager()
