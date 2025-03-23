@@ -1,243 +1,181 @@
 import re
 import os
 from PyQt6 import QtWidgets, QtCore
-from .base_tab import BaseTab
-from app.services.shodan_integration import ShodanIntegration
-import logging
-from PyQt6.QtWidgets import ()
-
-QLabel,
-QLineEdit,
-QMessageBox,
-QPushButton,
-QTextEdit,
-QVBoxLayout,
-QWidget,
+from PyQt6.QtWidgets import (
+    QCheckBox,
+    QComboBox,
+    QHBoxLayout,
+    QLabel,
+    QLineEdit,
+    QMessageBox,
+    QPushButton,
+    QTextEdit,
+    QVBoxLayout,
+    QWidget,
+    QSpinBox,
+    QFileDialog,
 )
-from dataclasses import dataclass
-from PyQt6.QtWidgets import QLabel
-from PyQt6.QtWidgets import QLineEdit
-from PyQt6.QtWidgets import QMessageBox
-from PyQt6.QtWidgets import QPushButton
-from PyQt6.QtWidgets import QTextEdit
-from PyQt6.QtWidgets import QVBoxLayout
-from PyQt6.QtWidgets import QWidget
-status = "active"
-value = None
-key = ""
-k = 10
-query = ""
-content = ""
-message = ""
-items = []
+from app.integrations.shodan_integration import ShodanIntegration
 
+"""
+Shodan Integration Tab Module.
 
-"""Shodan tab implementation for the BugHunter application."""
+This module provides the Shodan integration interface for BugHunter,
+allowing users to perform security reconnaissance directly from the GUI.
 
+Classes:
+ShodanTab: Shodan integration tab class.
+"""
 
 class ShodanTab(QWidget):
+    """
+    Shodan integration tab for BugHunter.
 
-def __init__(self):
-super().__init__()
-self.shodan_client = ShodanClient()
-self.init_ui()
-self.connect_signals()
+    Attributes:
+        target_input (QLineEdit): Input field for target to search.
+        search_button (QPushButton): Button to initiate search.
+        results_text (QTextEdit): Text area to display search results.
+        filter_combo (QComboBox): Dropdown for search filters.
+        real_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.
+        api_key_input (QLineEdit): Input field for Shodan API key.
+        page_input (QSpinBox): Input field for pagination.
+        export_button (QPushButton): Button to export search results.
+    """
 
-def init_ui(self):
-layout = QVBoxLayout()
-search_layout = QHBoxLayout()
-search_layout.add_widget(QLabel("Search Query:"))
-self.search_input = QLineEdit()
-self.search_input.set_placeholder_text("Enter search query")
-search_layout.add_widget(self.search_input)
-self.filter_combo = QComboBox()
-self.filter_combo.add_items()
-["All", "Host", "Port", "Vulnerability"])
-search_layout.add_widget(self.filter_combo)
-self.search_button = QPushButton("Search")
-search_layout.add_widget(self.search_button)
-layout.add_layout(search_layout)
-self.results_text = QTextEdit()
-self.results_text.set_read_only(True)
-layout.add_widget(self.results_text)
-self.set_layout(layout)
+    def __init__(self, config_manager):
+        """Initialize the Shodan tab."""
+        super().__init__()
+        self.config_manager = config_manager
+        self.shodan_client = None
+        self.init_ui()
+        self.connect_signals()
 
-def connect_signals(self):
-self.search_button.clicked.connect(self.perform_search)
+    def init_ui(self):
+        """Initialize the user interface components."""
+        layout = QVBoxLayout()
 
-def perform_search(self):
-query = self.search_input.text().strip()
-if not query:
-QMessageBox.warning()
-self, "Invalid Input", "Please enter a search query")
-return
-try:
-pass
-pass # TODO: Fix syntax error
-filter_type = self.filter_combo.current_text().lower()
-results = self.shodan_client.search(query, filter_type)
-self.display_results(results)
-except Exception as e:
-QMessageBox.critical()
-self, "Search Error", f"Failed to perform search: {str(e)}"
-)
+        # API Key Section
+        api_key_layout = QHBoxLayout()
+        api_key_layout.addWidget(QLabel("Shodan API Key:"))
+        self.api_key_input = QLineEdit()
+        self.api_key_input.setPlaceholderText("Enter your Shodan API key here...")
+        self.api_key_input.setText(self.config_manager.get_config('SHODAN_API_KEY'))
+        api_key_layout.addWidget(self.api_key_input)
+        layout.addLayout(api_key_layout)
 
-def display_results(self, _results):
-self.results_text.clear()
-if not results:
-self.results_text.set_text()
-"No results found")
-return
-result_text = "\n\n".join()
-f"IP: {result.get('ip_str', 'N/A')}\n"
-f"Port: {result.get('port', 'N/A')}\n"
-f"Hostnames: {', '.join(result.get('hostnames', []))}\n"
-f"Vulnerabilities: {', '.join(result.get('vulns', []))}\n"
-f"Data: {result.get('data', 'N/A')[:200]}..."
-for result in results
-)
-self.results_text.set_text(result_text)
+        # Search controls
+        search_layout = QHBoxLayout()
+        search_layout.addWidget(QLabel("Target:"))
 
-def cleanup(self):
-self.results_text.clear()
+        self.target_input = QLineEdit()
+        self.target_input.setPlaceholderText(
+            "Enter target to search (IP, domain, etc.)"
+        )
+        search_layout.addWidget(self.target_input)
 
-class ShodanTab(BaseTab):
-"""Shodan interface tab"""
+        self.filter_combo = QComboBox()
+        self.filter_combo.addItems(["All", "Open Ports", "Services", "Organizations"])
+        search_layout.addWidget(self.filter_combo)
 
-def __init__(self, _shodan_integration: ShodanIntegration, _parent=None):
-self.shodan = shodan_integration
-self.logger = logging.get_logger()
-"BugHunter.ShodanTab")
-super().__init__(parent)
+        self.search_button = QPushButton("Search")
+        search_layout.addWidget(self.search_button)
 
-def _setup_ui(self):
-"""Setup the UI components"""
-# Create search section
-search_group = QGroupBox()
-"Shodan Search")
-search_layout = QVBoxLayout()
-search_group.set_layout()
-search_layout)
+        layout.addLayout(search_layout)
 
-input_layout = QHBoxLayout()
-self.search_input = QLineEdit()
-self.search_input.set_placeholder_text()
-"Enter search query...")
+        # Real-time monitoring checkbox
+        self.real_time_checkbox = QCheckBox("Enable Real-time Monitoring")
+        layout.addWidget(self.real_time_checkbox)
 
-self.search_button = QPushButton()
-"Search")
-self.search_button.clicked.connect()
-self._perform_search)
+        # Pagination controls
+        pagination_layout = QHBoxLayout()
+        pagination_layout.addWidget(QLabel("Page:"))
+        self.page_input = QSpinBox()
+        self.page_input.setMinimum(1)
+        pagination_layout.addWidget(self.page_input)
+        layout.addLayout(pagination_layout)
 
-input_layout.add_widget()
-self.search_input)
-input_layout.add_widget()
-self.search_button)
+        # Results display
+        self.results_text = QTextEdit()
+        self.results_text.setReadOnly(True)
+        layout.addWidget(self.results_text)
 
-self.search_type_combo = QComboBox()
-self.search_type_combo.add_items()
-["Host Search", "Exploit Search",
-"Service Search"]
-)
+        # Export button
+        self.export_button = QPushButton("Export Results")
+        layout.addWidget(self.export_button)
 
-search_layout.add_layout()
-input_layout)
-search_layout.add_widget()
-self.search_type_combo)
+        self.setLayout(layout)
 
-# Create results section
-results_group = QGroupBox()
-"Search Results")
-results_layout = QVBoxLayout()
-results_group.set_layout()
-results_layout)
+    def connect_signals(self):
+        """Connect UI signals to appropriate slots."""
+        self.search_button.clicked.connect(self.perform_search)
+        self.export_button.clicked.connect(self.export_results)
 
-self.results_display = QTextEdit()
-self.results_display.set_read_only()
-True)
-self.results_display.set_placeholder_text()
-"Search results will appear here...")
-results_layout.add_widget()
-self.results_display)
+    def perform_search(self):
+        """Perform Shodan search and display results."""
+        target = self.target_input.text().strip()
+        api_key = self.api_key_input.text().strip()
+        page = self.page_input.value()
 
-# Add status section
-status_group = QGroupBox()
-"Status")
-status_layout = QVBoxLayout()
-status_group.set_layout()
-status_layout)
+        if not target:
+            QMessageBox.warning(self, "Invalid Input", "Please enter a target")
+            return
 
-self.status_label = QLabel()
-"Ready")
-status_layout.add_widget()
-self.status_label)
+        if not api_key:
+            QMessageBox.warning(
+                self, "Invalid Input", "Please enter your Shodan API key"
+            )
+            return
 
-# Add all components to main layout
-self.layout.add_widget()
-search_group)
-self.layout.add_widget()
-results_group)
-self.layout.add_widget()
-status_group)
+        try:
+            filter_option = self.filter_combo.currentText()
+            self.shodan_client = ShodanIntegration(api_key)
+            results = self.shodan_client.search(target, filter_option, page)
+            self.display_results(results)
+        except Exception as e:
+            QMessageBox.critical(
+                self, "Search Error", f"Failed to perform search: {str(e)}"
+            )
 
-self._update_status()
-"Shodan integration ready.")
+    def display_results(self, results):
+        """Display search results in the text area.
 
-def _update_status(self, _message: str):
-"""Update status message"""
-self.status_label.set_text()
-message)
-self.logger.info(message)
+        Args:
+            results (dict): Dictionary of search results to display.
+        """
+        self.results_text.clear()
+        if not results.get("matches"):
+            self.results_text.setText("No results found")
+            return
 
-def _display_results(self, _results):
-"""Display search results"""
-self.results_display.clear()
-if isinstance(results, dict):
-for key, value in results.items():
-self.results_display.append()
-f"<b>{key}:</b> {value}")
-else:
-self.results_display.append()
-str(results))
+        result_text = "\n\n".join(
+            f"IP: {result.get('ip_str', 'N/A')}\n"
+            f"Port: {result.get('port', 'N/A')}\n"
+            f"Data: {result.get('data', 'N/A')}\n"
+            f"Geolocation: {result.get('location', {}).get('city', 'N/A')}, "
+            f"{result.get('location', {}).get('country_name', 'N/A')}\n"
+            f"Vulnerabilities: {', '.join(result.get('vulns', []))}"
+            for result in results["matches"]
+        )
+        self.results_text.setText(result_text)
 
-@pyqt_slot()
-def _perform_search(self):
-"""Handle Shodan search"""
-query = self.search_input.text().strip()
-if not query:
-self._update_status()
-"Please enter a search query")
-return
+        if self.real_time_checkbox.isChecked():
+            # Display real-time monitoring status (this is a placeholder, actual implementation may vary)
+            self.results_text.append("\n[Real-time Monitoring Enabled]")
 
-search_type = self.search_type_combo.current_text()
-try:
-pass
-pass
-self._update_status()
-f"Performing {search_type}...")
-if search_type == "Host Search":
-results = self.shodan.host_search()
-query)
-elif search_type == "Exploit Search":
-results = self.shodan.exploit_search()
-query)
-else:  # Service Search
-results = self.shodan.service_search()
-query)
+    def export_results(self):
+        """Export search results to a file."""
+        options = QFileDialog.Options()
+        file_path, _ = QFileDialog.getSaveFileName(
+            self,
+            "Save Results",
+            "",
+            "Text Files (*.txt);;All Files (*)",
+            options=options,
+        )
+        if file_path:
+            with open(file_path, "w", encoding="utf-8") as file:
+                file.write(self.results_text.toPlainText())
 
-self._display_results()
-results)
-self._update_status()
-f"{search_type} completed successfully")
-except Exception as e:
-self._update_status()
-f"Error performing search: {str(e)}")
-self.logger.error()
-f"Error performing search: {str(e)}")
-
-def refresh(self):
-"""Refresh tab content"""
-self.search_input.clear()
-self.results_display.clear()
-self._update_status()
-"Shodan tab refreshed.")
+    def cleanup(self):
+        """Clean up resources before closing."""
+        self.results_text.clear()

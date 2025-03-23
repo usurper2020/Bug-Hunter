@@ -1,6 +1,6 @@
 import cProfile
 import pstats
-from app.main import main
+from app.main import main, main_components, main_gui, main_window
 
 def profile():
     profiler = cProfile.Profile()

@@ -2,7 +2,7 @@ from app.services.user_auth import UserAuth
 from app.services.database import DatabaseManager
 from app.services.config_manager import ConfigManager
 from app.gui.main_window import MainWindow
-from app.config import Config
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 from PyQt6.QtWidgets import QApplication
 import unittest
 default = None

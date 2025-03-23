@@ -1,5 +1,5 @@
 from app.services.gui_tab_generator import GUITabGenerator
-from app.config import config
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 from PyQt6.QtCore import Qt
 from unittest.mock import Mock
 import unittest

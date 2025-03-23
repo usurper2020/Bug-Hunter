@@ -1,6 +1,17 @@
 {
     "version": "0.2.0",
     "configurations": [
+        configurations
+        name
+        launch
+        File
+        file
+        python
+        Python
+        program
+        integratedTerminal
+        Current
+        console
         {
             "name": "Python: Current File",
             "type": "python",

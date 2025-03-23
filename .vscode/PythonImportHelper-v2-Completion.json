@@ -645,38 +645,6 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -1278,78 +1246,6 @@
     },
     {
         "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -2654,7 +2550,7 @@
         "documentation": {}
     },
     {
-        "label": "settings",
+        "label": "api_key_storing",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2662,23 +2558,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
+        "label": "base_config",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2694,7 +2574,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "config_manager",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2702,7 +2582,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "db_config",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2710,7 +2590,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "python-dotenv",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2718,7 +2598,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "scanning_profiles",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2726,7 +2606,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "api_key_storing",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2734,63 +2614,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "app.config",
-        "description": "app.config",
-        "isExtraImport": true,
-        "detail": "app.config",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
+        "label": "base_config",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2806,6 +2630,54 @@
         "documentation": {}
     },
     {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
         "label": "config",
         "importPath": "app.config",
         "description": "app.config",
@@ -2814,7 +2686,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "config_manager",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2822,7 +2694,7 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "db_config",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -2830,7 +2702,1191 @@
         "documentation": {}
     },
     {
-        "label": "Config",
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_storing",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "base_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_manager",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db_config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "python-dotenv",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "scanning_profiles",
         "importPath": "app.config",
         "description": "app.config",
         "isExtraImport": true,
@@ -6891,6 +7947,30 @@
         "documentation": {}
     },
     {
+        "label": "QCheckBox",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QComboBox",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QHBoxLayout",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
         "label": "QLabel",
         "importPath": "PyQt6.QtWidgets",
         "description": "PyQt6.QtWidgets",
@@ -6940,6 +8020,22 @@
     },
     {
         "label": "QWidget",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QSpinBox",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QFileDialog",
         "importPath": "PyQt6.QtWidgets",
         "description": "PyQt6.QtWidgets",
         "isExtraImport": true,
@@ -7355,62 +8451,6 @@
         "documentation": {}
     },
     {
-        "label": "QLabel",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QLineEdit",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QMessageBox",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QTextEdit",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QVBoxLayout",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QWidget",
-        "importPath": "PyQt6.QtWidgets",
-        "description": "PyQt6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt6.QtWidgets",
-        "documentation": {}
-    },
-    {
         "label": "QCheckBox",
         "importPath": "PyQt6.QtWidgets",
         "description": "PyQt6.QtWidgets",
@@ -7500,6 +8540,62 @@
     },
     {
         "label": "QFileDialog",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLineEdit",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QMessageBox",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QPushButton",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QTextEdit",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
         "importPath": "PyQt6.QtWidgets",
         "description": "PyQt6.QtWidgets",
         "isExtraImport": true,
@@ -8461,22 +9557,6 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
         "label": "openai",
         "kind": 6,
         "isExtraImport": true,
@@ -8508,14 +9588,6 @@
         "isExtraImport": true,
         "importPath": "pathlib",
         "description": "pathlib",
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
         "detail": "pathlib",
         "documentation": {}
     },
@@ -8914,14 +9986,6 @@
     },
     {
         "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -10197,14 +11261,6 @@
         "documentation": {}
     },
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -10542,14 +11598,6 @@
     },
     {
         "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -10573,21 +11621,11 @@
         "documentation": {}
     },
     {
-        "label": "yaml",
-        "kind": 6,
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
-        "documentation": {}
-    },
-    {
-        "label": "configparser",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "configparser",
-        "description": "configparser",
-        "detail": "configparser",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -10819,6 +11857,14 @@
         "documentation": {}
     },
     {
+        "label": "DatabaseManager",
+        "importPath": "app.db.database_manager",
+        "description": "app.db.database_manager",
+        "isExtraImport": true,
+        "detail": "app.db.database_manager",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -10833,6 +11879,174 @@
         "description": "app.db.init_db",
         "isExtraImport": true,
         "detail": "app.db.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "MigrationManager",
+        "importPath": "app.db.migration_manager",
+        "description": "app.db.migration_manager",
+        "isExtraImport": true,
+        "detail": "app.db.migration_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MigrationManager",
+        "importPath": "app.db.migration_manager",
+        "description": "app.db.migration_manager",
+        "isExtraImport": true,
+        "detail": "app.db.migration_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MigrationManager",
+        "importPath": "app.db.migration_manager",
+        "description": "app.db.migration_manager",
+        "isExtraImport": true,
+        "detail": "app.db.migration_manager",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationManager",
+        "importPath": "app.notifications.notification_manager",
+        "description": "app.notifications.notification_manager",
+        "isExtraImport": true,
+        "detail": "app.notifications.notification_manager",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationManager",
+        "importPath": "app.notifications.notification_manager",
+        "description": "app.notifications.notification_manager",
+        "isExtraImport": true,
+        "detail": "app.notifications.notification_manager",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationManager",
+        "importPath": "app.notifications.notification_manager",
+        "description": "app.notifications.notification_manager",
+        "isExtraImport": true,
+        "detail": "app.notifications.notification_manager",
+        "documentation": {}
+    },
+    {
+        "label": "APIManager",
+        "importPath": "app.api.api_manager",
+        "description": "app.api.api_manager",
+        "isExtraImport": true,
+        "detail": "app.api.api_manager",
+        "documentation": {}
+    },
+    {
+        "label": "APIManager",
+        "importPath": "app.api.api_manager",
+        "description": "app.api.api_manager",
+        "isExtraImport": true,
+        "detail": "app.api.api_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SecurityManager",
+        "importPath": "app.security.security_manager",
+        "description": "app.security.security_manager",
+        "isExtraImport": true,
+        "detail": "app.security.security_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SecurityManager",
+        "importPath": "app.security.security_manager",
+        "description": "app.security.security_manager",
+        "isExtraImport": true,
+        "detail": "app.security.security_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SecurityManager",
+        "importPath": "app.security.security_manager",
+        "description": "app.security.security_manager",
+        "isExtraImport": true,
+        "detail": "app.security.security_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AIManager",
+        "importPath": "app.ai.ai_manager",
+        "description": "app.ai.ai_manager",
+        "isExtraImport": true,
+        "detail": "app.ai.ai_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AIManager",
+        "importPath": "app.ai.ai_manager",
+        "description": "app.ai.ai_manager",
+        "isExtraImport": true,
+        "detail": "app.ai.ai_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AIManager",
+        "importPath": "app.ai.ai_manager",
+        "description": "app.ai.ai_manager",
+        "isExtraImport": true,
+        "detail": "app.ai.ai_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ToolManager",
+        "importPath": "app.tools.tool_manager",
+        "description": "app.tools.tool_manager",
+        "isExtraImport": true,
+        "detail": "app.tools.tool_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ToolManager",
+        "importPath": "app.tools.tool_manager",
+        "description": "app.tools.tool_manager",
+        "isExtraImport": true,
+        "detail": "app.tools.tool_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ToolManager",
+        "importPath": "app.tools.tool_manager",
+        "description": "app.tools.tool_manager",
+        "isExtraImport": true,
+        "detail": "app.tools.tool_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AuthManager",
+        "importPath": "app.auth.auth_manager",
+        "description": "app.auth.auth_manager",
+        "isExtraImport": true,
+        "detail": "app.auth.auth_manager",
+        "documentation": {}
+    },
+    {
+        "label": "RoleManager",
+        "importPath": "app.auth.role_manager",
+        "description": "app.auth.role_manager",
+        "isExtraImport": true,
+        "detail": "app.auth.role_manager",
+        "documentation": {}
+    },
+    {
+        "label": "RoleManager",
+        "importPath": "app.auth.role_manager",
+        "description": "app.auth.role_manager",
+        "isExtraImport": true,
+        "detail": "app.auth.role_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SessionManager",
+        "importPath": "app.auth.session",
+        "description": "app.auth.session",
+        "isExtraImport": true,
+        "detail": "app.auth.session",
         "documentation": {}
     },
     {
@@ -10925,6 +12139,15 @@
         "importPath": "asyncio",
         "description": "asyncio",
         "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
         "documentation": {}
     },
     {
@@ -11681,6 +12904,14 @@
         "documentation": {}
     },
     {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
         "label": "QMainWindow",
         "importPath": "PyQt5.QtWidgets",
         "description": "PyQt5.QtWidgets",
@@ -11738,54 +12969,6 @@
     },
     {
         "label": "QLabel",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QDialog",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QVBoxLayout",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QLabel",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QLineEdit",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PyQt5.QtWidgets",
-        "description": "PyQt5.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QApplication",
         "importPath": "PyQt5.QtWidgets",
         "description": "PyQt5.QtWidgets",
         "isExtraImport": true,
@@ -11922,10 +13105,26 @@
     },
     {
         "label": "ShodanIntegration",
-        "importPath": "app.install.integration_manager",
-        "description": "app.install.integration_manager",
+        "importPath": "app.integrations.shodan_integration",
+        "description": "app.integrations.shodan_integration",
         "isExtraImport": true,
-        "detail": "app.install.integration_manager",
+        "detail": "app.integrations.shodan_integration",
+        "documentation": {}
+    },
+    {
+        "label": "ShodanIntegration",
+        "importPath": "app.integrations.shodan_integration",
+        "description": "app.integrations.shodan_integration",
+        "isExtraImport": true,
+        "detail": "app.integrations.shodan_integration",
+        "documentation": {}
+    },
+    {
+        "label": "ShodanIntegration",
+        "importPath": "app.integrations.shodan_integration",
+        "description": "app.integrations.shodan_integration",
+        "isExtraImport": true,
+        "detail": "app.integrations.shodan_integration",
         "documentation": {}
     },
     {
@@ -12235,38 +13434,6 @@
         "documentation": {}
     },
     {
-        "label": "ShodanIntegration",
-        "importPath": "app.services.shodan_integration",
-        "description": "app.services.shodan_integration",
-        "isExtraImport": true,
-        "detail": "app.services.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "ShodanIntegration",
-        "importPath": "app.services.shodan_integration",
-        "description": "app.services.shodan_integration",
-        "isExtraImport": true,
-        "detail": "app.services.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "ShodanIntegration",
-        "importPath": "app.services.shodan_integration",
-        "description": "app.services.shodan_integration",
-        "isExtraImport": true,
-        "detail": "app.services.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "ShodanIntegration",
-        "importPath": "app.services.shodan_integration",
-        "description": "app.services.shodan_integration",
-        "isExtraImport": true,
-        "detail": "app.services.shodan_integration",
-        "documentation": {}
-    },
-    {
         "label": "LoginDialog",
         "importPath": "app.gui.login_dialog",
         "description": "app.gui.login_dialog",
@@ -12485,6 +13652,14 @@
         "documentation": {}
     },
     {
+        "label": "ShodanIntegration",
+        "importPath": "app.services.shodan_integration",
+        "description": "app.services.shodan_integration",
+        "isExtraImport": true,
+        "detail": "app.services.shodan_integration",
+        "documentation": {}
+    },
+    {
         "label": "ScanningProfiles",
         "importPath": "app.services.scanning_profiles",
         "description": "app.services.scanning_profiles",
@@ -12584,27 +13759,59 @@
         "documentation": {}
     },
     {
-        "label": "ShodanIntegration",
-        "importPath": "app.shodan_integration",
-        "description": "app.shodan_integration",
+        "label": "settings",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
         "isExtraImport": true,
-        "detail": "app.shodan_integration",
+        "detail": "app.config.config",
         "documentation": {}
     },
     {
-        "label": "ScanningProfiles",
-        "importPath": "app.scanning_profiles",
-        "description": "app.scanning_profiles",
+        "label": "Config",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
         "isExtraImport": true,
-        "detail": "app.scanning_profiles",
+        "detail": "app.config.config",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "app.config import config_manager  # Updated",
-        "description": "app.config import config_manager  # Updated",
+        "label": "ConfigManager",
+        "importPath": "app.config.config_manager",
+        "description": "app.config.config_manager",
         "isExtraImport": true,
-        "detail": "app.config import config_manager  # Updated",
+        "detail": "app.config.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigManager",
+        "importPath": "app.config.config_manager",
+        "description": "app.config.config_manager",
+        "isExtraImport": true,
+        "detail": "app.config.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigManager",
+        "importPath": "app.config.config_manager",
+        "description": "app.config.config_manager",
+        "isExtraImport": true,
+        "detail": "app.config.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MainWindow",
+        "importPath": "app.main.main_window",
+        "description": "app.main.main_window",
+        "isExtraImport": true,
+        "detail": "app.main.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "ManagerFactory",
+        "importPath": "app.factories.manager_factory",
+        "description": "app.factories.manager_factory",
+        "isExtraImport": true,
+        "detail": "app.factories.manager_factory",
         "documentation": {}
     },
     {
@@ -12757,118 +13964,6 @@
         "description": "app.gui.tabs.tool_manager_tab",
         "isExtraImport": true,
         "detail": "app.gui.tabs.tool_manager_tab",
-        "documentation": {}
-    },
-    {
-        "label": "MigrationManager",
-        "importPath": "app.db.migration_manager",
-        "description": "app.db.migration_manager",
-        "isExtraImport": true,
-        "detail": "app.db.migration_manager",
-        "documentation": {}
-    },
-    {
-        "label": "MigrationManager",
-        "importPath": "app.db.migration_manager",
-        "description": "app.db.migration_manager",
-        "isExtraImport": true,
-        "detail": "app.db.migration_manager",
-        "documentation": {}
-    },
-    {
-        "label": "RoleManager",
-        "importPath": "app.auth.role_manager",
-        "description": "app.auth.role_manager",
-        "isExtraImport": true,
-        "detail": "app.auth.role_manager",
-        "documentation": {}
-    },
-    {
-        "label": "NotificationManager",
-        "importPath": "app.notifications.notification_manager",
-        "description": "app.notifications.notification_manager",
-        "isExtraImport": true,
-        "detail": "app.notifications.notification_manager",
-        "documentation": {}
-    },
-    {
-        "label": "NotificationManager",
-        "importPath": "app.notifications.notification_manager",
-        "description": "app.notifications.notification_manager",
-        "isExtraImport": true,
-        "detail": "app.notifications.notification_manager",
-        "documentation": {}
-    },
-    {
-        "label": "APIManager",
-        "importPath": "app.api.api_manager",
-        "description": "app.api.api_manager",
-        "isExtraImport": true,
-        "detail": "app.api.api_manager",
-        "documentation": {}
-    },
-    {
-        "label": "SecurityManager",
-        "importPath": "app.security.security_manager",
-        "description": "app.security.security_manager",
-        "isExtraImport": true,
-        "detail": "app.security.security_manager",
-        "documentation": {}
-    },
-    {
-        "label": "SecurityManager",
-        "importPath": "app.security.security_manager",
-        "description": "app.security.security_manager",
-        "isExtraImport": true,
-        "detail": "app.security.security_manager",
-        "documentation": {}
-    },
-    {
-        "label": "AIManager",
-        "importPath": "app.ai.ai_manager",
-        "description": "app.ai.ai_manager",
-        "isExtraImport": true,
-        "detail": "app.ai.ai_manager",
-        "documentation": {}
-    },
-    {
-        "label": "AIManager",
-        "importPath": "app.ai.ai_manager",
-        "description": "app.ai.ai_manager",
-        "isExtraImport": true,
-        "detail": "app.ai.ai_manager",
-        "documentation": {}
-    },
-    {
-        "label": "ToolManager",
-        "importPath": "app.tools.tool_manager",
-        "description": "app.tools.tool_manager",
-        "isExtraImport": true,
-        "detail": "app.tools.tool_manager",
-        "documentation": {}
-    },
-    {
-        "label": "ToolManager",
-        "importPath": "app.tools.tool_manager",
-        "description": "app.tools.tool_manager",
-        "isExtraImport": true,
-        "detail": "app.tools.tool_manager",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigManager",
-        "importPath": "app.config.config_manager",
-        "description": "app.config.config_manager",
-        "isExtraImport": true,
-        "detail": "app.config.config_manager",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigManager",
-        "importPath": "app.config.config_manager",
-        "description": "app.config.config_manager",
-        "isExtraImport": true,
-        "detail": "app.config.config_manager",
         "documentation": {}
     },
     {
@@ -12914,14 +14009,6 @@
     },
     {
         "label": "pyqtSignal",
-        "importPath": "PyQt5.QtCore",
-        "description": "PyQt5.QtCore",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtCore",
-        "documentation": {}
-    },
-    {
-        "label": "Qt",
         "importPath": "PyQt5.QtCore",
         "description": "PyQt5.QtCore",
         "isExtraImport": true,
@@ -13624,22 +14711,6 @@
         "documentation": {}
     },
     {
-        "label": "QFont",
-        "importPath": "PyQt5.QtGui",
-        "description": "PyQt5.QtGui",
-        "isExtraImport": true,
-        "detail": "PyQt5.QtGui",
-        "documentation": {}
-    },
-    {
-        "label": "path to absolute",
-        "importPath": "app.auth.auth_service import AuthService  # Updated",
-        "description": "app.auth.auth_service import AuthService  # Updated",
-        "isExtraImport": true,
-        "detail": "app.auth.auth_service import AuthService  # Updated",
-        "documentation": {}
-    },
-    {
         "label": "create_backup",
         "importPath": "backup_utils",
         "description": "backup_utils",
@@ -13750,7 +14821,7 @@
         "documentation": {}
     },
     {
-        "label": "BugHunterApp",
+        "label": "main_components",
         "importPath": "app.main",
         "description": "app.main",
         "isExtraImport": true,
@@ -13758,7 +14829,7 @@
         "documentation": {}
     },
     {
-        "label": "BugHunterApp",
+        "label": "main_gui",
         "importPath": "app.main",
         "description": "app.main",
         "isExtraImport": true,
@@ -13766,7 +14837,103 @@
         "documentation": {}
     },
     {
-        "label": "ScanTarget",
+        "label": "main_window",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_components",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_gui",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_components",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_gui",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_components",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_gui",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
         "importPath": "app.main",
         "description": "app.main",
         "isExtraImport": true,
@@ -13943,14 +15110,6 @@
         "documentation": {}
     },
     {
-        "label": "Config",
-        "importPath": "app.config.config",
-        "description": "app.config.config",
-        "isExtraImport": true,
-        "detail": "app.config.config",
-        "documentation": {}
-    },
-    {
         "label": "RegistrationDialog",
         "importPath": "app.auth.registration_dialog",
         "description": "app.auth.registration_dialog",
@@ -13989,7 +15148,7 @@
         "kind": 5,
         "importPath": "app.ai.ai",
         "description": "app.ai.ai",
-        "peekOfCode": "handler = logging.StreamHandler()\nformatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nhandler.setFormatter(formatter)\nlogger.addHandler(handler)\nimport time\nfrom typing import Dict, Optional, List, Tuple\nimport torch\nfrom transformers import pipeline\nfrom app.config import settings\nfrom functools import lru_cache",
+        "peekOfCode": "handler = logging.StreamHandler()\nformatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nhandler.setFormatter(formatter)\nlogger.addHandler(handler)\nimport time\nfrom typing import Dict, Optional, List, Tuple\nimport torch\nfrom transformers import pipeline\nfrom app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles\nfrom functools import lru_cache",
         "detail": "app.ai.ai",
         "documentation": {}
     },
@@ -13998,7 +15157,7 @@
         "kind": 5,
         "importPath": "app.ai.ai",
         "description": "app.ai.ai",
-        "peekOfCode": "formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nhandler.setFormatter(formatter)\nlogger.addHandler(handler)\nimport time\nfrom typing import Dict, Optional, List, Tuple\nimport torch\nfrom transformers import pipeline\nfrom app.config import settings\nfrom functools import lru_cache\nfrom datetime import datetime",
+        "peekOfCode": "formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nhandler.setFormatter(formatter)\nlogger.addHandler(handler)\nimport time\nfrom typing import Dict, Optional, List, Tuple\nimport torch\nfrom transformers import pipeline\nfrom app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles\nfrom functools import lru_cache\nfrom datetime import datetime",
         "detail": "app.ai.ai",
         "documentation": {}
     },
@@ -18003,7 +19162,7 @@
         "kind": 6,
         "importPath": "app.config.config_manager",
         "description": "app.config.config_manager",
-        "peekOfCode": "class ConfigManager:\n    \"\"\"Manages application configuration settings\"\"\"\n    def __init__(self):\n        self.logger = logging.getLogger(\"BugHunter.ConfigManager\")\n        self.config: Dict[str, Any] = {}\n        self.config_dir = Path(\"config\")\n        self.config_dir.mkdir(exist_ok=True)\n    def load_config(self, filename: str) -> bool:\n        \"\"\"Load configuration from file\"\"\"\n        try:",
+        "peekOfCode": "class ConfigManager:\n    \"\"\"\n    Configuration Manager class for handling configuration settings.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initialize the ConfigManager.\n        Sets up the logger and configuration storage.\n        \"\"\"\n        self.logger = logging.getLogger(\"BugHunter.ConfigManager\")",
         "detail": "app.config.config_manager",
         "documentation": {}
     },
@@ -18680,6 +19839,15 @@
         "description": "app.db.setup_db",
         "peekOfCode": "project_root = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(project_root)\nif setup_database(args):\nprint(\"\\n_next steps:\")\nprint(\"1. Make sure PostgreSQL is running\")\nprint(\"2. Update config.json with your database credentials if needed\")\nprint(\"3. Run the application with: python run_integrated.py\")\nelse:\nsys.exit(1)\nif __name__ == \"__main__\":",
         "detail": "app.db.setup_db",
+        "documentation": {}
+    },
+    {
+        "label": "ManagerFactory",
+        "kind": 6,
+        "importPath": "app.factories.manager_factory",
+        "description": "app.factories.manager_factory",
+        "peekOfCode": "class ManagerFactory:\n    \"\"\"\n    Factory class for creating application managers.\n    \"\"\"\n    def create_managers(self, config):\n        \"\"\"\n        Create and return a dictionary of application managers.\n        Args:\n            config (ConfigManager): The configuration manager.\n        Returns:",
+        "detail": "app.factories.manager_factory",
         "documentation": {}
     },
     {
@@ -24663,412 +25831,7 @@
         "kind": 6,
         "importPath": "app.gui.shodan_tab",
         "description": "app.gui.shodan_tab",
-        "peekOfCode": "class ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()\nself.init_ui()\nself.connect_signals()\ndef init_ui(self):\nlayout = QVBoxLayout()\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Search Query:\"))",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "ShodanTab",
-        "kind": 6,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "class ShodanTab(BaseTab):\n\"\"\"Shodan interface tab\"\"\"\ndef __init__(self, _shodan_integration: ShodanIntegration, _parent=None):\nself.shodan = shodan_integration\nself.logger = logging.get_logger()\n\"BugHunter.ShodanTab\")\nsuper().__init__(parent)\ndef _setup_ui(self):\n\"\"\"Setup the UI components\"\"\"\n# Create search section",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "init_ui",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def init_ui(self):\nlayout = QVBoxLayout()\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Search Query:\"))\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text(\"Enter search query\")\nsearch_layout.add_widget(self.search_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Host\", \"Port\", \"Vulnerability\"])",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "connect_signals",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def connect_signals(self):\nself.search_button.clicked.connect(self.perform_search)\ndef perform_search(self):\nquery = self.search_input.text().strip()\nif not query:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a search query\")\nreturn\ntry:\npass",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "perform_search",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def perform_search(self):\nquery = self.search_input.text().strip()\nif not query:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a search query\")\nreturn\ntry:\npass\npass # TODO: Fix syntax error\nfilter_type = self.filter_combo.current_text().lower()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "display_results",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def display_results(self, _results):\nself.results_text.clear()\nif not results:\nself.results_text.set_text()\n\"No results found\")\nreturn\nresult_text = \"\\n\\n\".join()\nf\"IP: {result.get('ip_str', 'N/A')}\\n\"\nf\"Port: {result.get('port', 'N/A')}\\n\"\nf\"Hostnames: {', '.join(result.get('hostnames', []))}\\n\"",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "cleanup",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def cleanup(self):\nself.results_text.clear()\nclass ShodanTab(BaseTab):\n\"\"\"Shodan interface tab\"\"\"\ndef __init__(self, _shodan_integration: ShodanIntegration, _parent=None):\nself.shodan = shodan_integration\nself.logger = logging.get_logger()\n\"BugHunter.ShodanTab\")\nsuper().__init__(parent)\ndef _setup_ui(self):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "refresh",
-        "kind": 2,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "def refresh(self):\n\"\"\"Refresh tab content\"\"\"\nself.search_input.clear()\nself.results_display.clear()\nself._update_status()\n\"Shodan tab refreshed.\")",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "status = \"active\"\nvalue = None\nkey = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "value",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "value = None\nkey = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "key = \"\"\nk = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "k = 10\nquery = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "query = \"\"\ncontent = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()\nself.init_ui()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "content",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "content = \"\"\nmessage = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()\nself.init_ui()\nself.connect_signals()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "message",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "message = \"\"\nitems = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()\nself.init_ui()\nself.connect_signals()\ndef init_ui(self):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "items",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "items = []\n\"\"\"Shodan tab implementation for the BugHunter application.\"\"\"\nclass ShodanTab(QWidget):\ndef __init__(self):\nsuper().__init__()\nself.shodan_client = ShodanClient()\nself.init_ui()\nself.connect_signals()\ndef init_ui(self):\nlayout = QVBoxLayout()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.shodan_client",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.shodan_client = ShodanClient()\nself.init_ui()\nself.connect_signals()\ndef init_ui(self):\nlayout = QVBoxLayout()\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Search Query:\"))\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text(\"Enter search query\")\nsearch_layout.add_widget(self.search_input)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "layout = QVBoxLayout()\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Search Query:\"))\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text(\"Enter search query\")\nsearch_layout.add_widget(self.search_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Host\", \"Port\", \"Vulnerability\"])\nsearch_layout.add_widget(self.filter_combo)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "search_layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "search_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Search Query:\"))\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text(\"Enter search query\")\nsearch_layout.add_widget(self.search_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Host\", \"Port\", \"Vulnerability\"])\nsearch_layout.add_widget(self.filter_combo)\nself.search_button = QPushButton(\"Search\")",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_input",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.search_input = QLineEdit()\nself.search_input.set_placeholder_text(\"Enter search query\")\nsearch_layout.add_widget(self.search_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Host\", \"Port\", \"Vulnerability\"])\nsearch_layout.add_widget(self.filter_combo)\nself.search_button = QPushButton(\"Search\")\nsearch_layout.add_widget(self.search_button)\nlayout.add_layout(search_layout)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.filter_combo",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Host\", \"Port\", \"Vulnerability\"])\nsearch_layout.add_widget(self.filter_combo)\nself.search_button = QPushButton(\"Search\")\nsearch_layout.add_widget(self.search_button)\nlayout.add_layout(search_layout)\nself.results_text = QTextEdit()\nself.results_text.set_read_only(True)\nlayout.add_widget(self.results_text)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_button",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.search_button = QPushButton(\"Search\")\nsearch_layout.add_widget(self.search_button)\nlayout.add_layout(search_layout)\nself.results_text = QTextEdit()\nself.results_text.set_read_only(True)\nlayout.add_widget(self.results_text)\nself.set_layout(layout)\ndef connect_signals(self):\nself.search_button.clicked.connect(self.perform_search)\ndef perform_search(self):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.results_text",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.results_text = QTextEdit()\nself.results_text.set_read_only(True)\nlayout.add_widget(self.results_text)\nself.set_layout(layout)\ndef connect_signals(self):\nself.search_button.clicked.connect(self.perform_search)\ndef perform_search(self):\nquery = self.search_input.text().strip()\nif not query:\nQMessageBox.warning()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "query = self.search_input.text().strip()\nif not query:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a search query\")\nreturn\ntry:\npass\npass # TODO: Fix syntax error\nfilter_type = self.filter_combo.current_text().lower()\nresults = self.shodan_client.search(query, filter_type)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "filter_type",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "filter_type = self.filter_combo.current_text().lower()\nresults = self.shodan_client.search(query, filter_type)\nself.display_results(results)\nexcept Exception as e:\nQMessageBox.critical()\nself, \"Search Error\", f\"Failed to perform search: {str(e)}\"\n)\ndef display_results(self, _results):\nself.results_text.clear()\nif not results:",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results = self.shodan_client.search(query, filter_type)\nself.display_results(results)\nexcept Exception as e:\nQMessageBox.critical()\nself, \"Search Error\", f\"Failed to perform search: {str(e)}\"\n)\ndef display_results(self, _results):\nself.results_text.clear()\nif not results:\nself.results_text.set_text()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "result_text",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "result_text = \"\\n\\n\".join()\nf\"IP: {result.get('ip_str', 'N/A')}\\n\"\nf\"Port: {result.get('port', 'N/A')}\\n\"\nf\"Hostnames: {', '.join(result.get('hostnames', []))}\\n\"\nf\"Vulnerabilities: {', '.join(result.get('vulns', []))}\\n\"\nf\"Data: {result.get('data', 'N/A')[:200]}...\"\nfor result in results\n)\nself.results_text.set_text(result_text)\ndef cleanup(self):",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.shodan",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.shodan = shodan_integration\nself.logger = logging.get_logger()\n\"BugHunter.ShodanTab\")\nsuper().__init__(parent)\ndef _setup_ui(self):\n\"\"\"Setup the UI components\"\"\"\n# Create search section\nsearch_group = QGroupBox()\n\"Shodan Search\")\nsearch_layout = QVBoxLayout()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.logger",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.logger = logging.get_logger()\n\"BugHunter.ShodanTab\")\nsuper().__init__(parent)\ndef _setup_ui(self):\n\"\"\"Setup the UI components\"\"\"\n# Create search section\nsearch_group = QGroupBox()\n\"Shodan Search\")\nsearch_layout = QVBoxLayout()\nsearch_group.set_layout()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "search_group",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "search_group = QGroupBox()\n\"Shodan Search\")\nsearch_layout = QVBoxLayout()\nsearch_group.set_layout()\nsearch_layout)\ninput_layout = QHBoxLayout()\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text()\n\"Enter search query...\")\nself.search_button = QPushButton()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "search_layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "search_layout = QVBoxLayout()\nsearch_group.set_layout()\nsearch_layout)\ninput_layout = QHBoxLayout()\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text()\n\"Enter search query...\")\nself.search_button = QPushButton()\n\"Search\")\nself.search_button.clicked.connect()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "input_layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "input_layout = QHBoxLayout()\nself.search_input = QLineEdit()\nself.search_input.set_placeholder_text()\n\"Enter search query...\")\nself.search_button = QPushButton()\n\"Search\")\nself.search_button.clicked.connect()\nself._perform_search)\ninput_layout.add_widget()\nself.search_input)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_input",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.search_input = QLineEdit()\nself.search_input.set_placeholder_text()\n\"Enter search query...\")\nself.search_button = QPushButton()\n\"Search\")\nself.search_button.clicked.connect()\nself._perform_search)\ninput_layout.add_widget()\nself.search_input)\ninput_layout.add_widget()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_button",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.search_button = QPushButton()\n\"Search\")\nself.search_button.clicked.connect()\nself._perform_search)\ninput_layout.add_widget()\nself.search_input)\ninput_layout.add_widget()\nself.search_button)\nself.search_type_combo = QComboBox()\nself.search_type_combo.add_items()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_type_combo",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.search_type_combo = QComboBox()\nself.search_type_combo.add_items()\n[\"Host Search\", \"Exploit Search\",\n\"Service Search\"]\n)\nsearch_layout.add_layout()\ninput_layout)\nsearch_layout.add_widget()\nself.search_type_combo)\n# Create results section",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results_group",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results_group = QGroupBox()\n\"Search Results\")\nresults_layout = QVBoxLayout()\nresults_group.set_layout()\nresults_layout)\nself.results_display = QTextEdit()\nself.results_display.set_read_only()\nTrue)\nself.results_display.set_placeholder_text()\n\"Search results will appear here...\")",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results_layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results_layout = QVBoxLayout()\nresults_group.set_layout()\nresults_layout)\nself.results_display = QTextEdit()\nself.results_display.set_read_only()\nTrue)\nself.results_display.set_placeholder_text()\n\"Search results will appear here...\")\nresults_layout.add_widget()\nself.results_display)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.results_display",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.results_display = QTextEdit()\nself.results_display.set_read_only()\nTrue)\nself.results_display.set_placeholder_text()\n\"Search results will appear here...\")\nresults_layout.add_widget()\nself.results_display)\n# Add status section\nstatus_group = QGroupBox()\n\"Status\")",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "status_group",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "status_group = QGroupBox()\n\"Status\")\nstatus_layout = QVBoxLayout()\nstatus_group.set_layout()\nstatus_layout)\nself.status_label = QLabel()\n\"Ready\")\nstatus_layout.add_widget()\nself.status_label)\n# Add all components to main layout",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "status_layout",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "status_layout = QVBoxLayout()\nstatus_group.set_layout()\nstatus_layout)\nself.status_label = QLabel()\n\"Ready\")\nstatus_layout.add_widget()\nself.status_label)\n# Add all components to main layout\nself.layout.add_widget()\nsearch_group)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.status_label",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "self.status_label = QLabel()\n\"Ready\")\nstatus_layout.add_widget()\nself.status_label)\n# Add all components to main layout\nself.layout.add_widget()\nsearch_group)\nself.layout.add_widget()\nresults_group)\nself.layout.add_widget()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "query = self.search_input.text().strip()\nif not query:\nself._update_status()\n\"Please enter a search query\")\nreturn\nsearch_type = self.search_type_combo.current_text()\ntry:\npass\npass\nself._update_status()",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "search_type",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "search_type = self.search_type_combo.current_text()\ntry:\npass\npass\nself._update_status()\nf\"Performing {search_type}...\")\nif search_type == \"Host Search\":\nresults = self.shodan.host_search()\nquery)\nelif search_type == \"Exploit Search\":",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results = self.shodan.host_search()\nquery)\nelif search_type == \"Exploit Search\":\nresults = self.shodan.exploit_search()\nquery)\nelse:  # Service Search\nresults = self.shodan.service_search()\nquery)\nself._display_results()\nresults)",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results = self.shodan.exploit_search()\nquery)\nelse:  # Service Search\nresults = self.shodan.service_search()\nquery)\nself._display_results()\nresults)\nself._update_status()\nf\"{search_type} completed successfully\")\nexcept Exception as e:",
-        "detail": "app.gui.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.gui.shodan_tab",
-        "description": "app.gui.shodan_tab",
-        "peekOfCode": "results = self.shodan.service_search()\nquery)\nself._display_results()\nresults)\nself._update_status()\nf\"{search_type} completed successfully\")\nexcept Exception as e:\nself._update_status()\nf\"Error performing search: {str(e)}\")\nself.logger.error()",
+        "peekOfCode": "class ShodanTab(QWidget):\n    \"\"\"\n    Shodan integration tab for BugHunter.\n    Attributes:\n        target_input (QLineEdit): Input field for target to search.\n        search_button (QPushButton): Button to initiate search.\n        results_text (QTextEdit): Text area to display search results.\n        filter_combo (QComboBox): Dropdown for search filters.\n        real_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.\n        api_key_input (QLineEdit): Input field for Shodan API key.",
         "detail": "app.gui.shodan_tab",
         "documentation": {}
     },
@@ -27435,7 +28198,7 @@
         "kind": 6,
         "importPath": "app.install.integration_manager",
         "description": "app.install.integration_manager",
-        "peekOfCode": "class WaybackMachineIntegration:\n    def get_status(self):\n        return \"active\"\n    def get_snapshots(self, target):\n        return f\"Snapshots for {target}\"\nclass ShodanIntegration:\n    def get_status(self):\n        return \"active\"\n    def search(self, target):\n        return f\"Search results for {target}\"",
+        "peekOfCode": "class WaybackMachineIntegration:\n    def get_status(self):\n        return \"active\"\n    def get_snapshots(self, target):\n        return f\"Snapshots for {target}\"\nimport shodan\nclass ShodanIntegration:\n    def __init__(self, api_key):\n        self.api_key = api_key\n        self.client = shodan.Shodan(api_key)",
         "detail": "app.install.integration_manager",
         "documentation": {}
     },
@@ -27444,7 +28207,7 @@
         "kind": 6,
         "importPath": "app.install.integration_manager",
         "description": "app.install.integration_manager",
-        "peekOfCode": "class ShodanIntegration:\n    def get_status(self):\n        return \"active\"\n    def search(self, target):\n        return f\"Search results for {target}\"\nclass IntegrationManager:\n    def __init__(self, config=None):\n        self.config = config or {}\n        self.shodan = ShodanIntegration()\n        self.wayback = WaybackMachineIntegration()",
+        "peekOfCode": "class ShodanIntegration:\n    def __init__(self, api_key):\n        self.api_key = api_key\n        self.client = shodan.Shodan(api_key)\n    def get_status(self):\n        return \"active\"\n    def search(self, target, filter_option, page):\n        try:\n            results = self.client.search(target, page=page)\n            return results",
         "detail": "app.install.integration_manager",
         "documentation": {}
     },
@@ -27467,6 +28230,60 @@
         "documentation": {}
     },
     {
+        "label": "KnowledgeBase",
+        "kind": 6,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "class KnowledgeBase:\ndef __init__(self):\nself.data = {}\ndef add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
+        "label": "add_entry",
+        "kind": 2,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "def add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
+        "label": "get_entry",
+        "kind": 2,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "def get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
+        "label": "remove_entry",
+        "kind": 2,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "def remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
+        "label": "self.data",
+        "kind": 5,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "self.data = {}\ndef add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
+        "label": "self.data[key]",
+        "kind": 5,
+        "importPath": "app.integrations.knowledge.knowledge_base",
+        "description": "app.integrations.knowledge.knowledge_base",
+        "peekOfCode": "self.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
+        "detail": "app.integrations.knowledge.knowledge_base",
+        "documentation": {}
+    },
+    {
         "label": "GitHubManager",
         "kind": 6,
         "importPath": "app.integrations.github_manager",
@@ -27476,560 +28293,11 @@
         "documentation": {}
     },
     {
-        "label": "ShodanClient",
-        "kind": 6,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "class ShodanClient:\n\"\"\"\nShodan Client\ndef __init__(self):\nclass for interacting with the Shodan API.\n\"\"\"\ndef __init__(self, _api_key):\n\"\"\"\nInitialize the ShodanClient.\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "fo",
-        "kind": 6,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "class for interacting with the Shodan API.\n\"\"\"\ndef __init__(self, _api_key):\n\"\"\"\nInitialize the ShodanClient.\nArgs:\napi_key (str): Shodan API key.\n\"\"\"\nself.logger = logging.get_logger(\"BugHunter.ShodanClient\")\nself.api_key = api_key",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
         "label": "ShodanIntegration",
         "kind": 6,
         "importPath": "app.integrations.shodan_integration",
         "description": "app.integrations.shodan_integration",
-        "peekOfCode": "class ShodanIntegration:\n\"\"\"Manages integration with the Shodan API\"\"\"\nBASE_URL = \"https://api.shodan.io\"\ndef __init__(self, _api_key: str):\nself.logger = logging.get_logger(\"BugHunter.ShodanIntegration\")\nself.api_key = api_key\ndef search(self, query: str, filter_option: str = \"All\") -> Optional[Dict[str, any]]:\n\"\"\"\nPerform a search query on Shodan\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "ShodanIntegration",
-        "kind": 6,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "class ShodanIntegration:\ndef __init__(self, api_key: str):\nself.api = shodan.Shodan(api_key)\ndef search(self, query: str, filter_type: str) -> dict:\ntry:\npass\npass\nif filter_type == \"host\":\nresults = self.api.host(query)\nreturn {\"status\": \"success\", \"data\": results}",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "search",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def search(self, _query, _filter_type=\"all\"):\n\"\"\"\nPerform a search on Shodan.\nArgs:\nquery (str): The search query.\nfilter_type (str): The type of filter to apply (e.g., 'all', 'host', 'port', 'vulnerability').\nReturns:\nlist: The search results.\n\"\"\"\ntry:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "search",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def search(self, query: str, filter_option: str = \"All\") -> Optional[Dict[str, any]]:\n\"\"\"\nPerform a search query on Shodan\nArgs:\nquery: Search query\nfilter_option: Filter option for the search\npass\nReturns:\nDictionary containing search results if found, None otherwise\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "initialize",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def initialize(self):\n\"\"\"Initialize the Shodan integration.\"\"\"\nself.logger.info(\"ShodanIntegration initialized.\")\ndef get_host_info(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet information about a specific host\nArgs:\nip: IP address of the host\nReturns:\nDictionary containing host information if found, None otherwise",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_host_info",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_host_info(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet information about a specific host\nArgs:\nip: IP address of the host\nReturns:\nDictionary containing host information if found, None otherwise\n\"\"\"\ntry:\npass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_latest_vulnerabilities",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_latest_vulnerabilities(self) -> Optional[Dict[str, any]]:\n\"\"\"\nGet the latest vulnerabilities from Shodan\nReturns:\nDictionary containing latest vulnerabilities if found, None otherwise\n\"\"\"\ntry:\npass\npass\nurl = f\"{self.BASE_URL}/shodan/vulns\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_historical_data",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_historical_data(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet historical data for a specific IP\nArgs:\nip: IP address to get historical data for\nReturns:\nDictionary containing historical data if found, None otherwise\n\"\"\"\ntry:\npass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_geolocation",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_geolocation(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet geolocation data for a specific IP\nArgs:\nip: IP address to get geolocation data for\nReturns:\nDictionary containing geolocation data if found, None otherwise\n\"\"\"\ntry:\npass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_service_info",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_service_info(self, _ip: str, _port: int) -> Optional[Dict[str, any]]:\n\"\"\"\nGet information about a specific service running on a host\nArgs:\nip: IP address of the host\nport: Port number of the service\nReturns:\nDictionary containing service information if found, None otherwise\n\"\"\"\ntry:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "get_network_topology",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def get_network_topology(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet network topology for a specific IP\nArgs:\nip: IP address to get network topology for\nReturns:\nDictionary containing network topology if found, None otherwise\n\"\"\"\ntry:\npass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "set_alert",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def set_alert(self, _ip: str, _alert: bool) -> bool:\n\"\"\"\nSet an alert for a specific IP\nArgs:\nip: IP address to set alert for\nalert: Boolean to enable or disable alert\nReturns:\nTrue if alert was set successfully, False otherwise\n\"\"\"\ntry:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "search",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "def search(self, query: str, filter_type: str) -> dict:\ntry:\npass\npass\nif filter_type == \"host\":\nresults = self.api.host(query)\nreturn {\"status\": \"success\", \"data\": results}\nelif filter_type == \"port\":\nresults = self.api.search(f\"port:{query}\")\nreturn {\"status\": \"success\", \"data\": results}",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "status = \"active\"\nkey = \"\"\nvulnerabilities = []\nurl = \"\"\nk = 10\nquery = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "key = \"\"\nvulnerabilities = []\nurl = \"\"\nk = 10\nquery = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"\n@dataclass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "vulnerabilities",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "vulnerabilities = []\nurl = \"\"\nk = 10\nquery = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"\n@dataclass\nclass ShodanClient:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = \"\"\nk = 10\nquery = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"\n@dataclass\nclass ShodanClient:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "k",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "k = 10\nquery = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"\n@dataclass\nclass ShodanClient:\n\"\"\"\nShodan Client",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "query = \"\"\n\"\"\"\nShodan Integration for BugHunter.\nHandles interactions with the Shodan API.\n\"\"\"\n@dataclass\nclass ShodanClient:\n\"\"\"\nShodan Client\ndef __init__(self):",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.logger",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.logger = logging.get_logger(\"BugHunter.ShodanClient\")\nself.api_key = api_key\nself.client = shodan.Shodan(api_key)\ndef search(self, _query, _filter_type=\"all\"):\n\"\"\"\nPerform a search on Shodan.\nArgs:\nquery (str): The search query.\nfilter_type (str): The type of filter to apply (e.g., 'all', 'host', 'port', 'vulnerability').\nReturns:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.api_key",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.api_key = api_key\nself.client = shodan.Shodan(api_key)\ndef search(self, _query, _filter_type=\"all\"):\n\"\"\"\nPerform a search on Shodan.\nArgs:\nquery (str): The search query.\nfilter_type (str): The type of filter to apply (e.g., 'all', 'host', 'port', 'vulnerability').\nReturns:\nlist: The search results.",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.client",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.client = shodan.Shodan(api_key)\ndef search(self, _query, _filter_type=\"all\"):\n\"\"\"\nPerform a search on Shodan.\nArgs:\nquery (str): The search query.\nfilter_type (str): The type of filter to apply (e.g., 'all', 'host', 'port', 'vulnerability').\nReturns:\nlist: The search results.\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.client.host(query)\nelif filter_type == \"port\":\nresults = self.client.search(f\"port:{query}\")\nelif filter_type == \"vulnerability\":\nresults = self.client.search(f\"vuln:{query}\")\nelse:\nresults = self.client.search(query)\nreturn results[\"matches\"]\nexcept shodan.APIError as e:\nself.logger.error(f\"Shodan API error: {str(e)}\")",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.client.search(f\"port:{query}\")\nelif filter_type == \"vulnerability\":\nresults = self.client.search(f\"vuln:{query}\")\nelse:\nresults = self.client.search(query)\nreturn results[\"matches\"]\nexcept shodan.APIError as e:\nself.logger.error(f\"Shodan API error: {str(e)}\")\nraise\n@dataclass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.client.search(f\"vuln:{query}\")\nelse:\nresults = self.client.search(query)\nreturn results[\"matches\"]\nexcept shodan.APIError as e:\nself.logger.error(f\"Shodan API error: {str(e)}\")\nraise\n@dataclass\nclass ShodanIntegration:\n\"\"\"Manages integration with the Shodan API\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.client.search(query)\nreturn results[\"matches\"]\nexcept shodan.APIError as e:\nself.logger.error(f\"Shodan API error: {str(e)}\")\nraise\n@dataclass\nclass ShodanIntegration:\n\"\"\"Manages integration with the Shodan API\"\"\"\nBASE_URL = \"https://api.shodan.io\"\ndef __init__(self, _api_key: str):",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "BASE_URL",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "BASE_URL = \"https://api.shodan.io\"\ndef __init__(self, _api_key: str):\nself.logger = logging.get_logger(\"BugHunter.ShodanIntegration\")\nself.api_key = api_key\ndef search(self, query: str, filter_option: str = \"All\") -> Optional[Dict[str, any]]:\n\"\"\"\nPerform a search query on Shodan\nArgs:\nquery: Search query\nfilter_option: Filter option for the search",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.logger",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.logger = logging.get_logger(\"BugHunter.ShodanIntegration\")\nself.api_key = api_key\ndef search(self, query: str, filter_option: str = \"All\") -> Optional[Dict[str, any]]:\n\"\"\"\nPerform a search query on Shodan\nArgs:\nquery: Search query\nfilter_option: Filter option for the search\npass\nReturns:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.api_key",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.api_key = api_key\ndef search(self, query: str, filter_option: str = \"All\") -> Optional[Dict[str, any]]:\n\"\"\"\nPerform a search query on Shodan\nArgs:\nquery: Search query\nfilter_option: Filter option for the search\npass\nReturns:\nDictionary containing search results if found, None otherwise",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/search\"\nparams = {\"key\": self.api_key, \"query\": query}\nif filter_option != \"All\":\nparams[\"query\"] += f\" {filter_option.lower()}\"\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to perform search: {str(e)}\")\nreturn None",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key, \"query\": query}\nif filter_option != \"All\":\nparams[\"query\"] += f\" {filter_option.lower()}\"\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to perform search: {str(e)}\")\nreturn None\ndef initialize(self):",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to perform search: {str(e)}\")\nreturn None\ndef initialize(self):\n\"\"\"Initialize the Shodan integration.\"\"\"\nself.logger.info(\"ShodanIntegration initialized.\")\ndef get_host_info(self, _ip: str) -> Optional[Dict[str, any]]:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/{ip}\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get host info: {str(e)}\")\nreturn None\ndef get_latest_vulnerabilities(self) -> Optional[Dict[str, any]]:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get host info: {str(e)}\")\nreturn None\ndef get_latest_vulnerabilities(self) -> Optional[Dict[str, any]]:\n\"\"\"\nGet the latest vulnerabilities from Shodan",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get host info: {str(e)}\")\nreturn None\ndef get_latest_vulnerabilities(self) -> Optional[Dict[str, any]]:\n\"\"\"\nGet the latest vulnerabilities from Shodan\nReturns:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/vulns\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get latest vulnerabilities: {str(e)}\")\nreturn None\ndef get_historical_data(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get latest vulnerabilities: {str(e)}\")\nreturn None\ndef get_historical_data(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet historical data for a specific IP",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get latest vulnerabilities: {str(e)}\")\nreturn None\ndef get_historical_data(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet historical data for a specific IP\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/{ip}/history\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get historical data: {str(e)}\")\nreturn None\ndef get_geolocation(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get historical data: {str(e)}\")\nreturn None\ndef get_geolocation(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet geolocation data for a specific IP",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get historical data: {str(e)}\")\nreturn None\ndef get_geolocation(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet geolocation data for a specific IP\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/{ip}/location\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get geolocation data: {str(e)}\")\nreturn None\ndef get_service_info(self, _ip: str, _port: int) -> Optional[Dict[str, any]]:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get geolocation data: {str(e)}\")\nreturn None\ndef get_service_info(self, _ip: str, _port: int) -> Optional[Dict[str, any]]:\n\"\"\"\nGet information about a specific service running on a host",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get geolocation data: {str(e)}\")\nreturn None\ndef get_service_info(self, _ip: str, _port: int) -> Optional[Dict[str, any]]:\n\"\"\"\nGet information about a specific service running on a host\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/{ip}/port/{port}\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get service info: {str(e)}\")\nreturn None\ndef get_network_topology(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get service info: {str(e)}\")\nreturn None\ndef get_network_topology(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet network topology for a specific IP",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get service info: {str(e)}\")\nreturn None\ndef get_network_topology(self, _ip: str) -> Optional[Dict[str, any]]:\n\"\"\"\nGet network topology for a specific IP\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/host/{ip}/topology\"\nparams = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get network topology: {str(e)}\")\nreturn None\ndef set_alert(self, _ip: str, _alert: bool) -> bool:\n\"\"\"",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key}\nresponse = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get network topology: {str(e)}\")\nreturn None\ndef set_alert(self, _ip: str, _alert: bool) -> bool:\n\"\"\"\nSet an alert for a specific IP",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.get(url, params=params)\nresponse.raise_for_status()\nreturn response.json()\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to get network topology: {str(e)}\")\nreturn None\ndef set_alert(self, _ip: str, _alert: bool) -> bool:\n\"\"\"\nSet an alert for a specific IP\nArgs:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "url",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "url = f\"{self.BASE_URL}/shodan/alert/{'enable' if alert else 'disable'}\"\nparams = {\"key\": self.api_key, \"ip\": ip}\nresponse = requests.post(url, params=params)\nresponse.raise_for_status()\nreturn response.json().get(\"success\", False)\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to set alert: {str(e)}\")\nreturn False\nimport shodan\nclass ShodanIntegration:",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "params",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "params = {\"key\": self.api_key, \"ip\": ip}\nresponse = requests.post(url, params=params)\nresponse.raise_for_status()\nreturn response.json().get(\"success\", False)\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to set alert: {str(e)}\")\nreturn False\nimport shodan\nclass ShodanIntegration:\ndef __init__(self, api_key: str):",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "response = requests.post(url, params=params)\nresponse.raise_for_status()\nreturn response.json().get(\"success\", False)\nexcept requests.RequestException as e:\nself.logger.error(f\"Failed to set alert: {str(e)}\")\nreturn False\nimport shodan\nclass ShodanIntegration:\ndef __init__(self, api_key: str):\nself.api = shodan.Shodan(api_key)",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "self.api",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "self.api = shodan.Shodan(api_key)\ndef search(self, query: str, filter_type: str) -> dict:\ntry:\npass\npass\nif filter_type == \"host\":\nresults = self.api.host(query)\nreturn {\"status\": \"success\", \"data\": results}\nelif filter_type == \"port\":\nresults = self.api.search(f\"port:{query}\")",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.api.host(query)\nreturn {\"status\": \"success\", \"data\": results}\nelif filter_type == \"port\":\nresults = self.api.search(f\"port:{query}\")\nreturn {\"status\": \"success\", \"data\": results}\nelif filter_type == \"vulnerability\":\nresults = self.api.search(f\"vuln:{query}\")\nreturn {\"status\": \"success\", \"data\": results}\nelse:\nresults = self.api.search(query)",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.api.search(f\"port:{query}\")\nreturn {\"status\": \"success\", \"data\": results}\nelif filter_type == \"vulnerability\":\nresults = self.api.search(f\"vuln:{query}\")\nreturn {\"status\": \"success\", \"data\": results}\nelse:\nresults = self.api.search(query)\nreturn {\"status\": \"success\", \"data\": results}\nexcept shodan.APIError as e:\nreturn {\"status\": \"error\", \"message\": str(e)}",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.api.search(f\"vuln:{query}\")\nreturn {\"status\": \"success\", \"data\": results}\nelse:\nresults = self.api.search(query)\nreturn {\"status\": \"success\", \"data\": results}\nexcept shodan.APIError as e:\nreturn {\"status\": \"error\", \"message\": str(e)}\n# Example usage\nif __name__ == \"__main__\":\npass",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "results = self.api.search(query)\nreturn {\"status\": \"success\", \"data\": results}\nexcept shodan.APIError as e:\nreturn {\"status\": \"error\", \"message\": str(e)}\n# Example usage\nif __name__ == \"__main__\":\npass\napi_key = \"YOUR_SHODAN_API_KEY\"\nshodan_integration = ShodanIntegration(api_key)\nprint(shodan_integration.search(\"8.8.8.8\", \"ip\"))",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "api_key = \"YOUR_SHODAN_API_KEY\"\nshodan_integration = ShodanIntegration(api_key)\nprint(shodan_integration.search(\"8.8.8.8\", \"ip\"))\nprint(shodan_integration.search(\"80\", \"port\"))",
-        "detail": "app.integrations.shodan_integration",
-        "documentation": {}
-    },
-    {
-        "label": "shodan_integration",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_integration",
-        "description": "app.integrations.shodan_integration",
-        "peekOfCode": "shodan_integration = ShodanIntegration(api_key)\nprint(shodan_integration.search(\"8.8.8.8\", \"ip\"))\nprint(shodan_integration.search(\"80\", \"port\"))",
+        "peekOfCode": "class ShodanIntegration:\n    \"\"\"\n    Shodan Integration for BugHunter.\n    Handles interactions with the Shodan API.\n    \"\"\"\n    def __init__(self, api_key: str):\n        \"\"\"\n        Initialize the ShodanIntegration.\n        Args:\n            api_key (str): Shodan API key.",
         "detail": "app.integrations.shodan_integration",
         "documentation": {}
     },
@@ -28038,7 +28306,16 @@
         "kind": 6,
         "importPath": "app.integrations.shodan_main",
         "description": "app.integrations.shodan_main",
-        "peekOfCode": "class ScanningProfiles:\n\"\"\"Manages scanning profiles for the BugHunter application.\nThis class provides functionality to:\n- Load and save scanning profiles from/to JSON file\n- Add new scanning profiles\n- Retrieve existing profiles\n- Manage profile parameters and configurations\nProfiles are stored in a JSON file for persistence between\napplication sessions.\n\"\"\"",
+        "peekOfCode": "class ScanningProfiles:\n    \"\"\"\n    Manages scanning profiles for the BugHunter application.\n    This class provides functionality to:\n    - Load and save scanning profiles from/to JSON file\n    - Add new scanning profiles\n    - Retrieve existing profiles\n    - Manage profile parameters and configurations\n    Profiles are stored in a JSON file for persistence between\n    application sessions.",
+        "detail": "app.integrations.shodan_main",
+        "documentation": {}
+    },
+    {
+        "label": "ShodanIntegration",
+        "kind": 6,
+        "importPath": "app.integrations.shodan_main",
+        "description": "app.integrations.shodan_main",
+        "peekOfCode": "class ShodanIntegration:\n    \"\"\"\n    Manages scanning profiles for the BugHunter application.\n    \"\"\"\n    def __init__(self):\n        self.api_key = None\n        self.client = None\n    def set_api_key(self, api_key: str):\n        \"\"\"\n        Set the Shodan API key.",
         "detail": "app.integrations.shodan_main",
         "documentation": {}
     },
@@ -28047,34 +28324,7 @@
         "kind": 6,
         "importPath": "app.integrations.shodan_main",
         "description": "app.integrations.shodan_main",
-        "peekOfCode": "class BugHunterApp:\ndef __init__(self):\ntry:\npass\npass\nprint(\"Initializing BugHunterApp...\")\nload_dotenv()  # Load environment variables from .env file\nSHODAN_API_KEY = os.getenv(\"SHODAN_API_KEY\")\nprint(f\"Loaded SHODAN_API_KEY: {SHODAN_API_KEY}\")\nif not SHODAN_API_KEY:",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "load_profiles",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "def load_profiles(self):\n\"\"\"\nLoad scanning profiles from the JSON file.\nReturns:\ndict: Dictionary of profile configurations.\nReturns empty dict if file not found.\nNote:\nSilently handles file not found errors by returning\nan empty dictionary, allowing for first-time use.\n\"\"\"",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "initialize_shodan",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "def initialize_shodan(self):\napi_key = os.getenv(\"SHODAN_API_KEY\")\nif not api_key:\nraise ValueError(\"Shodan API key is missing\")\nreturn Shodan(api_key)\ndef run(self):\ntry:\npass\npass pass\nprint(\"Running BugHunterApp...\")",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "run",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "def run(self):\ntry:\npass\npass pass\nprint(\"Running BugHunterApp...\")\n# Add your application logic here\nself.tool_manager.use_profile(\"Default Scan\")\nself.tool_manager.use_profile(\"Advanced Scan\")\nprint(\"BugHunterApp run completed.\")\nexcept Exception as e:",
+        "peekOfCode": "class BugHunterApp:\n    def __init__(self):\n        try:\n            print(\"Initializing BugHunterApp...\")\n            load_dotenv()  # Load environment variables from .env file\n            SHODAN_API_KEY = os.getenv(\"SHODAN_API_KEY\")\n            print(f\"Loaded SHODAN_API_KEY: {SHODAN_API_KEY}\")\n            if not SHODAN_API_KEY:\n                raise ValueError(\"Shodan API key not found in environment variables.\")\n            self.tool_manager = ToolManager(SHODAN_API_KEY)",
         "detail": "app.integrations.shodan_main",
         "documentation": {}
     },
@@ -28083,88 +28333,7 @@
         "kind": 2,
         "importPath": "app.integrations.shodan_main",
         "description": "app.integrations.shodan_main",
-        "peekOfCode": "def main():\npass\ntry:\npass\npass\nprint(\"Starting main function...\")\napp = BugHunterApp()\napp.run()\nprint(\"Main function completed.\")\nexcept Exception as e:",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "self.config_manager",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "self.config_manager = config_manager\nself.filename = filename\ndef load_profiles(self):\n\"\"\"\nLoad scanning profiles from the JSON file.\nReturns:\ndict: Dictionary of profile configurations.\nReturns empty dict if file not found.\nNote:\nSilently handles file not found errors by returning",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "self.filename",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "self.filename = filename\ndef load_profiles(self):\n\"\"\"\nLoad scanning profiles from the JSON file.\nReturns:\ndict: Dictionary of profile configurations.\nReturns empty dict if file not found.\nNote:\nSilently handles file not found errors by returning\nan empty dictionary, allowing for first-time use.",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "profiles",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "profiles = json.load(f)  # Load the JSON content\nreturn profiles\nexcept Exception as e:\nprint(f\"Failed to load profiles: {e}\")\nreturn {}\nclass BugHunterApp:\ndef __init__(self):\ntry:\npass\npass",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "SHODAN_API_KEY",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "SHODAN_API_KEY = os.getenv(\"SHODAN_API_KEY\")\nprint(f\"Loaded SHODAN_API_KEY: {SHODAN_API_KEY}\")\nif not SHODAN_API_KEY:\nraise ValueError(\"Shodan API key not found in environment variables.\")\nself.tool_manager = ToolManager(SHODAN_API_KEY)\nprint(\"BugHunterApp initialized.\")\nexcept Exception as e:\nprint(f\"Error initializing BugHunterApp: {e}\")\nsys.exit(1)\ntry:",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "self.tool_manager",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "self.tool_manager = ToolManager(SHODAN_API_KEY)\nprint(\"BugHunterApp initialized.\")\nexcept Exception as e:\nprint(f\"Error initializing BugHunterApp: {e}\")\nsys.exit(1)\ntry:\npass\npass\nself.shodan_api = self.initialize_shodan()\nexcept Exception as e:",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "self.shodan_api",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "self.shodan_api = self.initialize_shodan()\nexcept Exception as e:\nlogging.error(f\"Failed to initialize Shodan: {e}\")\nself.shodan_api = None  # Ensure the application continues to start\ndef initialize_shodan(self):\napi_key = os.getenv(\"SHODAN_API_KEY\")\nif not api_key:\nraise ValueError(\"Shodan API key is missing\")\nreturn Shodan(api_key)\ndef run(self):",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "self.shodan_api",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "self.shodan_api = None  # Ensure the application continues to start\ndef initialize_shodan(self):\napi_key = os.getenv(\"SHODAN_API_KEY\")\nif not api_key:\nraise ValueError(\"Shodan API key is missing\")\nreturn Shodan(api_key)\ndef run(self):\ntry:\npass\npass pass",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "api_key = os.getenv(\"SHODAN_API_KEY\")\nif not api_key:\nraise ValueError(\"Shodan API key is missing\")\nreturn Shodan(api_key)\ndef run(self):\ntry:\npass\npass pass\nprint(\"Running BugHunterApp...\")\n# Add your application logic here",
-        "detail": "app.integrations.shodan_main",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_main",
-        "description": "app.integrations.shodan_main",
-        "peekOfCode": "app = BugHunterApp()\napp.run()\nprint(\"Main function completed.\")\nexcept Exception as e:\nprint(f\"Error in main function: {e}\")\nif __name__ == \"__main__\":\npass\ntry:\npass\npass",
+        "peekOfCode": "def main():\n    try:\n        print(\"Starting main function...\")\n        app = BugHunterApp()\n        app.run()\n        print(\"Main function completed.\")\n    except Exception as e:\n        print(f\"Error in main function: {e}\")\nif __name__ == \"__main__\":\n    try:",
         "detail": "app.integrations.shodan_main",
         "documentation": {}
     },
@@ -28173,52 +28342,7 @@
         "kind": 6,
         "importPath": "app.integrations.shodan_tab",
         "description": "app.integrations.shodan_tab",
-        "peekOfCode": "class ShodanTab(QWidget):\n\"\"\"\nShodan integration tab for BugHunter.\nAttributes:\ntarget_input (QLineEdit): Input field for target to search.\nsearch_button (QPushButton): Button to initiate search.\nresults_text (QTextEdit): Text area to display search results.\nfilter_combo (QComboBox): Dropdown for search filters.\nreal_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.\n\"\"\"",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "init_ui",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "def init_ui(self):\n\"\"\"Initialize the user interface components.\"\"\"\nlayout = QVBoxLayout()\n# Search controls\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Target:\"))\nself.target_input = QLineEdit()\nself.target_input.set_placeholder_text()\n\"Enter target to search (IP, domain, etc.)\"\n)",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "connect_signals",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "def connect_signals(self):\n\"\"\"Connect UI signals to appropriate slots.\"\"\"\nself.search_button.clicked.connect(self.perform_search)\ndef perform_search(self):\n\"\"\"Perform Shodan search and display results.\"\"\"\ntarget = self.target_input.text().strip()\nif not target:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a target\")\nreturn",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "perform_search",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "def perform_search(self):\n\"\"\"Perform Shodan search and display results.\"\"\"\ntarget = self.target_input.text().strip()\nif not target:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a target\")\nreturn\ntry:\npass\npass",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "display_results",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "def display_results(self, results):\n\"\"\"Display search results in the text area.\nArgs:\nresults (dict): Dictionary of search results to display.\n\"\"\"\nself.results_text.clear()\nif not results.get(\"results\"):\nself.results_text.set_text()\n\"No results found\")\nreturn",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "cleanup",
-        "kind": 2,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "def cleanup(self):\n\"\"\"Clean up resources before closing.\"\"\"\nself.results_text.clear()",
+        "peekOfCode": "class ShodanTab(QWidget):\n    \"\"\"\n    Shodan integration tab for BugHunter.\n    Attributes:\n        target_input (QLineEdit): Input field for target to search.\n        search_button (QPushButton): Button to initiate search.\n        results_text (QTextEdit): Text area to display search results.\n        filter_combo (QComboBox): Dropdown for search filters.\n        real_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.\n        api_key_input (QLineEdit): Input field for Shodan API key.",
         "detail": "app.integrations.shodan_tab",
         "documentation": {}
     },
@@ -28246,114 +28370,6 @@
         "importPath": "app.integrations.shodan_tab",
         "description": "app.integrations.shodan_tab",
         "peekOfCode": "resources = []\n\"\"\"\nShodan Integration Tab Module.\nThis module provides the Shodan integration interface for BugHunter,\nallowing users to perform security reconnaissance directly from the GUI.\nClasses:\nShodanTab: Shodan integration tab class.\n\"\"\"\nfrom PyQt6.QtWidgets import ()\nQCheckBox,",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.shodan_client",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.shodan_client = ShodanIntegration()\nself.init_ui()\nself.connect_signals()\ndef init_ui(self):\n\"\"\"Initialize the user interface components.\"\"\"\nlayout = QVBoxLayout()\n# Search controls\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Target:\"))\nself.target_input = QLineEdit()",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "layout",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "layout = QVBoxLayout()\n# Search controls\nsearch_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Target:\"))\nself.target_input = QLineEdit()\nself.target_input.set_placeholder_text()\n\"Enter target to search (IP, domain, etc.)\"\n)\nsearch_layout.add_widget(self.target_input)\nself.filter_combo = QComboBox()",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "search_layout",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "search_layout = QHBoxLayout()\nsearch_layout.add_widget(QLabel(\"Target:\"))\nself.target_input = QLineEdit()\nself.target_input.set_placeholder_text()\n\"Enter target to search (IP, domain, etc.)\"\n)\nsearch_layout.add_widget(self.target_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Open Ports\", \"Services\", \"Organizations\"])",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.target_input",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.target_input = QLineEdit()\nself.target_input.set_placeholder_text()\n\"Enter target to search (IP, domain, etc.)\"\n)\nsearch_layout.add_widget(self.target_input)\nself.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Open Ports\", \"Services\", \"Organizations\"])\nsearch_layout.add_widget(self.filter_combo)\nself.search_button = QPushButton(\"Search\")",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.filter_combo",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.filter_combo = QComboBox()\nself.filter_combo.add_items()\n[\"All\", \"Open Ports\", \"Services\", \"Organizations\"])\nsearch_layout.add_widget(self.filter_combo)\nself.search_button = QPushButton(\"Search\")\nsearch_layout.add_widget(self.search_button)\nlayout.add_layout(search_layout)\n# Real-time monitoring checkbox\nself.real_time_checkbox = QCheckBox()\n\"Enable Real-time Monitoring\")",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.search_button",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.search_button = QPushButton(\"Search\")\nsearch_layout.add_widget(self.search_button)\nlayout.add_layout(search_layout)\n# Real-time monitoring checkbox\nself.real_time_checkbox = QCheckBox()\n\"Enable Real-time Monitoring\")\nlayout.add_widget(self.real_time_checkbox)\n# Results display\nself.results_text = QTextEdit()\nself.results_text.set_read_only(True)",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.real_time_checkbox",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.real_time_checkbox = QCheckBox()\n\"Enable Real-time Monitoring\")\nlayout.add_widget(self.real_time_checkbox)\n# Results display\nself.results_text = QTextEdit()\nself.results_text.set_read_only(True)\nlayout.add_widget(self.results_text)\nself.set_layout(layout)\ndef connect_signals(self):\n\"\"\"Connect UI signals to appropriate slots.\"\"\"",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "self.results_text",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "self.results_text = QTextEdit()\nself.results_text.set_read_only(True)\nlayout.add_widget(self.results_text)\nself.set_layout(layout)\ndef connect_signals(self):\n\"\"\"Connect UI signals to appropriate slots.\"\"\"\nself.search_button.clicked.connect(self.perform_search)\ndef perform_search(self):\n\"\"\"Perform Shodan search and display results.\"\"\"\ntarget = self.target_input.text().strip()",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "target",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "target = self.target_input.text().strip()\nif not target:\nQMessageBox.warning()\nself, \"Invalid Input\", \"Please enter a target\")\nreturn\ntry:\npass\npass\nfilter_option = self.filter_combo.current_text()\nresults = self.shodan_client.search()",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "filter_option",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "filter_option = self.filter_combo.current_text()\nresults = self.shodan_client.search()\ntarget, filter_option)\nself.display_results(results)\nexcept Exception as e:\nQMessageBox.critical()\nself, \"Search Error\", f\"Failed to perform search: {str(e)}\"\n)\ndef display_results(self, results):\n\"\"\"Display search results in the text area.",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "results = self.shodan_client.search()\ntarget, filter_option)\nself.display_results(results)\nexcept Exception as e:\nQMessageBox.critical()\nself, \"Search Error\", f\"Failed to perform search: {str(e)}\"\n)\ndef display_results(self, results):\n\"\"\"Display search results in the text area.\nArgs:",
-        "detail": "app.integrations.shodan_tab",
-        "documentation": {}
-    },
-    {
-        "label": "result_text",
-        "kind": 5,
-        "importPath": "app.integrations.shodan_tab",
-        "description": "app.integrations.shodan_tab",
-        "peekOfCode": "result_text = \"\\n\\n\".join()\nf\"IP: {result.get('ip_str', 'N/A')}\\n\"\nf\"Port: {result.get('port', 'N/A')}\\n\"\nf\"Data: {result.get('data', 'N/A')}\\n\"\nf\"Geolocation: {result.get('location', {}).get('city', 'N/A')}, {result.get('location', {}).get('country_name', 'N/A')}\\n\"\nf\"Vulnerabilities: {', '.join(result.get('vulns', []))}\"\nfor result in results[\"results\"]\n)\nself.results_text.set_text()\nresult_text)",
         "detail": "app.integrations.shodan_tab",
         "documentation": {}
     },
@@ -29114,60 +29130,6 @@
         "documentation": {}
     },
     {
-        "label": "KnowledgeBase",
-        "kind": 6,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "class KnowledgeBase:\ndef __init__(self):\nself.data = {}\ndef add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
-        "label": "add_entry",
-        "kind": 2,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "def add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
-        "label": "get_entry",
-        "kind": 2,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "def get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
-        "label": "remove_entry",
-        "kind": 2,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "def remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
-        "label": "self.data",
-        "kind": 5,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "self.data = {}\ndef add_entry(self, key, value):\nself.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
-        "label": "self.data[key]",
-        "kind": 5,
-        "importPath": "app.knowledge.knowledge_base",
-        "description": "app.knowledge.knowledge_base",
-        "peekOfCode": "self.data[key] = value\ndef get_entry(self, key):\nreturn self.data.get(key, None)\ndef remove_entry(self, key):\nif key in self.data:\ndel self.data[key]",
-        "detail": "app.knowledge.knowledge_base",
-        "documentation": {}
-    },
-    {
         "label": "LoggerConfig",
         "kind": 6,
         "importPath": "app.logging.logger",
@@ -29501,11 +29463,38 @@
         "documentation": {}
     },
     {
-        "label": "ShodanTab",
+        "label": "Application",
         "kind": 6,
         "importPath": "app.main.main",
         "description": "app.main.main",
-        "peekOfCode": "class ShodanTab(QWidget):\n    \"\"\"\n    Shodan integration tab for BugHunter.\n    Attributes:\n        target_input (QLineEdit): Input field for target to search.\n        search_button (QPushButton): Button to initiate search.\n        results_text (QTextEdit): Text area to display search results.\n        filter_combo (QComboBox): Dropdown for search filters.\n        real_time_checkbox (QCheckBox): Checkbox to enable real-time monitoring.\n        api_key_input (QLineEdit): Input field for Shodan API key.",
+        "peekOfCode": "class Application:\n    \"\"\"\n    Main application class for BugHunter.\n    Manages the initialization and configuration of various application components.\n    \"\"\"\n    def __init__(self, manager_factory: ManagerFactory):\n        \"\"\"\n        Initialize the Application.\n        Sets up configuration, database, authentication, and other managers.\n        \"\"\"",
+        "detail": "app.main.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_application",
+        "kind": 2,
+        "importPath": "app.main.main",
+        "description": "app.main.main",
+        "peekOfCode": "def initialize_application():\n    \"\"\"\n    Initialize the application and apply database migrations.\n    Returns:\n        Application: The initialized application.\n    \"\"\"\n    try:\n        manager_factory = ManagerFactory()\n        app = Application(manager_factory)\n        app.apply_migrations()",
+        "detail": "app.main.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app.main.main",
+        "description": "app.main.main",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main entry point for the BugHunter application.\n    Initializes the application, creates the application instance, and starts the event loop.\n    \"\"\"\n    try:\n        app = initialize_application()\n        qt_app = QApplication(sys.argv)\n        window = MainWindow(app.managers)\n        window.show()",
+        "detail": "app.main.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.main.main",
+        "description": "app.main.main",
+        "peekOfCode": "logger = logging.getLogger(\"BugHunter\")\nclass Application:\n    \"\"\"\n    Main application class for BugHunter.\n    Manages the initialization and configuration of various application components.\n    \"\"\"\n    def __init__(self, manager_factory: ManagerFactory):\n        \"\"\"\n        Initialize the Application.\n        Sets up configuration, database, authentication, and other managers.",
         "detail": "app.main.main",
         "documentation": {}
     },
@@ -39183,6 +39172,15 @@
         "documentation": {}
     },
     {
+        "label": "ToolManager",
+        "kind": 6,
+        "importPath": "app.services.tool_manager",
+        "description": "app.services.tool_manager",
+        "peekOfCode": "class ToolManager:\n    \"\"\"\n    ToolManager is responsible for managing tools using a provided API key.\n    \"\"\"\n    def __init__(self, api_key):\n        self.api_key = api_key\n    def use_profile(self, profile_name):\n        \"\"\"\n        Use a specific scanning profile.\n        Parameters:",
+        "detail": "app.services.tool_manager",
+        "documentation": {}
+    },
+    {
         "label": "VulnerabilityScanner",
         "kind": 6,
         "importPath": "app.services.vulnerability_scanner",
@@ -41214,24 +41212,6 @@
         "description": "app.utils.python-dotenv",
         "peekOfCode": "app = BugHunterApp()\napp.run()\nif __name__ == \"__main__\":\npass\nsys.exit(main())",
         "detail": "app.utils.python-dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "LoginGUI",
-        "kind": 6,
-        "importPath": "app.login_gui",
-        "description": "app.login_gui",
-        "peekOfCode": "class LoginGUI(QDialog):\n    \"\"\"Login dialog for the BugHunter application.\"\"\"\n    def __init__(self, on_login_success, auth_service: AuthService):\n        super().__init__()\n        self.on_login_success = on_login_success\n        self.auth_service = auth_service\n        self.setWindowTitle(\"Login\")\n        self.setGeometry(100, 100, 300, 200)  # Set window size\n        self.layout = QVBoxLayout()\n        self.setLayout(self.layout)",
-        "detail": "app.login_gui",
-        "documentation": {}
-    },
-    {
-        "label": "RegistrationGUI",
-        "kind": 6,
-        "importPath": "app.login_gui",
-        "description": "app.login_gui",
-        "peekOfCode": "class RegistrationGUI(QDialog):\n    \"\"\"Registration dialog for the BugHunter application.\"\"\"\n    def __init__(self, auth_service: AuthService):\n        super().__init__()\n        self.auth_service = auth_service\n        self.setWindowTitle(\"Register\")\n        self.setGeometry(100, 100, 400, 400)  # Set window size\n        self.layout = QVBoxLayout()\n        self.setLayout(self.layout)\n        # Name input",
-        "detail": "app.login_gui",
         "documentation": {}
     },
     {

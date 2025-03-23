@@ -13,7 +13,7 @@ import time
 from typing import Dict, Optional, List, Tuple
 import torch
 from transformers import pipeline
-from app.config import settings
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 from functools import lru_cache
 from datetime import datetime
 import psutil

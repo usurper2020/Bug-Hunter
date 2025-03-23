@@ -35,12 +35,23 @@ class WaybackMachineIntegration:
         return f"Snapshots for {target}"
 
 
+import shodan
+
 class ShodanIntegration:
+    def __init__(self, api_key):
+        self.api_key = api_key
+        self.client = shodan.Shodan(api_key)
+
     def get_status(self):
         return "active"
 
-    def search(self, target):
-        return f"Search results for {target}"
+    def search(self, target, filter_option, page):
+        try:
+            results = self.client.search(target, page=page)
+            return results
+        except shodan.APIError as e:
+            raise Exception(f"Shodan API error: {str(e)}")
+
 
 
 class IntegrationManager:

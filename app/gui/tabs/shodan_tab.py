@@ -15,7 +15,7 @@ from PyQt6.QtWidgets import (
     QSpinBox,
     QFileDialog,
 )
-from app.install.integration_manager import ShodanIntegration
+from app.integrations.shodan_integration import ShodanIntegration
 
 """
 Shodan Integration Tab Module.
@@ -26,7 +26,6 @@ allowing users to perform security reconnaissance directly from the GUI.
 Classes:
 ShodanTab: Shodan integration tab class.
 """
-
 
 class ShodanTab(QWidget):
     """
@@ -43,10 +42,11 @@ class ShodanTab(QWidget):
         export_button (QPushButton): Button to export search results.
     """
 
-    def __init__(self):
+    def __init__(self, config_manager):
         """Initialize the Shodan tab."""
         super().__init__()
-        self.shodan_client = ShodanIntegration()
+        self.config_manager = config_manager
+        self.shodan_client = None
         self.init_ui()
         self.connect_signals()
 
@@ -59,6 +59,7 @@ class ShodanTab(QWidget):
         api_key_layout.addWidget(QLabel("Shodan API Key:"))
         self.api_key_input = QLineEdit()
         self.api_key_input.setPlaceholderText("Enter your Shodan API key here...")
+        self.api_key_input.setText(self.config_manager.get_config('SHODAN_API_KEY'))
         api_key_layout.addWidget(self.api_key_input)
         layout.addLayout(api_key_layout)
 
@@ -127,7 +128,7 @@ class ShodanTab(QWidget):
 
         try:
             filter_option = self.filter_combo.currentText()
-            self.shodan_client.set_api_key(api_key)
+            self.shodan_client = ShodanIntegration(api_key)
             results = self.shodan_client.search(target, filter_option, page)
             self.display_results(results)
         except Exception as e:
@@ -142,7 +143,7 @@ class ShodanTab(QWidget):
             results (dict): Dictionary of search results to display.
         """
         self.results_text.clear()
-        if not results.get("results"):
+        if not results.get("matches"):
             self.results_text.setText("No results found")
             return
 
@@ -150,9 +151,10 @@ class ShodanTab(QWidget):
             f"IP: {result.get('ip_str', 'N/A')}\n"
             f"Port: {result.get('port', 'N/A')}\n"
             f"Data: {result.get('data', 'N/A')}\n"
-            f"Geolocation: {result.get('location', {}).get('city', 'N/A')}, {result.get('location', {}).get('country_name', 'N/A')}\n"
+            f"Geolocation: {result.get('location', {}).get('city', 'N/A')}, "
+            f"{result.get('location', {}).get('country_name', 'N/A')}\n"
             f"Vulnerabilities: {', '.join(result.get('vulns', []))}"
-            for result in results["results"]
+            for result in results["matches"]
         )
         self.results_text.setText(result_text)
 
@@ -171,7 +173,7 @@ class ShodanTab(QWidget):
             options=options,
         )
         if file_path:
-            with open(file_path, "w") as file:
+            with open(file_path, "w", encoding="utf-8") as file:
                 file.write(self.results_text.toPlainText())
 
     def cleanup(self):

@@ -2,7 +2,7 @@ import re
 import os
 import unittest
 
-from app.config import Config
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 
 
 pass

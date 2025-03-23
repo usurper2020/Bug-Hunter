@@ -1,7 +1,7 @@
 import logging
 import sys
 from PyQt5.QtWidgets import QApplication
-from app.config import settings
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 from app.db.database_manager import DatabaseManager
 from app.db.migration_manager import MigrationManager
 from app.auth.role_manager import RoleManager
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 import logging
 import sys
 from PyQt5.QtWidgets import QApplication
-from app.config import settings
+from app.config import api_key_storing, base_config, config, config_manager, db_config, python-dotenv, scanning_profiles
 from app.db.database_manager import DatabaseManager
 from app.db.migration_manager import MigrationManager
 from app.notifications.notification_manager import NotificationManager

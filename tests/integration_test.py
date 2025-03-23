@@ -1,6 +1,6 @@
 import unittest
 
-from app.main import BugHunterApp
+from app.main import main, main_components, main_gui, main_window
 
 
 class TestIntegration(unittest.TestCase):
